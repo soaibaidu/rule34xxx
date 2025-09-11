@@ -1,0 +1,373 @@
+Card ID,Name,Type,Subtype,Faction,Rarity,Resource Cost,Stats,Abilities,Flavor Text,Set/Edition,Artwork Ref,Unnamed: 12,Abilities_wrapped
+001-C,EspenLock Security Drone,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
+[Power Cycle] Enter: gain 1 Energy.",‘Sparks crackle in silence.’,SRP: Bitterroot,art/espenlock_common.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
+the first 2 damage dealt to it. [Power Cycle] Enter: gain
+1 Energy."
+002-C,Lock & Sons Intern,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",‘Power surges guiding the lost.’,SRP: Bitterroot,art/espenlock_common.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
+→ draw, then discard."
+003-C,Corporate Enforcer,Character,Unit,EspenLock,Common,1 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
+[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.",‘Enforcement to ensure a tomorrow.’,SRP: Bitterroot,art/espenlock_common.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
+the first 2 damage dealt to it. [Discharge] When it
+attacks, may pay 1 Energy to deal 1 to up to two targets."
+004-C,Logistics Handler,Character,Unit,EspenLock,Common,1 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
+[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.",‘Need a light? Sign this release form.’,SRP: Bitterroot,art/espenlock_common.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
+the first 2 damage dealt to it. [Sparkjump] When you play
+a Tech, it gains +1/+0 and Skirmish this turn."
+005-C,Corporate Guard,Character,Unit,EspenLock,Common,1 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",‘Corporate defense never felt so good.’,SRP: Bitterroot,art/espenlock_common.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
+→ draw, then discard."
+006-C,Data Courier,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.
+[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.",‘01110010 01100001 01101001 01101110 00100000 01101111 01110010 00100000 01110011 01101000 01101001 01101110 01100101’,SRP: Bitterroot,art/espenlock_common.png,,"[Sparkjump] When you play a Tech, it gains +1/+0 and
+Skirmish this turn. [Discharge] When it attacks, may pay 1
+Energy to deal 1 to up to two targets."
+007-C,Supply Technician,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.
+[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",‘Resupply here’,SRP: Bitterroot,art/espenlock_common.png,,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to
+up to two targets. [Arc Shield] Start of combat: if you
+have Energy, prevent the first 2 damage dealt to it."
+008-C,Prototype Drone Scout,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",‘The circuit hums and emits a comfortable faint glow.’,SRP: Bitterroot,art/espenlock_common.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
+→ draw, then discard."
+009-C,Resource Auditor,Character,Unit,EspenLock,Common,1 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.
+[Power Cycle] Enter: gain 1 Energy.",‘You cash the checks but I check the receipts.’,SRP: Bitterroot,art/espenlock_common.png,,"[Sparkjump] When you play a Tech, it gains +1/+0 and
+Skirmish this turn. [Power Cycle] Enter: gain 1 Energy."
+010-C,Cargo Overseer,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.
+[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",‘Ensuring the cogs are well oiled.’,SRP: Bitterroot,art/espenlock_common.png,,"[Sparkjump] When you play a Tech, it gains +1/+0 and
+Skirmish this turn. [Arc Shield] Start of combat: if you
+have Energy, prevent the first 2 damage dealt to it."
+011-U,Prototype Operator V-12,Character,Specialist,EspenLock,Uncommon,3 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.
+[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",Only 3 days since the last explosion!,SRP: Bitterroot,art/espenlock_uncommon.png,,"[Sparkjump] When you play a Tech, it gains +1/+0 and
+Skirmish this turn. [Arc Shield] Start of combat: if you
+have Energy, prevent the first 2 damage dealt to it."
+012-U,Cybernetics Tester,Character,Specialist,EspenLock,Uncommon,4 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.
+[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",All humans can be rebuilt to be better.,SRP: Bitterroot,art/espenlock_uncommon.png,,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to
+up to two targets. [Arc Shield] Start of combat: if you
+have Energy, prevent the first 2 damage dealt to it."
+013-U,Corporate Fixer,Character,Specialist,EspenLock,Uncommon,4 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
+[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.",No problem to large. Time to make it disappear.,SRP: Bitterroot,art/espenlock_uncommon.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
+the first 2 damage dealt to it. [Discharge] When it
+attacks, may pay 1 Energy to deal 1 to up to two targets."
+014-U,EspenLock Auditor,Character,Specialist,EspenLock,Uncommon,3 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.
+[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",Inconsistency and disorder is the rot in any organization.,SRP: Bitterroot,art/espenlock_uncommon.png,,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to
+up to two targets. [Arc Shield] Start of combat: if you
+have Energy, prevent the first 2 damage dealt to it."
+015-U,Field Engineer Kess,Character,Specialist,EspenLock,Uncommon,3 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
+[Power Cycle] Enter: gain 1 Energy.",Wrench it up. Tie it down. Bring the crowbar it's time to party.,SRP: Bitterroot,art/espenlock_uncommon.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
+the first 2 damage dealt to it. [Power Cycle] Enter: gain
+1 Energy."
+016-R,Overseer Kline,Character,Elite,EspenLock,Rare,6 Energy,HP: 18 / ATK: 5 / DEF: 3,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.
+[Failsafe] If it would die, may spend 2 Energy.",It is your honor to serve me.,SRP: Bitterroot,art/espenlock_rare.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
+→ draw, then discard. [Failsafe] If it would die, may
+spend 2 Energy."
+017-R,Commandant Veynar,Character,Elite,EspenLock,Rare,6 Energy,HP: 18 / ATK: 5 / DEF: 3,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.
+[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.",Drop and give me 20!,SRP: Bitterroot,art/espenlock_rare.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
+→ draw, then discard. [Sparkjump] When you play a Tech, it
+gains +1/+0 and Skirmish this turn."
+018-R,EspenLock Blackhand,Character,Elite,EspenLock,Rare,4 Energy,HP: 18 / ATK: 5 / DEF: 3,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.
+[Overclock] On your turn, it can attack twice if you spend 1 Energy per attack.",Now you see me....,SRP: Bitterroot,art/espenlock_rare.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
+→ draw, then discard. [Overclock] On your turn, it can
+attack twice if you spend 1 Energy per attack."
+019-L,Director Espen V. Lockhart,Character,Legendary,EspenLock,Legendary,8 Energy,HP: 25 / ATK: 7 / DEF: 5,"[Overclock] On your turn, it can attack twice if you spend 1 Energy per attack.
+[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
+[Power Cycle] Enter: gain 1 Energy.",The company will endure the test of time as I have ensured its success.,SRP: Bitterroot,art/espenlock_legendary.png,,"[Overclock] On your turn, it can attack twice if you spend
+1 Energy per attack. [Arc Shield] Start of combat: if you
+have Energy, prevent the first 2 damage dealt to it.
+[Power Cycle] Enter: gain 1 Energy."
+020-L,Overseer AI: Project HORIZON,Character,Legendary,EspenLock,Legendary,7 Energy,HP: 25 / ATK: 7 / DEF: 5,"[Overclock] On your turn, it can attack twice if you spend 1 Energy per attack.
+[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",Initiate Extermination Protocols,SRP: Bitterroot,art/espenlock_legendary.png,,"[Overclock] On your turn, it can attack twice if you spend
+1 Energy per attack. [Power Cycle] Enter: gain 1 Energy.
+Tap: Convert 1 Energy → draw, then discard."
+021-C,STAG Patrolman,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Armor-Piercing] When it hits a Guarded unit, ignore 1 DEF.",‘Steel marches until order prevails.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Armor-Piercing] When it hits a Guarded unit, ignore 1
+DEF."
+022-C,Armored Grunt,Character,Unit,STAG,Common,2 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",‘The rifle waits with iron resolve.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn."
+023-C,Depot Loader,Character,Unit,STAG,Common,2 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Armor-Piercing] When it hits a Guarded unit, ignore 1 DEF.
+[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",‘Stack up them crates.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Armor-Piercing] When it hits a Guarded unit, ignore 1
+DEF. [Bandolier] Upkeep: If you have 0 Bullets, gain 2
+Bullets."
+024-C,Field Mechanic,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
+[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",‘Usin' scrap to fix junk.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn. [Bandolier] Upkeep: If you have 0
+Bullets, gain 2 Bullets."
+025-C,Supply Driver,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.",‘Time to roll the dice on this run.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Head on a Swivel] React: If an enemy enters play, spend 1
+Bullet to ping it for 1."
+026-C,Riot Guard,Character,Unit,STAG,Common,2 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
+[Armor-Piercing] When it hits a Guarded unit, ignore 1 DEF.",‘Back up! Or your face will meet my boot.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn. [Armor-Piercing] When it hits a
+Guarded unit, ignore 1 DEF."
+027-C,Watchtower Scout,Character,Unit,STAG,Common,2 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
+[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.",‘On watch for the mutant scourge.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn. [Head on a Swivel] React: If an
+enemy enters play, spend 1 Bullet to ping it for 1."
+028-C,Ammo Handler,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
+[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",‘Load em up! Shoot em up! Repeat.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn. [Bandolier] Upkeep: If you have 0
+Bullets, gain 2 Bullets."
+029-C,Fuel Convoy Escort,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",‘I bring the gas you bring the beans.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn."
+030-C,Checkpoint Guard,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
+[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",‘Papers please.’,SRP: Bitterroot,art/stag_industries_common.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
+Bullet to ping it for 1. [Bandolier] Upkeep: If you have 0
+Bullets, gain 2 Bullets."
+031-U,STAG Sniper Tulles,Character,Specialist,STAG,Uncommon,2 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
+[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",Good things come to those who wait.,SRP: Bitterroot,art/stag_industries_uncommon.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
+Bullet to ping it for 1. [Bandolier] Upkeep: If you have 0
+Bullets, gain 2 Bullets."
+032-U,Demolitionist Rykov,Character,Specialist,STAG,Uncommon,3 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.",No wall to thick,SRP: Bitterroot,art/stag_industries_uncommon.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Head on a Swivel] React: If an enemy enters play, spend 1
+Bullet to ping it for 1."
+033-U,Squad Leader Marra,Character,Specialist,STAG,Uncommon,3 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
+[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",Fall-in maggots!!,SRP: Bitterroot,art/stag_industries_uncommon.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
+Bullet to ping it for 1. [Tactical Roll] When targeted,
+may spend 1 Bullet: it gains Evasion this turn."
+034-U,Recon Operative Vash,Character,Specialist,STAG,Uncommon,2 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",It has been said that a man like no other wanders the wasteland with a bounty on his head',SRP: Bitterroot,art/stag_industries_uncommon.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
+[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn."
+035-U,Riot Suppressor Kryn,Character,Specialist,STAG,Uncommon,2 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
+[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.","Phalanx formation. On three. One, Two, THREE!!",SRP: Bitterroot,art/stag_industries_uncommon.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn. [Head on a Swivel] React: If an
+enemy enters play, spend 1 Bullet to ping it for 1."
+036-R,Juggernaut Unit X-7,Character,Elite,STAG,Rare,4 Munitions,HP: 18 / ATK: 5 / DEF: 3,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
+[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",Juggernaut Unit Online. Identifying target. Initiate engagement protocol.,SRP: Bitterroot,art/stag_industries_rare.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
+Bullet to ping it for 1. [Tactical Roll] When targeted,
+may spend 1 Bullet: it gains Evasion this turn."
+037-R,Enforcer Lydra,Character,Elite,STAG,Rare,5 Munitions,HP: 18 / ATK: 5 / DEF: 3,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
+[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",Rumor has it she kills any man that she beds.',SRP: Bitterroot,art/stag_industries_rare.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
+Bullet to ping it for 1. [Tactical Roll] When targeted,
+may spend 1 Bullet: it gains Evasion this turn."
+038-R,Ironhand Specialist,Character,Elite,STAG,Rare,5 Munitions,HP: 18 / ATK: 5 / DEF: 3,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
+[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",An iron fist keeps the reigns held tight.',SRP: Bitterroot,art/stag_industries_rare.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
+Bullet to ping it for 1. [Tactical Roll] When targeted,
+may spend 1 Bullet: it gains Evasion this turn."
+039-L,General Stagwell,Character,Legendary,STAG,Legendary,8 Munitions,HP: 25 / ATK: 7 / DEF: 5,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
+[Suppressor] While you have 2+ Bullets banked, this can’t be targeted by enemy reactions.
+[Suppressive Fire] Spend 1–3 Bullets: Deal that much damage split among enemies.",No one knows where General Stagwell came from but his rise through the ranks was meteoric,SRP: Bitterroot,art/stag_industries_legendary.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn. [Suppressor] While you have 2+
+Bullets banked, this can’t be targeted by enemy reactions.
+[Suppressive Fire] Spend 1–3 Bullets: Deal that much
+damage split among enemies."
+040-L,Titan Mech Operator: Bastion,Character,Legendary,STAG,Legendary,7 Munitions,HP: 25 / ATK: 7 / DEF: 5,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
+[Covering Fire] Allies attacking the same target get +1 ATK this turn if you spend 1 Bullet.
+[Suppressive Fire] Spend 1–3 Bullets: Deal that much damage split among enemies.","An alternate pathway to cybernetics, Bastion seems to be more machine than man at this point.",SRP: Bitterroot,art/stag_industries_legendary.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
+gains Evasion this turn. [Covering Fire] Allies attacking
+the same target get +1 ATK this turn if you spend 1
+Bullet. [Suppressive Fire] Spend 1–3 Bullets: Deal that
+much damage split among enemies."
+041-C,Street Prophet Malrik,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a card.",‘Ashes fall as prayers echo.’,SRP: Bitterroot,art/church_of_warlock_common.png,,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a
+card."
+042-C,Acolyte of the Seed,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a card.","‘Faith burns, binding all who kneel.’",SRP: Bitterroot,art/church_of_warlock_common.png,,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a
+card."
+043-C,Ash Preacher,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Penance] When an ally dies, may gain 1 Faith. If you do, it gets +1/+1.",‘Pay penance for your sins.’,SRP: Bitterroot,art/church_of_warlock_common.png,,"[Penance] When an ally dies, may gain 1 Faith. If you do,
+it gets +1/+1."
+044-C,Faithful Beggar,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a card.",‘The faithful are rewarded with everlasting life.’,SRP: Bitterroot,art/church_of_warlock_common.png,,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a
+card."
+045-C,Torchbearer Ilin,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a card.",‘Shed light on the darkness. Burn the rest’,SRP: Bitterroot,art/church_of_warlock_common.png,,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a
+card."
+046-C,Sermon Whisperer,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Invocation] Start of turn: may spend 2 Faith to search your deck for a Ritual.
+[Hex] Enter: Curse a unit (it gets -1 ATK and loses a keyword) until your next turn.",‘Listen closely and you will hear their voices.’,SRP: Bitterroot,art/church_of_warlock_common.png,,"[Invocation] Start of turn: may spend 2 Faith to search
+your deck for a Ritual. [Hex] Enter: Curse a unit (it gets
+-1 ATK and loses a keyword) until your next turn."
+047-C,Bone Collector,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a keyword) until your next turn.
+[Penance] When an ally dies, may gain 1 Faith.","‘Grind the bones into a power, pour some water to make great flour.’",SRP: Bitterroot,art/church_of_warlock_common.png,,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a
+keyword) until your next turn. [Penance] When an ally
+dies, may gain 1 Faith."
+048-C,Pilgrim of Ash,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Invocation] Start of turn: may spend 2 Faith to search your deck for a Ritual.
+[Blood Tithe] When it deals combat damage, gain 1 Faith.","‘Inevitibly when the human settlements fall, a pilgramage must be made to deliver reverance for your bretherens sacrifice.’",SRP: Bitterroot,art/church_of_warlock_common.png,,"[Invocation] Start of turn: may spend 2 Faith to search
+your deck for a Ritual. [Blood Tithe] When it deals combat
+damage, gain 1 Faith."
+049-C,Chanting Penitent,Character,Unit,COW,Common,1 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.",‘Yu Mo Gui Gwai Fai Di Zao.’,SRP: Bitterroot,art/church_of_warlock_common.png,,"[Blood Tithe] When it deals combat damage, gain 1 Faith.
+Then may lose 1 HP to draw."
+050-C,Devoted Flagellant,Character,Unit,COW,Common,1 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Penance] When an ally dies, may gain 1 Faith. If you do, it gets +1/+1.",‘Pennance through action. Flesh for flesh.’,SRP: Bitterroot,art/church_of_warlock_common.png,,"[Penance] When an ally dies, may gain 1 Faith. If you do,
+it gets +1/+1."
+051-U,Arch Deacon Veyra,Character,Specialist,COW,Uncommon,2 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Penance] When an ally dies, may gain 1 Faith. If you do, it gets +1/+1.",Arch Deacon Veyra is rumored to have converted an entire human settlement without shedding any blood.,SRP: Bitterroot,art/church_of_warlock_uncommon.png,,"[Penance] When an ally dies, may gain 1 Faith. If you do,
+it gets +1/+1."
+052-U,Warpriest Korr,Character,Specialist,COW,Uncommon,3 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a keyword) until your next turn.
+[Blood Tithe] When it deals combat damage, gain 1 Faith.",Zealotry is duty. Be the drop of water responsible for the tsunami.,SRP: Bitterroot,art/church_of_warlock_uncommon.png,,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a
+keyword) until your next turn. [Blood Tithe] When it deals
+combat damage, gain 1 Faith."
+053-U,Hymn Bearer Isha,Character,Specialist,COW,Uncommon,2 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.","“From torment we find strength, from sacrifice we find truth, in you we find eternity.”",SRP: Bitterroot,art/church_of_warlock_uncommon.png,,"[Blood Tithe] When it deals combat damage, gain 1 Faith.
+Then may lose 1 HP to draw."
+054-U,Ascendant-in-Training,Character,Specialist,COW,Uncommon,4 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Invocation] Start of turn: may spend 2 Faith to search your deck for a Ritual.
+[Omen] Enter: Scry 2.",Mutants walking the path to enlightenment adhere to strict routines and ceremonies.,SRP: Bitterroot,art/church_of_warlock_uncommon.png,,"[Invocation] Start of turn: may spend 2 Faith to search
+your deck for a Ritual. [Omen] Enter: Scry 2."
+055-U,Torch Preacher Varna,Character,Specialist,COW,Uncommon,3 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a keyword) until your next turn.
+[Penance] When an ally dies, may gain 1 Faith.",Nothing stands in Varna's path...nothing.,SRP: Bitterroot,art/church_of_warlock_uncommon.png,,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a
+keyword) until your next turn. [Penance] When an ally
+dies, may gain 1 Faith."
+056-R,Bishop Altheron,Character,Elite,COW,Rare,4 Faith,HP: 18 / ATK: 5 / DEF: 3,"[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.
+[Penance] When an ally dies, may gain 1 Faith.","And as it is such, so also as such is it unto you.'",SRP: Bitterroot,art/church_of_warlock_rare.png,,"[Blood Tithe] When it deals combat damage, gain 1 Faith.
+Then may lose 1 HP to draw. [Penance] When an ally dies,
+may gain 1 Faith."
+057-R,Zealot of the Spire,Character,Elite,COW,Rare,6 Faith,HP: 18 / ATK: 5 / DEF: 3,"[Penance] When an ally dies, may gain 1 Faith. If you do, it gets +1/+1.
+[Omen] Enter: Scry 2.",The spire requires additional mass. Bring me more meat.,SRP: Bitterroot,art/church_of_warlock_rare.png,,"[Penance] When an ally dies, may gain 1 Faith. If you do,
+it gets +1/+1. [Omen] Enter: Scry 2."
+058-R,Angel Karthis,Character,Elite,COW,Rare,5 Faith,HP: 18 / ATK: 5 / DEF: 3,"[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.
+[Omen] Enter: Scry 2.","“A sound torn from the depths, half beast and half fury, that shakes bone and soul alike.”",SRP: Bitterroot,art/church_of_warlock_rare.png,,"[Blood Tithe] When it deals combat damage, gain 1 Faith.
+Then may lose 1 HP to draw. [Omen] Enter: Scry 2."
+059-L,Warlock,Character,Legendary,COW,Legendary,8 Faith,HP: 25 / ATK: 7 / DEF: 5,"[Dark Sermon] Tap, spend 1 Faith: Give another unit +2 ATK or +2 DEF this turn.
+[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.",Those who dare change the future must reconcil their past.,SRP: Bitterroot,art/church_of_warlock_legendary.png,,"[Dark Sermon] Tap, spend 1 Faith: Give another unit +2 ATK
+or +2 DEF this turn. [Blood Tithe] When it deals combat
+damage, gain 1 Faith. Then may lose 1 HP to draw."
+060-L,Angelic Avatar of Bitterroot,Character,Legendary,COW,Legendary,9 Faith,HP: 25 / ATK: 7 / DEF: 5,"[Dark Sermon] Tap, spend 1 Faith: Give another unit +2 ATK or +2 DEF this turn.
+[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.","Rumor has it an original alpha still roams the land. Unshackled from its collar and highly intelligent, this beast is a force to reckon with.",SRP: Bitterroot,art/church_of_warlock_legendary.png,,"[Dark Sermon] Tap, spend 1 Faith: Give another unit +2 ATK
+or +2 DEF this turn. [Blood Tithe] When it deals combat
+damage, gain 1 Faith. Then may lose 1 HP to draw."
+061-C,Rust Runner Scavenger,Character,Survivor,Survivors,Common,1 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
+[Recycle] When you discard a card, may pay 1 resource to draw.",You can hear their engines before you see the smoke but you know there is no running,SRP: Bitterroot,art/neutral_survivors_common.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
+this turn. [Recycle] When you discard a card, may pay 1
+resource to draw."
+062-C,Forager Anya,Character,Survivor,Survivors,Common,1 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
+[Skirmish] When it attacks first, it deals its damage before defenders.",Finding non-infected flora is becoming more difficult.',SRP: Bitterroot,art/neutral_survivors_common.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
+this turn. [Skirmish] When it attacks first, it deals its
+damage before defenders."
+063-C,Hunter Jorl,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Deathrattle] When it dies, draw a card.
+[Recycle] When you discard a card, may pay 1 resource to draw.",‘Tracking the most dangerous game.’,SRP: Bitterroot,art/neutral_survivors_common.png,,"[Deathrattle] When it dies, draw a card. [Recycle] When
+you discard a card, may pay 1 resource to draw."
+064-C,Scrap Farmer Timmons,Character,Survivor,Survivors,Common,1 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Recycle] When you discard a card, may pay 1 resource to draw.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",‘Haulin' ass for some scrap.’,SRP: Bitterroot,art/neutral_survivors_common.png,,"[Recycle] When you discard a card, may pay 1 resource to
+draw. [Scout] Enter: Look at the top 3 of your deck; put
+one back on top, the rest on the bottom."
+065-C,River Trader Luth,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Deathrattle] When it dies, draw a card.
+[Recycle] When you discard a card, may pay 1 resource to draw.","‘Tide goes in, tide goes out, aint nobody who can explain that.’",SRP: Bitterroot,art/neutral_survivors_common.png,,"[Deathrattle] When it dies, draw a card. [Recycle] When
+you discard a card, may pay 1 resource to draw."
+066-C,Woodsman Darro,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Skirmish] When it attacks first, it deals its damage before defenders.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",‘In 100 more years these forests will yield some fine lumber.’,SRP: Bitterroot,art/neutral_survivors_common.png,,"[Skirmish] When it attacks first, it deals its damage
+before defenders. [Valor] When targeted by an ally
+ability, it gains +1/+1 this turn."
+067-C,Campfire Storyteller,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",‘Pull up a chair and listen closely...’,SRP: Bitterroot,art/neutral_survivors_common.png,,"[Scout] Enter: Look at the top 3 of your deck; put one
+back on top, the rest on the bottom. [Valor] When targeted
+by an ally ability, it gains +1/+1 this turn."
+068-C,Wasteland Cook,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
+[Relentless] When it attacks and survives, ready it at end of combat.",‘By now anyone can cook a good stew. Just throw what ya got in a pot and boil it up..’,SRP: Bitterroot,art/neutral_survivors_common.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
+this turn. [Relentless] When it attacks and survives,
+ready it at end of combat."
+069-C,Wandering Peddler,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Skirmish] When it attacks first, it deals its damage before defenders.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.","‘I have what you need, come close and take a look.’",SRP: Bitterroot,art/neutral_survivors_common.png,,"[Skirmish] When it attacks first, it deals its damage
+before defenders. [Scout] Enter: Look at the top 3 of your
+deck; put one back on top, the rest on the bottom."
+070-C,Nomad Scout,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",‘Just keeps getting worse out there.’,SRP: Bitterroot,art/neutral_survivors_common.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
+this turn. [Scout] Enter: Look at the top 3 of your deck;
+put one back on top, the rest on the bottom."
+071-U,Quartermaster Brigg,Character,Specialist,Survivors,Uncommon,2 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Relentless] When it attacks and survives, ready it at end of combat.
+[Skirmish] When it attacks first, it deals its damage before defenders.",We got another shipment on its way so sit tight.,SRP: Bitterroot,art/neutral_survivors_uncommon.png,,"[Relentless] When it attacks and survives, ready it at end
+of combat. [Skirmish] When it attacks first, it deals its
+damage before defenders."
+072-U,Medic Elena,Character,Specialist,Survivors,Uncommon,2 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Deathrattle] When it dies, draw a card.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",Some say Elena's nickname is the Angel of Death.,SRP: Bitterroot,art/neutral_survivors_uncommon.png,,"[Deathrattle] When it dies, draw a card. [Scout] Enter:
+Look at the top 3 of your deck; put one back on top, the
+rest on the bottom."
+073-U,Tinkerer Holt,Character,Specialist,Survivors,Uncommon,3 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",Bring Holt some scrap a few nails and a handful of bullets and he will make you whatever you want.,SRP: Bitterroot,art/neutral_survivors_uncommon.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
+this turn. [Scout] Enter: Look at the top 3 of your deck;
+put one back on top, the rest on the bottom."
+074-U,Smuggler Jax,Character,Specialist,Survivors,Uncommon,4 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Deathrattle] When it dies, draw a card.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",Got an eye for something special?,SRP: Bitterroot,art/neutral_survivors_uncommon.png,,"[Deathrattle] When it dies, draw a card. [Valor] When
+targeted by an ally ability, it gains +1/+1 this turn."
+075-U,Outfitter Mara,Character,Specialist,Survivors,Uncommon,4 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
+[Skirmish] When it attacks first, it deals its damage before defenders.","Just because it is the end of the world, doesn't mean I can't look good.'",SRP: Bitterroot,art/neutral_survivors_uncommon.png,,"[Scout] Enter: Look at the top 3 of your deck; put one
+back on top, the rest on the bottom. [Skirmish] When it
+attacks first, it deals its damage before defenders."
+076-R,Outpost Leader Kell,Character,Elite,Survivors,Rare,4 Supplies,HP: 18 / ATK: 5 / DEF: 3,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
+[Deathrattle] When it dies, draw a card.",The outpost led by Kell has stood against the storm and held strong. Not many attack it nowdays,SRP: Bitterroot,art/neutral_survivors_rare.png,,"[Scout] Enter: Look at the top 3 of your deck; put one
+back on top, the rest on the bottom. [Deathrattle] When it
+dies, draw a card."
+077-R,Community Defender Ryn,Character,Elite,Survivors,Rare,6 Supplies,HP: 18 / ATK: 5 / DEF: 3,"[Deathrattle] When it dies, draw a card.
+[Recycle] When you discard a card, may pay 1 resource to draw.","When the enemy learns Ryn is on your side, they surrender immediately.",SRP: Bitterroot,art/neutral_survivors_rare.png,,"[Deathrattle] When it dies, draw a card. [Recycle] When
+you discard a card, may pay 1 resource to draw."
+078-R,Gatekeeper of Hollow Falls,Character,Elite,Survivors,Rare,4 Supplies,HP: 18 / ATK: 5 / DEF: 3,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
+[Recycle] When you discard a card, may pay 1 resource to draw.",The gatekeeper is well respected among the wasteland survivors. They grant or refuse entry.,SRP: Bitterroot,art/neutral_survivors_rare.png,,"[Scout] Enter: Look at the top 3 of your deck; put one
+back on top, the rest on the bottom. [Recycle] When you
+discard a card, may pay 1 resource to draw."
+079-L,The Last Mayor of Bitterroot,Character,Legendary,Survivors,Legendary,7 Supplies,HP: 25 / ATK: 7 / DEF: 5,"[Recycle] When you discard a card, may pay 1 resource to draw.
+[Deathrattle] When it dies, draw a card.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",The last Mayor of Bitterroot is more of a legend than a person. The title is granted by the valley.,SRP: Bitterroot,art/neutral_survivors_legendary.png,,"[Recycle] When you discard a card, may pay 1 resource to
+draw. [Deathrattle] When it dies, draw a card. [Scout]
+Enter: Look at the top 3 of your deck; put one back on
+top, the rest on the bottom."
+080-L,The Bitterroot Warden,Character,Legendary,Survivors,Legendary,7 Supplies,HP: 25 / ATK: 7 / DEF: 5,"[Deathrattle] When it dies, draw a card.
+[Recycle] When you discard a card, may pay 1 resource to draw.
+[Guard] While untapped, this can block an extra attacker.","When the Warden of Bitterroot stirs, its presence is felt throughout the land.",SRP: Bitterroot,art/neutral_survivors_legendary.png,,"[Deathrattle] When it dies, draw a card. [Recycle] When
+you discard a card, may pay 1 resource to draw. [Guard]
+While untapped, this can block an extra attacker."
+081-S,Espen Industries Founder,Artifact,Special,Special,Special Collectible,,,"[Deathrattle] When it dies, draw a card.
+[Recycle] When you discard a card, may pay 1 resource to draw.",The founder of Espen Industries is rumored to be still alive but no one knows where.,SRP: Bitterroot,art/special_81.png,1/20,"[Deathrattle] When it dies, draw a card. [Recycle] When
+you discard a card, may pay 1 resource to draw."
+082-S,Lock & Sons Trade Charter,Artifact,Special,Special,Special Collectible,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",The charter that started it all. This parchment grants the holder supply contracts from the major companies.,SRP: Bitterroot,art/special_82.png,2/20,"[Skirmish] When it attacks first, it deals its damage
+before defenders. [Scout] Enter: Look at the top 3 of your
+deck; put one back on top, the rest on the bottom."
+083-S,Cult of Warlock Prayer Sheet,Character,Special,Special,Special Collectible,,,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.","A relic of the 'old days', this prayer sheet is rumored to be owned by Warlock himself.",SRP: Bitterroot,art/special_83.png,3/20,"[Scout] Enter: Look at the top 3 of your deck; put one
+back on top, the rest on the bottom. [Valor] When targeted
+by an ally ability, it gains +1/+1 this turn."
+084-S,Mutant Behemoth Krask,Character,Special,Special,Special Collectible,,,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",This behemoth grew out of the mass of a flower. No one knows how it came to be but many stay out of its way.,SRP: Bitterroot,art/special_84.png,4/20,"[Scout] Enter: Look at the top 3 of your deck; put one
+back on top, the rest on the bottom. [Valor] When targeted
+by an ally ability, it gains +1/+1 this turn."
+085-S,Mutant Ascendant Mireborn,Character,Special,Special,Special Collectible,,,"[Relentless] When it attacks and survives, ready it at end of combat.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",One of the first Ascendants to walk the path. Any mutant that comes into its presence is said to hear voices.,SRP: Bitterroot,art/special_85.png,5/20,"[Relentless] When it attacks and survives, ready it at end
+of combat. [Valor] When targeted by an ally ability, it
+gains +1/+1 this turn."
+086-S,Aberrant Screecher,Character,Special,Special,Special Collectible,,,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
+[Recycle] When you discard a card, may pay 1 resource to draw.","Despite its name, this mutant is rather quiet up until it strikes it target.",SRP: Bitterroot,art/special_86.png,6/20,"[Valor] When targeted by an ally ability, it gains +1/+1
+this turn. [Recycle] When you discard a card, may pay 1
+resource to draw."
+087-S,Twisted Observer,Character,Special,Special,Special Collectible,,,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",One of the older observers. They take pleasure in stripping the flesh from a human corpse.,SRP: Bitterroot,art/special_87.png,7/20,"[Scout] Enter: Look at the top 3 of your deck; put one
+back on top, the rest on the bottom. [Valor] When targeted
+by an ally ability, it gains +1/+1 this turn."
+088-S,Observer Prototype Relic,Artifact,Special,Special,Special Collectible,,,"[Deathrattle] When it dies, draw a card.
+[Skirmish] When it attacks first, it deals its damage before defenders.",Espen Industries prototype for scouting areas while maintaining a low profile.,SRP: Bitterroot,art/special_88.png,8/20,"[Deathrattle] When it dies, draw a card. [Skirmish] When
+it attacks first, it deals its damage before defenders."
+089-S,Bitterroot Map Fragment,Artifact,Special,Special,Special Collectible,,,"[Deathrattle] When it dies, draw a card.
+[Skirmish] When it attacks first, it deals its damage before defenders.",A fragment of a map for the Bitterroot Valley.,SRP: Bitterroot,art/special_89.png,9/20,"[Deathrattle] When it dies, draw a card. [Skirmish] When
+it attacks first, it deals its damage before defenders."
+090-S,Rust Runner Banner,Artifact,Special,Special,Special Collectible,,,"[Relentless] When it attacks and survives, ready it at end of combat.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",A Rust Runner Banner. Do NOT let them catch you with this.,SRP: Bitterroot,art/special_90.png,10/20,"[Relentless] When it attacks and survives, ready it at end
+of combat. [Scout] Enter: Look at the top 3 of your deck;
+put one back on top, the rest on the bottom."
+091-S,Ancient Codelock,Character,Special,Special,Special Collectible,,,"[Deathrattle] When it dies, draw a card.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",An ancient stone codelock. Where did it come from? Who made it?,SRP: Bitterroot,art/special_91.png,11/20,"[Deathrattle] When it dies, draw a card. [Valor] When
+targeted by an ally ability, it gains +1/+1 this turn."
+092-S,Corroded Key,Artifact,Special,Special,Special Collectible,,,"[Deathrattle] When it dies, draw a card.
+[Skirmish] When it attacks first, it deals its damage before defenders.",A key that has been corroded by Chromium.,SRP: Bitterroot,art/special_92.png,12/20,"[Deathrattle] When it dies, draw a card. [Skirmish] When
+it attacks first, it deals its damage before defenders."
+093-S,A Survivalist’s Token,Artifact,Special,Special,Special Collectible,,,"[Deathrattle] When it dies, draw a card.
+[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",A token from someone who has survived in the wasteland for a long time.,SRP: Bitterroot,art/special_93.png,13/20,"[Deathrattle] When it dies, draw a card. [Valor] When
+targeted by an ally ability, it gains +1/+1 this turn."
+094-S,The Bitterroot Seed,Artifact,Special,Special,Special Collectible,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
+[Relentless] When it attacks and survives, ready it at end of combat.",The seed which sprung to life the flower in Hawkins. The beginning and the end.,SRP: Bitterroot,art/special_94.png,14/20,"[Skirmish] When it attacks first, it deals its damage
+before defenders. [Relentless] When it attacks and
+survives, ready it at end of combat."
+095-S,Warlock’s Sermon,Character,Special,Special,Special Collectible,,,"[Relentless] When it attacks and survives, ready it at end of combat.
+[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",A sermon from Warlock himself. Notable passages are to not hoard objects in the world.,SRP: Bitterroot,art/special_95.png,15/20,"[Relentless] When it attacks and survives, ready it at end
+of combat. [Scout] Enter: Look at the top 3 of your deck;
+put one back on top, the rest on the bottom."
+096-S,Survivor Diary,Artifact,Special,Special,Special Collectible,,,"[Recycle] When you discard a card, may pay 1 resource to draw.
+[Deathrattle] When it dies, draw a card.",A diary from a wasteland survivor. Tucked away in a hidden space.,SRP: Bitterroot,art/special_96.png,16/20,"[Recycle] When you discard a card, may pay 1 resource to
+draw. [Deathrattle] When it dies, draw a card."
+097-S,Founders’ Pact,Artifact,Special,Special,Special Collectible,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
+[Relentless] When it attacks and survives, ready it at end of combat.",The pact a set of founders made to start a settlement.,SRP: Bitterroot,art/special_97.png,17/20,"[Skirmish] When it attacks first, it deals its damage
+before defenders. [Relentless] When it attacks and
+survives, ready it at end of combat."
+098-S,Angel’s Tear,Character,Special,Special,Special Collectible,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
+[Relentless] When it attacks and survives, ready it at end of combat.",It is said that when you kill a mature alpha it sheds a tear that can be collected.,SRP: Bitterroot,art/special_98.png,18/20,"[Skirmish] When it attacks first, it deals its damage
+before defenders. [Relentless] When it attacks and
+survives, ready it at end of combat."
+099-S,The Last Survivor,Character,Special,Special,Special Collectible,,,"[Relentless] When it attacks and survives, ready it at end of combat.
+[Skirmish] When it attacks first, it deals its damage before defenders.",The last survivor left after an attack. Grows stronger in adversity.,SRP: Bitterroot,art/special_99.png,19/20,"[Relentless] When it attacks and survives, ready it at end
+of combat. [Skirmish] When it attacks first, it deals its
+damage before defenders."
+100-S,Relic of Ash,Artifact,Special,Special,Special Collectible,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
+[Relentless] When it attacks and survives, ready it at end of combat.",A relic hidden within the ash of a destroyed settlement.,SRP: Bitterroot,art/special_100.png,20/20,"[Skirmish] When it attacks first, it deals its damage
+before defenders. [Relentless] When it attacks and
+survives, ready it at end of combat."
