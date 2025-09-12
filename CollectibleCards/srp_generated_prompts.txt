@@ -1,0 +1,300 @@
+[SRP-BR-001-U-C] EspenLock Security Drone — EspenLock / Common
+EspenLock Security Drone, depicted as a Unit in a dim retro-tech lab. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-002-U-C] Lock & Sons Intern — EspenLock / Common
+Lock & Sons Intern, depicted as a Unit in a cassette-tech control room. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-003-U-C] Corporate Enforcer — EspenLock / Common
+Corporate Enforcer, depicted as a Unit in a neonless corridor of humming CRTs. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-004-U-C] Logistics Handler — EspenLock / Common
+Logistics Handler, depicted as a Unit in a rooftop array of antennas. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-005-U-C] Corporate Guard — EspenLock / Common
+Corporate Guard, depicted as a Unit in a dim retro-tech lab. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-006-U-C] Data Courier — EspenLock / Common
+Data Courier, depicted as a Unit in a cassette-tech control room. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-007-U-C] Supply Technician — EspenLock / Common
+Supply Technician, depicted as a Unit in a neonless corridor of humming CRTs. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-008-U-C] Prototype Drone Scout — EspenLock / Common
+Prototype Drone Scout, depicted as a Unit in a rooftop array of antennas. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-009-U-C] Resource Auditor — EspenLock / Common
+Resource Auditor, depicted as a Unit in a dim retro-tech lab. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-010-U-C] Cargo Overseer — EspenLock / Common
+Cargo Overseer, depicted as a Unit in a cassette-tech control room. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-001-S-U] Prototype Operator V-12 — EspenLock / Uncommon
+Prototype Operator V-12, depicted as a Specialist in a neonless corridor of humming CRTs. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-002-S-U] Cybernetics Tester — EspenLock / Uncommon
+Cybernetics Tester, depicted as a Specialist in a rooftop array of antennas. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-003-S-U] Corporate Fixer — EspenLock / Uncommon
+Corporate Fixer, depicted as a Specialist in a dim retro-tech lab. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-004-S-U] EspenLock Auditor — EspenLock / Uncommon
+EspenLock Auditor, depicted as a Specialist in a cassette-tech control room. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-005-S-U] Field Engineer Kess — EspenLock / Uncommon
+Field Engineer Kess, depicted as a Specialist in a neonless corridor of humming CRTs. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-001-E-R] Overseer Kline — EspenLock / Rare
+Overseer Kline, depicted as a Elite in a rooftop array of antennas. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-002-E-R] Commandant Veynar — EspenLock / Rare
+Commandant Veynar, depicted as a Elite in a dim retro-tech lab. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-003-E-R] EspenLock Blackhand — EspenLock / Rare
+EspenLock Blackhand, depicted as a Elite in a cassette-tech control room. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-001-L-L] Director Espen V. Lockhart — EspenLock / Legendary
+Director Espen V. Lockhart, depicted as a Legendary in a neonless corridor of humming CRTs. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Legendary (awe-inspiring, monumental, iconic composition)
+
+[SRP-BR-002-L-L] Overseer AI: Project HORIZON — EspenLock / Legendary
+Overseer AI: Project HORIZON, depicted as a Legendary in a rooftop array of antennas. Style: cinematic digital painting with high detail and strong atmosphere. Mood: precise, mechanical. Faction Augments: analog consoles, CRT monitors, cassette drives, chunky machinery, flickering lights, industrial plastic casings, warning labels, low-tech futurism. Rarity Layer: Legendary (awe-inspiring, monumental, iconic composition)
+
+[SRP-BR-011-U-C] STAG Patrolman — STAG / Common
+STAG Patrolman, depicted as a Unit in a brutalist military checkpoint. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-012-U-C] Armored Grunt — STAG / Common
+Armored Grunt, depicted as a Unit in a concrete fortress gate. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-013-U-C] Depot Loader — STAG / Common
+Depot Loader, depicted as a Unit in a armored motor pool. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-014-U-C] Field Mechanic — STAG / Common
+Field Mechanic, depicted as a Unit in a bunker courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-015-U-C] Supply Driver — STAG / Common
+Supply Driver, depicted as a Unit in a brutalist military checkpoint. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-016-U-C] Riot Guard — STAG / Common
+Riot Guard, depicted as a Unit in a concrete fortress gate. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-017-U-C] Watchtower Scout — STAG / Common
+Watchtower Scout, depicted as a Unit in a armored motor pool. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-018-U-C] Ammo Handler — STAG / Common
+Ammo Handler, depicted as a Unit in a bunker courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-019-U-C] Fuel Convoy Escort — STAG / Common
+Fuel Convoy Escort, depicted as a Unit in a brutalist military checkpoint. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-020-U-C] Checkpoint Guard — STAG / Common
+Checkpoint Guard, depicted as a Unit in a concrete fortress gate. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-006-S-U] STAG Sniper Tulles — STAG / Uncommon
+STAG Sniper Tulles, depicted as a Specialist in a armored motor pool. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-007-S-U] Demolitionist Rykov — STAG / Uncommon
+Demolitionist Rykov, depicted as a Specialist in a bunker courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-008-S-U] Squad Leader Marra — STAG / Uncommon
+Squad Leader Marra, depicted as a Specialist in a brutalist military checkpoint. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-009-S-U] Recon Operative Vash — STAG / Uncommon
+Recon Operative Vash, depicted as a Specialist in a concrete fortress gate. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-010-S-U] Riot Suppressor Kryn — STAG / Uncommon
+Riot Suppressor Kryn, depicted as a Specialist in a armored motor pool. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-004-E-R] Juggernaut Unit X-7 — STAG / Rare
+Juggernaut Unit X-7, depicted as a Elite in a bunker courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-005-E-R] Enforcer Lydra — STAG / Rare
+Enforcer Lydra, depicted as a Elite in a brutalist military checkpoint. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-006-E-R] Ironhand Specialist — STAG / Rare
+Ironhand Specialist, depicted as a Elite in a concrete fortress gate. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-003-L-L] General Stagwell — STAG / Legendary
+General Stagwell, depicted as a Legendary in a armored motor pool. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Legendary (awe-inspiring, monumental, iconic composition)
+
+[SRP-BR-004-L-L] Titan Mech Operator: Bastion — STAG / Legendary
+Titan Mech Operator: Bastion, depicted as a Legendary in a bunker courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: oppressive, methodical. Faction Augments: exposed concrete, fortified structures, monolithic geometry, armored machinery, harsh utilitarian design. Rarity Layer: Legendary (awe-inspiring, monumental, iconic composition)
+
+[SRP-BR-021-U-C] Street Prophet Malrik — COW / Common
+Street Prophet Malrik, depicted as a Unit in a cathedral-fortress courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-022-U-C] Acolyte of the Seed — COW / Common
+Acolyte of the Seed, depicted as a Unit in a shadowed ritual hall. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-023-U-C] Ash Preacher — COW / Common
+Ash Preacher, depicted as a Unit in a banner-lined cloister. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-024-U-C] Faithful Beggar — COW / Common
+Faithful Beggar, depicted as a Unit in a fortress nave with candlelight. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-025-U-C] Torchbearer Ilin — COW / Common
+Torchbearer Ilin, depicted as a Unit in a cathedral-fortress courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-026-U-C] Sermon Whisperer — COW / Common
+Sermon Whisperer, depicted as a Unit in a shadowed ritual hall. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-027-U-C] Bone Collector — COW / Common
+Bone Collector, depicted as a Unit in a banner-lined cloister. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-028-U-C] Pilgrim of Ash — COW / Common
+Pilgrim of Ash, depicted as a Unit in a fortress nave with candlelight. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-029-U-C] Chanting Penitent — COW / Common
+Chanting Penitent, depicted as a Unit in a cathedral-fortress courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-030-U-C] Devoted Flagellant — COW / Common
+Devoted Flagellant, depicted as a Unit in a shadowed ritual hall. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-011-S-U] Arch Deacon Veyra — COW / Uncommon
+Arch Deacon Veyra, depicted as a Specialist in a banner-lined cloister. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-012-S-U] Warpriest Korr — COW / Uncommon
+Warpriest Korr, depicted as a Specialist in a fortress nave with candlelight. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-013-S-U] Hymn Bearer Isha — COW / Uncommon
+Hymn Bearer Isha, depicted as a Specialist in a cathedral-fortress courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-014-S-U] Ascendant-in-Training — COW / Uncommon
+Ascendant-in-Training, depicted as a Specialist in a shadowed ritual hall. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-015-S-U] Torch Preacher Varna — COW / Uncommon
+Torch Preacher Varna, depicted as a Specialist in a banner-lined cloister. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Mutant-led theocracy: subjects often show greenish-yellow leathery skin and exalted presence. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-007-E-R] Bishop Altheron — COW / Rare
+Bishop Altheron, depicted as a Elite in a fortress nave with candlelight. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-008-E-R] Zealot of the Spire — COW / Rare
+Zealot of the Spire, depicted as a Elite in a cathedral-fortress courtyard. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-009-E-R] Angel Karthis — COW / Rare
+Angel Karthis, depicted as a Elite in a shadowed ritual hall. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-005-L-L] Warlock — COW / Legendary
+Warlock, depicted as a Legendary in a banner-lined cloister. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Rarity Layer: Legendary (awe-inspiring, monumental, iconic composition)
+
+[SRP-BR-006-L-L] Angelic Avatar of Bitterroot — COW / Legendary
+Angelic Avatar of Bitterroot, depicted as a Legendary in a fortress nave with candlelight. Style: cinematic digital painting with high detail and strong atmosphere. Mood: zealous, reverent, unsettling. Faction Augments: militant clergy, ritual banners, sacred armor and flowing robes, crusader zeal, authoritarian hierarchy, mutants as ascendants with greenish-yellow leathery skin. Rarity Layer: Legendary (awe-inspiring, monumental, iconic composition)
+
+[SRP-BR-001-V-C] Rust Runner Scavenger — Survivors / Common
+Rust Runner Scavenger, depicted as a Survivor in a ruined highway rest stop. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-002-V-C] Forager Anya — Survivors / Common
+Forager Anya, depicted as a Survivor in a burnt forest edge camp. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-003-V-C] Hunter Jorl — Survivors / Common
+Hunter Jorl, depicted as a Survivor in a barren plains shanty. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-004-V-C] Scrap Farmer Timmons — Survivors / Common
+Scrap Farmer Timmons, depicted as a Survivor in a abandoned roadside outpost. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-005-V-C] River Trader Luth — Survivors / Common
+River Trader Luth, depicted as a Survivor in a ruined highway rest stop. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-006-V-C] Woodsman Darro — Survivors / Common
+Woodsman Darro, depicted as a Survivor in a burnt forest edge camp. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-007-V-C] Campfire Storyteller — Survivors / Common
+Campfire Storyteller, depicted as a Survivor in a barren plains shanty. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-008-V-C] Wasteland Cook — Survivors / Common
+Wasteland Cook, depicted as a Survivor in a abandoned roadside outpost. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-009-V-C] Wandering Peddler — Survivors / Common
+Wandering Peddler, depicted as a Survivor in a ruined highway rest stop. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-010-V-C] Nomad Scout — Survivors / Common
+Nomad Scout, depicted as a Survivor in a burnt forest edge camp. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Common (functional, modest, subdued, everyday; muted tones)
+
+[SRP-BR-016-S-U] Quartermaster Brigg — Survivors / Uncommon
+Quartermaster Brigg, depicted as a Specialist in a barren plains shanty. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-017-S-U] Medic Elena — Survivors / Uncommon
+Medic Elena, depicted as a Specialist in a abandoned roadside outpost. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-018-S-U] Tinkerer Holt — Survivors / Uncommon
+Tinkerer Holt, depicted as a Specialist in a ruined highway rest stop. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-019-S-U] Smuggler Jax — Survivors / Uncommon
+Smuggler Jax, depicted as a Specialist in a burnt forest edge camp. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-020-S-U] Outfitter Mara — Survivors / Uncommon
+Outfitter Mara, depicted as a Specialist in a barren plains shanty. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Uncommon (refined, distinctive, slightly higher contrast and embellishment)
+
+[SRP-BR-010-E-R] Outpost Leader Kell — Survivors / Rare
+Outpost Leader Kell, depicted as a Elite in a abandoned roadside outpost. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-011-E-R] Community Defender Ryn — Survivors / Rare
+Community Defender Ryn, depicted as a Elite in a ruined highway rest stop. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-012-E-R] Gatekeeper of Hollow Falls — Survivors / Rare
+Gatekeeper of Hollow Falls, depicted as a Elite in a burnt forest edge camp. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Rare (striking, dramatic lighting, richer palettes, elevated presence)
+
+[SRP-BR-007-L-L] The Last Mayor of Bitterroot — Survivors / Legendary
+The Last Mayor of Bitterroot, depicted as a Legendary in a barren plains shanty. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Legendary (awe-inspiring, monumental, iconic composition)
+
+[SRP-BR-008-L-L] The Bitterroot Warden — Survivors / Legendary
+The Bitterroot Warden, depicted as a Legendary in a abandoned roadside outpost. Style: cinematic digital painting with high detail and strong atmosphere. Mood: stoic, pragmatic, resilient. Faction Augments: scavenged gear, patched clothing, sun-bleached fabrics, improvised weapons and tools, weathered faces, survivalist ingenuity, nomadic camp resilience. Rarity Layer: Legendary (awe-inspiring, monumental, iconic composition)
+
+[SRP-BR-001-P-S] Espen Industries Founder — Special / Special
+Espen Industries Founder, depicted as a Special with presentation as a journal sketch of uncertain origin. Style: cinematic digital painting blended with sketchbook illustration with graphite lines and ink smudges, aged and faded. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-002-P-S] Lock & Sons Trade Charter — Special / Special
+Lock & Sons Trade Charter, depicted as a Special with presentation as a propaganda poster of uncertain origin. Style: cinematic digital painting blended with weathered propaganda print with distressed inks and water damage. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-003-P-S] Cult of Warlock Prayer Sheet — Special / Special
+Cult of Warlock Prayer Sheet, depicted as a Special with presentation as a saintly icon of uncertain origin. Style: cinematic digital painting blended with oil-painted religious icon with cracked varnish and gilded edges. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-004-P-S] Mutant Behemoth Krask — Special / Special
+Mutant Behemoth Krask, depicted as a Special with presentation as a degraded photograph of uncertain origin. Style: cinematic digital painting blended with grainy, partially blurred photo with torn edges and sun-faded tones. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-005-P-S] Mutant Ascendant Mireborn — Special / Special
+Mutant Ascendant Mireborn, depicted as a Special with presentation as a journal sketch of uncertain origin. Style: cinematic digital painting blended with sketchbook illustration with graphite lines and ink smudges, aged and faded. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-006-P-S] Aberrant Screecher — Special / Special
+Aberrant Screecher, depicted as a Special with presentation as a propaganda poster of uncertain origin. Style: cinematic digital painting blended with weathered propaganda print with distressed inks and water damage. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-007-P-S] Twisted Observer — Special / Special
+Twisted Observer, depicted as a Special with presentation as a saintly icon of uncertain origin. Style: cinematic digital painting blended with oil-painted religious icon with cracked varnish and gilded edges. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-008-P-S] Observer Prototype Relic — Special / Special
+Observer Prototype Relic, depicted as a Special with presentation as a degraded photograph of uncertain origin. Style: cinematic digital painting blended with grainy, partially blurred photo with torn edges and sun-faded tones. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-009-P-S] Bitterroot Map Fragment — Special / Special
+Bitterroot Map Fragment, depicted as a Special with presentation as a journal sketch of uncertain origin. Style: cinematic digital painting blended with sketchbook illustration with graphite lines and ink smudges, aged and faded. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-010-P-S] Rust Runner Banner — Special / Special
+Rust Runner Banner, depicted as a Special with presentation as a propaganda poster of uncertain origin. Style: cinematic digital painting blended with weathered propaganda print with distressed inks and water damage. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-011-P-S] Ancient Codelock — Special / Special
+Ancient Codelock, depicted as a Special with presentation as a saintly icon of uncertain origin. Style: cinematic digital painting blended with oil-painted religious icon with cracked varnish and gilded edges. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-012-P-S] Corroded Key — Special / Special
+Corroded Key, depicted as a Special with presentation as a degraded photograph of uncertain origin. Style: cinematic digital painting blended with grainy, partially blurred photo with torn edges and sun-faded tones. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-013-P-S] A Survivalist’s Token — Special / Special Collectible
+A Survivalist’s Token, depicted as a Special with presentation as a journal sketch of uncertain origin. Style: cinematic digital painting blended with sketchbook illustration with graphite lines and ink smudges, aged and faded. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-014-P-S] The Bitterroot Seed — Special / Special Collectible
+The Bitterroot Seed, depicted as a Special with presentation as a propaganda poster of uncertain origin. Style: cinematic digital painting blended with weathered propaganda print with distressed inks and water damage. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-015-P-S] Warlock’s Sermon — Special / Special Collectible
+Warlock’s Sermon, depicted as a Special with presentation as a saintly icon of uncertain origin. Style: cinematic digital painting blended with oil-painted religious icon with cracked varnish and gilded edges. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-016-P-S] Survivor Diary — Special / Special Collectible
+Survivor Diary, depicted as a Special with presentation as a degraded photograph of uncertain origin. Style: cinematic digital painting blended with grainy, partially blurred photo with torn edges and sun-faded tones. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-017-P-S] Founders’ Pact — Special / Special
+Founders’ Pact, depicted as a Special with presentation as a journal sketch of uncertain origin. Style: cinematic digital painting blended with sketchbook illustration with graphite lines and ink smudges, aged and faded. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-018-P-S] Angel’s Tear — Special / Special Collectible
+Angel’s Tear, depicted as a Special with presentation as a propaganda poster of uncertain origin. Style: cinematic digital painting blended with weathered propaganda print with distressed inks and water damage. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-019-P-S] The Last Survivor — Special / Special Collectible
+The Last Survivor, depicted as a Special with presentation as a saintly icon of uncertain origin. Style: cinematic digital painting blended with oil-painted religious icon with cracked varnish and gilded edges. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+
+[SRP-BR-020-P-S] Relic of Ash — Special / Special Collectible
+Relic of Ash, depicted as a Special with presentation as a degraded photograph of uncertain origin. Style: cinematic digital painting blended with grainy, partially blurred photo with torn edges and sun-faded tones. Mood: mythic, uncertain, revered. Faction Augments: lost relic, mythic artifact, half-remembered story, whispered rumor. Rarity Layer: Artifact (mixed media—sketch/poster/icon/photo—aged, unique, mythic).
+

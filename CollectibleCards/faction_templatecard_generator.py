@@ -37,7 +37,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 PX_W, PX_H = 750, 1050
 DPI = 300
-ART_W, ART_H = 640, 360  # art box content
+ART_W, ART_H = 645, 339  # art box content
 
 # ---------- helpers ----------
 def sanitize(val):
@@ -273,8 +273,8 @@ def parse_cost_number(resource_cost):
 def place_orb_number_left_centered(base, name_rect, orb_img, cost_num):
     # Always render the numeric cost; render the orb if available.
     plaque_h = name_rect[3]-name_rect[1]
-    target = int(plaque_h * 0.90)
-    x = name_rect[2] - target - 20
+    target = int(plaque_h * 0.80)
+    x = name_rect[2] - target - 10
     y = name_rect[1] + (plaque_h - target)//2
 
     layer = Image.new("RGBA", (PX_W, PX_H), (0,0,0,0))
@@ -290,7 +290,7 @@ def place_orb_number_left_centered(base, name_rect, orb_img, cost_num):
         tw = d.textlength(cost, font=font)
         bbox = d.textbbox((0,0), "Hg", font=font)
         th = bbox[3] - bbox[1]
-        tx = x - tw
+        tx = x - tw - 10
         ty = y + (target - th)//2
         if orb_img is None:
             tx = name_rect[2] - 20 - tw
@@ -383,10 +383,6 @@ def draw_footer(base, foot_rect, row, index, total_cards):
 
     # Right: Card ID + Ordinal (robust aliases + fallbacks)
     card_id = sanitize(field(row, "Card ID", "CardID", "ID", "Card_Id", "Card Number"))
-    ord_csv = sanitize(field(row, "Ordinal", "No.", "Number", "Index", "#"))
-    tot_csv = sanitize(field(row, "Total", "Total Cards", "TotalCards", "Count"))
-    ord_num = ord_csv if ord_csv else str(index + 1)
-    tot_num = tot_csv if tot_csv else str(total_cards)
     ordinal = f"{int(index) + 1}/{int(total_cards) if total_cards is not None else 1}"
 
     bbox_id = d.textbbox((0,0), card_id, font=font)
@@ -395,12 +391,14 @@ def draw_footer(base, foot_rect, row, index, total_cards):
     bbox_ord = d.textbbox((0,0), ordinal, font=font)
     tw_ord = bbox_ord[2] - bbox_ord[0]
     th_ord = bbox_ord[3] - bbox_ord[1]
-    total_h = th_id + th_ord + 6
+    id_ordinal_gap = 6
+    total_h = th_id + th_ord + id_ordinal_gap
     top_y = (foot_rect[1]+foot_rect[3]-total_h)//2
     x_right = foot_rect[2]-20
-    d.text((x_right - tw_id, top_y), card_id, font=font, fill=(0,0,0),
+    # Draw ordinal on top, card_id below, both right-aligned
+    d.text((x_right - tw_ord, top_y), ordinal, font=font, fill=(0,0,0),
         stroke_width=2, stroke_fill=(220,220,220))
-    d.text((x_right - tw_ord, top_y + th_id + 6), ordinal, font=font, fill=(0,0,0),
+    d.text((x_right - tw_id, top_y + th_ord + id_ordinal_gap), card_id, font=font, fill=(0,0,0),
         stroke_width=2, stroke_fill=(220,220,220))
 
 def cover_fit(image, target_w, target_h):
@@ -419,22 +417,34 @@ def cover_fit(image, target_w, target_h):
 
 def locate_art(row):
     art_hint = sanitize(row.get("Artwork",""))
+    card_id = str(row.get("Card ID", "")).lower().replace("-", "_")
+    # Use the exact path as in the CSV
+    artwork_path = f"source/art/bitterrootcollection/{card_id}.png"
+    # print(f"[DEBUG] Checking for artwork: {artwork_path}")
+    if os.path.isfile(artwork_path):
+        try:
+            return Image.open(artwork_path).convert("RGBA")
+        except Exception as e:
+            print(f"[DEBUG] Failed to open artwork: {artwork_path} ({e})")
+    # Fallbacks: try art_hint, old locations, etc.
     candidates = []
     if art_hint:
         candidates.append(art_hint)
-    card_id = sanitize(row.get("Card ID",""))
-    if card_id:
-        candidates += glob.glob(os.path.join("art", f"{card_id}.*"))
     name = sanitize(row.get("Name",""))
     slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    if card_id:
+        candidates += glob.glob(os.path.join("art", f"{card_id}.*"))
     if slug:
         candidates += glob.glob(os.path.join("art", f"{slug}.*"))
     for p in candidates:
+        # print(f"[DEBUG] Checking fallback artwork: {p}")
         if os.path.isfile(p):
             try:
                 return Image.open(p).convert("RGBA")
-            except Exception:
+            except Exception as e:
+                print(f"[DEBUG] Failed to open fallback artwork: {p} ({e})")
                 continue
+    # print(f"[DEBUG] No artwork found for card_id: {card_id}")
     return None
 
 def paste_art(base, art_rect, art_img):
@@ -442,7 +452,7 @@ def paste_art(base, art_rect, art_img):
         return
     x0,y0,x1,y1 = art_rect
     fitted = cover_fit(art_img, ART_W, ART_H)
-    base.alpha_composite(fitted, (x0+10, y0+10))  # +10 to sit inside the bevel nicely
+    base.alpha_composite(fitted, (x0+11, y0+11))  # +10 to sit inside the bevel nicely
 
 # ---------- card builder ----------
 def build_card(row, faction_key, orb_img=None, faction_label=None, special_no_cost=False, badge_width_factor=0.35, row_index=None, total_cards=None):
@@ -479,8 +489,23 @@ def build_card(row, faction_key, orb_img=None, faction_label=None, special_no_co
     for rect, rad in [(name_rect,12),(type_rect,10),(rules_rect,16),(stats_rect,14),(foot_rect,10)]:
         draw_plaque_raised(outer, rect, radius=rad, elevation=10)
 
+    # Artwork placement (draw first, so border sits on top)
+    art_img = locate_art(row)
+    if art_img is not None:
+        paste_art(outer, art_rect, art_img)
     # Art box outline
     draw_art_bevel(outer, art_rect)
+    # Cull/make transparent the pixels inside the artwork border (no rounding, slightly inset)
+    # x0, y0, x1, y1 = art_rect
+    # inset = 8  # Amount to inset the rectangle so the bevel border is visible
+    # mask_rect = (x0+inset, y0+inset, x1-inset+1, y1-inset+1)
+    # mask_w = mask_rect[2] - mask_rect[0]
+    # mask_h = mask_rect[3] - mask_rect[1]
+    # art_mask = Image.new("L", (mask_w, mask_h), 0)
+    # d_mask = ImageDraw.Draw(art_mask)
+    # d_mask.rectangle((0, 0, mask_w, mask_h), fill=255)
+    # transparent_art = Image.new("RGBA", (mask_w, mask_h), (0,0,0,0))
+    # outer.paste(transparent_art, (mask_rect[0], mask_rect[1]), art_mask)
 
     # Header title
     d = ImageDraw.Draw(outer, "RGBA")
@@ -542,11 +567,6 @@ def build_card(row, faction_key, orb_img=None, faction_label=None, special_no_co
     flavor  = sanitize(row.get("Flavor Text",""))
     draw_rules_flavor_centered(outer, rules_rect, ability, flavor)
 
-    # Artwork placement
-    art_img = locate_art(row)
-    if art_img is not None:
-        paste_art(outer, art_rect, art_img)
-
     return outer
 
 # ---------- main ----------
@@ -606,12 +626,18 @@ def main(csv_path="srp_bitterroot_collection.csv", outdir="release", rownum=None
         # filename: prefer Card ID; fallback to slugified name
         card_id = sanitize(row.get("Card ID",""))
         if card_id:
-            base = re.sub(r"[^a-zA-Z0-9]+", "-", card_id).strip("-")[:80]
+            base = re.sub(r"[^a-zA-Z0-9]+", "_", card_id).strip("_")[:80].lower()
         else:
             nm = sanitize(row.get("Name","card"))
-            base = re.sub(r"[^a-zA-Z0-9]+", "-", nm).strip("-")[:80]
-        outpath = os.path.join(set_outdir, f"{base}.png")
-        img.save(outpath, dpi=(DPI, DPI))
+            base = re.sub(r"[^a-zA-Z0-9]+", "_", nm).strip("_")[:80].lower()
+
+        outpath = os.path.join(set_outdir, f"{base}_co.png")
+        # print(f"[DEBUG] Creating card for row {idx}: '{row.get('Name','')}' -> {outpath}")
+        # Create a 1024x2048 transparent canvas and anchor the card to the bottom left
+        pow2_w, pow2_h = 1024, 2048
+        padded = Image.new("RGBA", (pow2_w, pow2_h), (0,0,0,0))
+        padded.paste(img, (0, pow2_h - PX_H))
+        padded.save(outpath, dpi=(DPI, DPI))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate collectible card PNGs from CSV.")

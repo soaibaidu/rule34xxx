@@ -1,1 +1,6 @@
+# Build Files
 release/
+
+# File Types
+*.kra
+*.kra~
