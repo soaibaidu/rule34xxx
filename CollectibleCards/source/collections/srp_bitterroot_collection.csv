@@ -70,7 +70,7 @@ SRP-BR-001-L-L,Director Espen V. Lockhart,Character,Legendary,EspenLock,Legendar
 1 Energy per attack. [Arc Shield] Start of combat: if you
 have Energy, prevent the first 2 damage dealt to it.
 [Power Cycle] Enter: gain 1 Energy."
-SRP-BR-002-L-L,Overseer AI: Project HORIZON,Character,Legendary,EspenLock,Legendary,7 Energy,HP: 25 / ATK: 7 / DEF: 5,"[Overclock] On your turn, it can attack twice if you spend 1 Energy per attack.
+SRP-BR-002-L-L,AI: Project HORIZON,Character,Legendary,EspenLock,Legendary,7 Energy,HP: 25 / ATK: 7 / DEF: 5,"[Overclock] On your turn, it can attack twice if you spend 1 Energy per attack.
 [Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",Initiate Extermination Protocols,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_l_l.png,,"[Overclock] On your turn, it can attack twice if you spend
 1 Energy per attack. [Power Cycle] Enter: gain 1 Energy.
 Tap: Convert 1 Energy → draw, then discard."
@@ -153,7 +153,7 @@ gains Evasion this turn. [Suppressor] While you have 2+
 Bullets banked, this can’t be targeted by enemy reactions.
 [Suppressive Fire] Spend 1–3 Bullets: Deal that much
 damage split among enemies."
-SRP-BR-004-L-L,Titan Mech Operator: Bastion,Character,Legendary,STAG,Legendary,7 Munitions,HP: 25 / ATK: 7 / DEF: 5,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
+SRP-BR-004-L-L,Titan Mech Pilot: Bastion,Character,Legendary,STAG,Legendary,7 Munitions,HP: 25 / ATK: 7 / DEF: 5,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
 [Covering Fire] Allies attacking the same target get +1 ATK this turn if you spend 1 Bullet.
 [Suppressive Fire] Spend 1–3 Bullets: Deal that much damage split among enemies.","An alternate pathway to cybernetics, Bastion seems to be more machine than man at this point.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_l_l.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
 gains Evasion this turn. [Covering Fire] Allies attacking

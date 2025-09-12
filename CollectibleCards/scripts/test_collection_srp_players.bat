@@ -1,0 +1,1 @@
+python source\generators\faction_templatecard_generator.py --csv=source\collections\srp_player_collection.csv --row=0

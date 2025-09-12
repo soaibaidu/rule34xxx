@@ -35,7 +35,8 @@ import os, re, glob
 import pandas as pd
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-PX_W, PX_H = 750, 1050
+# PX_W, PX_H = 750, 1050
+PX_W, PX_H = 750, 1024
 DPI = 300
 ART_W, ART_H = 645, 339  # art box content
 
@@ -58,7 +59,7 @@ def field(row, *aliases):
             return str(row[k])
     return ""
 
-def load_font(name="fonts/DejaVuSerif-Bold.ttf", size=24, fallback="fonts/DejaVuSerif.ttf"):
+def load_font(name="source/fonts/DejaVuSerif-Bold.ttf", size=24, fallback="source/fonts/DejaVuSerif.ttf"):
     try:
         return ImageFont.truetype(name, size)
     except:
@@ -461,7 +462,7 @@ def build_card(row, faction_key, orb_img=None, faction_label=None, special_no_co
     outer.alpha_composite(noise_texture((PX_W,PX_H), alpha=28))
 
     # Frame
-    frame_rect = (12,12,PX_W-12,PX_H-12)
+    frame_rect = (4,4,PX_W-4,PX_H-4)
     top_rgb, bot_rgb = {
         "espenlock": ((100,150,220),(30,60,120)),
         "stag":      ((200,60,40),(90,20,20)),
@@ -634,7 +635,7 @@ def main(csv_path="srp_bitterroot_collection.csv", outdir="release", rownum=None
         outpath = os.path.join(set_outdir, f"{base}_co.png")
         # print(f"[DEBUG] Creating card for row {idx}: '{row.get('Name','')}' -> {outpath}")
         # Create a 1024x2048 transparent canvas and anchor the card to the bottom left
-        pow2_w, pow2_h = 1024, 2048
+        pow2_w, pow2_h = 1024, 1024
         padded = Image.new("RGBA", (pow2_w, pow2_h), (0,0,0,0))
         padded.paste(img, (0, pow2_h - PX_H))
         padded.save(outpath, dpi=(DPI, DPI))
