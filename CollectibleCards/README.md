@@ -5,3 +5,5 @@ This program is used to programatically build collectible cards in the style of 
 ## How to Use
 
 By filling out a csv, you can feed the program different factions and color schemas to generate cards in your styles.
+
+The `scripts` folder has a few bat files that can be helpful in running the program.
