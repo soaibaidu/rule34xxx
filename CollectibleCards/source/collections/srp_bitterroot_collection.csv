@@ -1,373 +1,651 @@
-Card ID,Name,Type,Subtype,Faction,Rarity,Resource Cost,Stats,Abilities,Flavor Text,Set/Edition,Artwork Ref,Unnamed: 12,Abilities_wrapped
-SRP-BR-001-U-C,EspenLock Security Drone,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
-[Power Cycle] Enter: gain 1 Energy.",‘Sparks crackle in silence.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_u_c.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
-the first 2 damage dealt to it. [Power Cycle] Enter: gain
-1 Energy."
-SRP-BR-002-U-C,Lock & Sons Intern,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",‘Power surges guiding the lost.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_u_c.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
-→ draw, then discard."
-SRP-BR-003-U-C,Corporate Enforcer,Character,Unit,EspenLock,Common,1 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
-[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.",‘Enforcement to ensure a tomorrow.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_u_c.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
-the first 2 damage dealt to it. [Discharge] When it
-attacks, may pay 1 Energy to deal 1 to up to two targets."
-SRP-BR-004-U-C,Logistics Handler,Character,Unit,EspenLock,Common,1 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
-[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.",‘Need a light? Sign this release form.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_u_c.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
-the first 2 damage dealt to it. [Sparkjump] When you play
-a Tech, it gains +1/+0 and Skirmish this turn."
-SRP-BR-005-U-C,Corporate Guard,Character,Unit,EspenLock,Common,1 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",‘Corporate defense never felt so good.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_u_c.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
-→ draw, then discard."
-SRP-BR-006-U-C,Data Courier,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.
-[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.",‘01110010 01100001 01101001 01101110 00100000 01101111 01110010 00100000 01110011 01101000 01101001 01101110 01100101’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_u_c.png,,"[Sparkjump] When you play a Tech, it gains +1/+0 and
-Skirmish this turn. [Discharge] When it attacks, may pay 1
-Energy to deal 1 to up to two targets."
-SRP-BR-007-U-C,Supply Technician,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.
-[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",‘Resupply here’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_u_c.png,,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to
-up to two targets. [Arc Shield] Start of combat: if you
-have Energy, prevent the first 2 damage dealt to it."
-SRP-BR-008-U-C,Prototype Drone Scout,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",‘The circuit hums and emits a comfortable faint glow.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_u_c.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
-→ draw, then discard."
-SRP-BR-009-U-C,Resource Auditor,Character,Unit,EspenLock,Common,1 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.
-[Power Cycle] Enter: gain 1 Energy.",‘You cash the checks but I check the receipts.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_u_c.png,,"[Sparkjump] When you play a Tech, it gains +1/+0 and
-Skirmish this turn. [Power Cycle] Enter: gain 1 Energy."
-SRP-BR-010-U-C,Cargo Overseer,Character,Unit,EspenLock,Common,2 Energy,HP: 10 / ATK: 2 / DEF: 1,"[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.
-[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",‘Ensuring the cogs are well oiled.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_u_c.png,,"[Sparkjump] When you play a Tech, it gains +1/+0 and
-Skirmish this turn. [Arc Shield] Start of combat: if you
-have Energy, prevent the first 2 damage dealt to it."
-SRP-BR-001-S-U,Prototype Operator V-12,Character,Specialist,EspenLock,Uncommon,3 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.
-[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",Only 3 days since the last explosion!,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_s_u.png,,"[Sparkjump] When you play a Tech, it gains +1/+0 and
-Skirmish this turn. [Arc Shield] Start of combat: if you
-have Energy, prevent the first 2 damage dealt to it."
-SRP-BR-002-S-U,Cybernetics Tester,Character,Specialist,EspenLock,Uncommon,4 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.
-[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",All humans can be rebuilt to be better.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_s_u.png,,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to
-up to two targets. [Arc Shield] Start of combat: if you
-have Energy, prevent the first 2 damage dealt to it."
-SRP-BR-003-S-U,Corporate Fixer,Character,Specialist,EspenLock,Uncommon,4 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
-[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.",No problem to large. Time to make it disappear.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_s_u.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
-the first 2 damage dealt to it. [Discharge] When it
-attacks, may pay 1 Energy to deal 1 to up to two targets."
-SRP-BR-004-S-U,EspenLock Auditor,Character,Specialist,EspenLock,Uncommon,3 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to up to two targets.
-[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.",Inconsistency and disorder is the rot in any organization.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_s_u.png,,"[Discharge] When it attacks, may pay 1 Energy to deal 1 to
-up to two targets. [Arc Shield] Start of combat: if you
-have Energy, prevent the first 2 damage dealt to it."
-SRP-BR-005-S-U,Field Engineer Kess,Character,Specialist,EspenLock,Uncommon,3 Energy,HP: 14 / ATK: 3 / DEF: 2,"[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
-[Power Cycle] Enter: gain 1 Energy.",Wrench it up. Tie it down. Bring the crowbar it's time to party.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_s_u.png,,"[Arc Shield] Start of combat: if you have Energy, prevent
-the first 2 damage dealt to it. [Power Cycle] Enter: gain
-1 Energy."
-SRP-BR-001-E-R,Overseer Kline,Character,Elite,EspenLock,Rare,6 Energy,HP: 18 / ATK: 5 / DEF: 3,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.
-[Failsafe] If it would die, may spend 2 Energy.",It is your honor to serve me.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_e_r.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
-→ draw, then discard. [Failsafe] If it would die, may
-spend 2 Energy."
-SRP-BR-002-E-R,Commandant Veynar,Character,Elite,EspenLock,Rare,6 Energy,HP: 18 / ATK: 5 / DEF: 3,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.
-[Sparkjump] When you play a Tech, it gains +1/+0 and Skirmish this turn.",Drop and give me 20!,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_e_r.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
-→ draw, then discard. [Sparkjump] When you play a Tech, it
-gains +1/+0 and Skirmish this turn."
-SRP-BR-003-E-R,EspenLock Blackhand,Character,Elite,EspenLock,Rare,4 Energy,HP: 18 / ATK: 5 / DEF: 3,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.
-[Overclock] On your turn, it can attack twice if you spend 1 Energy per attack.",Now you see me....,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_e_r.png,,"[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy
-→ draw, then discard. [Overclock] On your turn, it can
-attack twice if you spend 1 Energy per attack."
-SRP-BR-001-L-L,Director Espen V. Lockhart,Character,Legendary,EspenLock,Legendary,8 Energy,HP: 25 / ATK: 7 / DEF: 5,"[Overclock] On your turn, it can attack twice if you spend 1 Energy per attack.
-[Arc Shield] Start of combat: if you have Energy, prevent the first 2 damage dealt to it.
-[Power Cycle] Enter: gain 1 Energy.",The company will endure the test of time as I have ensured its success.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_l_l.png,,"[Overclock] On your turn, it can attack twice if you spend
-1 Energy per attack. [Arc Shield] Start of combat: if you
-have Energy, prevent the first 2 damage dealt to it.
-[Power Cycle] Enter: gain 1 Energy."
-SRP-BR-002-L-L,AI: Project HORIZON,Character,Legendary,EspenLock,Legendary,7 Energy,HP: 25 / ATK: 7 / DEF: 5,"[Overclock] On your turn, it can attack twice if you spend 1 Energy per attack.
-[Power Cycle] Enter: gain 1 Energy. Tap: Convert 1 Energy → draw, then discard.",Initiate Extermination Protocols,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_l_l.png,,"[Overclock] On your turn, it can attack twice if you spend
-1 Energy per attack. [Power Cycle] Enter: gain 1 Energy.
-Tap: Convert 1 Energy → draw, then discard."
-SRP-BR-011-U-C,STAG Patrolman,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Armor-Piercing] When it hits a Guarded unit, ignore 1 DEF.",‘Steel marches until order prevails.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_011_u_c.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Armor-Piercing] When it hits a Guarded unit, ignore 1
-DEF."
-SRP-BR-012-U-C,Armored Grunt,Character,Unit,STAG,Common,2 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",‘The rifle waits with iron resolve.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_012_u_c.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn."
-SRP-BR-013-U-C,Depot Loader,Character,Unit,STAG,Common,2 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Armor-Piercing] When it hits a Guarded unit, ignore 1 DEF.
-[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",‘Stack up them crates.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_013_u_c.png,,"[Armor-Piercing] When it hits a Guarded unit, ignore 1
-DEF. [Bandolier] Upkeep: If you have 0 Bullets, gain 2
-Bullets."
-SRP-BR-014-U-C,Field Mechanic,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
-[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",‘Usin' scrap to fix junk.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_014_u_c.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn. [Bandolier] Upkeep: If you have 0
-Bullets, gain 2 Bullets."
-SRP-BR-015-U-C,Supply Driver,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.",‘Time to roll the dice on this run.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_015_u_c.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Head on a Swivel] React: If an enemy enters play, spend 1
-Bullet to ping it for 1."
-SRP-BR-016-U-C,Riot Guard,Character,Unit,STAG,Common,2 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
-[Armor-Piercing] When it hits a Guarded unit, ignore 1 DEF.",‘Back up! Or your face will meet my boot.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_016_u_c.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn. [Armor-Piercing] When it hits a
-Guarded unit, ignore 1 DEF."
-SRP-BR-017-U-C,Watchtower Scout,Character,Unit,STAG,Common,2 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
-[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.",‘On watch for the mutant scourge.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_017_u_c.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn. [Head on a Swivel] React: If an
-enemy enters play, spend 1 Bullet to ping it for 1."
-SRP-BR-018-U-C,Ammo Handler,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
-[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",‘Load em up! Shoot em up! Repeat.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_018_u_c.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn. [Bandolier] Upkeep: If you have 0
-Bullets, gain 2 Bullets."
-SRP-BR-019-U-C,Fuel Convoy Escort,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",‘I bring the gas you bring the beans.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_019_u_c.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn."
-SRP-BR-020-U-C,Checkpoint Guard,Character,Unit,STAG,Common,1 Munitions,HP: 10 / ATK: 2 / DEF: 1,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
-[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",‘Papers please.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_020_u_c.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
-Bullet to ping it for 1. [Bandolier] Upkeep: If you have 0
-Bullets, gain 2 Bullets."
-SRP-BR-006-S-U,STAG Sniper Tulles,Character,Specialist,STAG,Uncommon,2 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
-[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.",Good things come to those who wait.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_s_u.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
-Bullet to ping it for 1. [Bandolier] Upkeep: If you have 0
-Bullets, gain 2 Bullets."
-SRP-BR-007-S-U,Demolitionist Rykov,Character,Specialist,STAG,Uncommon,3 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.",No wall to thick,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_s_u.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Head on a Swivel] React: If an enemy enters play, spend 1
-Bullet to ping it for 1."
-SRP-BR-008-S-U,Squad Leader Marra,Character,Specialist,STAG,Uncommon,3 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
-[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",Fall-in maggots!!,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_s_u.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
-Bullet to ping it for 1. [Tactical Roll] When targeted,
-may spend 1 Bullet: it gains Evasion this turn."
-SRP-BR-009-S-U,Recon Operative Vash,Character,Specialist,STAG,Uncommon,2 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",It has been said that a man like no other wanders the wasteland with a bounty on his head',SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_s_u.png,,"[Bandolier] Upkeep: If you have 0 Bullets, gain 2 Bullets.
-[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn."
-SRP-BR-010-S-U,Riot Suppressor Kryn,Character,Specialist,STAG,Uncommon,2 Munitions,HP: 14 / ATK: 3 / DEF: 2,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
-[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.","Phalanx formation. On three. One, Two, THREE!!",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_s_u.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn. [Head on a Swivel] React: If an
-enemy enters play, spend 1 Bullet to ping it for 1."
-SRP-BR-004-E-R,Juggernaut Unit X-7,Character,Elite,STAG,Rare,4 Munitions,HP: 18 / ATK: 5 / DEF: 3,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
-[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",Juggernaut Unit Online. Identifying target. Initiate engagement protocol.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_e_r.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
-Bullet to ping it for 1. [Tactical Roll] When targeted,
-may spend 1 Bullet: it gains Evasion this turn."
-SRP-BR-005-E-R,Enforcer Lydra,Character,Elite,STAG,Rare,5 Munitions,HP: 18 / ATK: 5 / DEF: 3,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
-[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",Rumor has it she kills any man that she beds.',SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_e_r.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
-Bullet to ping it for 1. [Tactical Roll] When targeted,
-may spend 1 Bullet: it gains Evasion this turn."
-SRP-BR-006-E-R,Ironhand Specialist,Character,Elite,STAG,Rare,5 Munitions,HP: 18 / ATK: 5 / DEF: 3,"[Head on a Swivel] React: If an enemy enters play, spend 1 Bullet to ping it for 1.
-[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.",An iron fist keeps the reigns held tight.',SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_e_r.png,,"[Head on a Swivel] React: If an enemy enters play, spend 1
-Bullet to ping it for 1. [Tactical Roll] When targeted,
-may spend 1 Bullet: it gains Evasion this turn."
-SRP-BR-003-L-L,General Stagwell,Character,Legendary,STAG,Legendary,8 Munitions,HP: 25 / ATK: 7 / DEF: 5,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
-[Suppressor] While you have 2+ Bullets banked, this can’t be targeted by enemy reactions.
-[Suppressive Fire] Spend 1–3 Bullets: Deal that much damage split among enemies.",No one knows where General Stagwell came from but his rise through the ranks was meteoric,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_l_l.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn. [Suppressor] While you have 2+
-Bullets banked, this can’t be targeted by enemy reactions.
-[Suppressive Fire] Spend 1–3 Bullets: Deal that much
-damage split among enemies."
-SRP-BR-004-L-L,Titan Mech Pilot: Bastion,Character,Legendary,STAG,Legendary,7 Munitions,HP: 25 / ATK: 7 / DEF: 5,"[Tactical Roll] When targeted, may spend 1 Bullet: it gains Evasion this turn.
-[Covering Fire] Allies attacking the same target get +1 ATK this turn if you spend 1 Bullet.
-[Suppressive Fire] Spend 1–3 Bullets: Deal that much damage split among enemies.","An alternate pathway to cybernetics, Bastion seems to be more machine than man at this point.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_l_l.png,,"[Tactical Roll] When targeted, may spend 1 Bullet: it
-gains Evasion this turn. [Covering Fire] Allies attacking
-the same target get +1 ATK this turn if you spend 1
-Bullet. [Suppressive Fire] Spend 1–3 Bullets: Deal that
-much damage split among enemies."
-SRP-BR-021-U-C,Street Prophet Malrik,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a card.",‘Ashes fall as prayers echo.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_021_u_c.png,,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a
-card."
-SRP-BR-022-U-C,Acolyte of the Seed,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a card.","‘Faith burns, binding all who kneel.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_022_u_c.png,,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a
-card."
-SRP-BR-023-U-C,Ash Preacher,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Penance] When an ally dies, may gain 1 Faith. If you do, it gets +1/+1.",‘Pay penance for your sins.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_023_u_c.png,,"[Penance] When an ally dies, may gain 1 Faith. If you do,
-it gets +1/+1."
-SRP-BR-024-U-C,Faithful Beggar,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a card.",‘The faithful are rewarded with everlasting life.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_024_u_c.png,,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a
-card."
-SRP-BR-025-U-C,Torchbearer Ilin,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a card.",‘Shed light on the darkness. Burn the rest’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_025_u_c.png,,"[Omen] Enter: Scry 2. If you spent Faith this turn, draw a
-card."
-SRP-BR-026-U-C,Sermon Whisperer,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Invocation] Start of turn: may spend 2 Faith to search your deck for a Ritual.
-[Hex] Enter: Curse a unit (it gets -1 ATK and loses a keyword) until your next turn.",‘Listen closely and you will hear their voices.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_026_u_c.png,,"[Invocation] Start of turn: may spend 2 Faith to search
-your deck for a Ritual. [Hex] Enter: Curse a unit (it gets
--1 ATK and loses a keyword) until your next turn."
-SRP-BR-027-U-C,Bone Collector,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a keyword) until your next turn.
-[Penance] When an ally dies, may gain 1 Faith.","‘Grind the bones into a power, pour some water to make great flour.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_027_u_c.png,,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a
-keyword) until your next turn. [Penance] When an ally
-dies, may gain 1 Faith."
-SRP-BR-028-U-C,Pilgrim of Ash,Character,Unit,COW,Common,2 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Invocation] Start of turn: may spend 2 Faith to search your deck for a Ritual.
-[Blood Tithe] When it deals combat damage, gain 1 Faith.","‘Inevitibly when the human settlements fall, a pilgramage must be made to deliver reverance for your bretherens sacrifice.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_028_u_c.png,,"[Invocation] Start of turn: may spend 2 Faith to search
-your deck for a Ritual. [Blood Tithe] When it deals combat
-damage, gain 1 Faith."
-SRP-BR-029-U-C,Chanting Penitent,Character,Unit,COW,Common,1 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.",‘Yu Mo Gui Gwai Fai Di Zao.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_029_u_c.png,,"[Blood Tithe] When it deals combat damage, gain 1 Faith.
-Then may lose 1 HP to draw."
-SRP-BR-030-U-C,Devoted Flagellant,Character,Unit,COW,Common,1 Faith,HP: 10 / ATK: 2 / DEF: 1,"[Penance] When an ally dies, may gain 1 Faith. If you do, it gets +1/+1.",‘Pennance through action. Flesh for flesh.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_030_u_c.png,,"[Penance] When an ally dies, may gain 1 Faith. If you do,
-it gets +1/+1."
-SRP-BR-011-S-U,Arch Deacon Veyra,Character,Specialist,COW,Uncommon,2 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Penance] When an ally dies, may gain 1 Faith. If you do, it gets +1/+1.",Arch Deacon Veyra is rumored to have converted an entire human settlement without shedding any blood.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_011_s_u.png,,"[Penance] When an ally dies, may gain 1 Faith. If you do,
-it gets +1/+1."
-SRP-BR-012-S-U,Warpriest Korr,Character,Specialist,COW,Uncommon,3 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a keyword) until your next turn.
-[Blood Tithe] When it deals combat damage, gain 1 Faith.",Zealotry is duty. Be the drop of water responsible for the tsunami.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_012_s_u.png,,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a
-keyword) until your next turn. [Blood Tithe] When it deals
-combat damage, gain 1 Faith."
-SRP-BR-013-S-U,Hymn Bearer Isha,Character,Specialist,COW,Uncommon,2 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.","“From torment we find strength, from sacrifice we find truth, in you we find eternity.”",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_013_s_u.png,,"[Blood Tithe] When it deals combat damage, gain 1 Faith.
-Then may lose 1 HP to draw."
-SRP-BR-014-S-U,Ascendant-in-Training,Character,Specialist,COW,Uncommon,4 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Invocation] Start of turn: may spend 2 Faith to search your deck for a Ritual.
-[Omen] Enter: Scry 2.",Mutants walking the path to enlightenment adhere to strict routines and ceremonies.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_014_s_u.png,,"[Invocation] Start of turn: may spend 2 Faith to search
-your deck for a Ritual. [Omen] Enter: Scry 2."
-SRP-BR-015-S-U,Torch Preacher Varna,Character,Specialist,COW,Uncommon,3 Faith,HP: 14 / ATK: 3 / DEF: 2,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a keyword) until your next turn.
-[Penance] When an ally dies, may gain 1 Faith.",Nothing stands in Varna's path...nothing.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_015_s_u.png,,"[Hex] Enter: Curse a unit (it gets -1 ATK and loses a
-keyword) until your next turn. [Penance] When an ally
-dies, may gain 1 Faith."
-SRP-BR-007-E-R,Bishop Altheron,Character,Elite,COW,Rare,4 Faith,HP: 18 / ATK: 5 / DEF: 3,"[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.
-[Penance] When an ally dies, may gain 1 Faith.","And as it is such, so also as such is it unto you.'",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_e_r.png,,"[Blood Tithe] When it deals combat damage, gain 1 Faith.
-Then may lose 1 HP to draw. [Penance] When an ally dies,
-may gain 1 Faith."
-SRP-BR-008-E-R,Zealot of the Spire,Character,Elite,COW,Rare,6 Faith,HP: 18 / ATK: 5 / DEF: 3,"[Penance] When an ally dies, may gain 1 Faith. If you do, it gets +1/+1.
-[Omen] Enter: Scry 2.",The spire requires additional mass. Bring me more meat.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_e_r.png,,"[Penance] When an ally dies, may gain 1 Faith. If you do,
-it gets +1/+1. [Omen] Enter: Scry 2."
-SRP-BR-009-E-R,Angel Karthis,Character,Elite,COW,Rare,5 Faith,HP: 18 / ATK: 5 / DEF: 3,"[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.
-[Omen] Enter: Scry 2.","“A sound torn from the depths, half beast and half fury, that shakes bone and soul alike.”",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_e_r.png,,"[Blood Tithe] When it deals combat damage, gain 1 Faith.
-Then may lose 1 HP to draw. [Omen] Enter: Scry 2."
-SRP-BR-005-L-L,Warlock,Character,Legendary,COW,Legendary,8 Faith,HP: 25 / ATK: 7 / DEF: 5,"[Dark Sermon] Tap, spend 1 Faith: Give another unit +2 ATK or +2 DEF this turn.
-[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.",Those who dare change the future must reconcil their past.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_l_l.png,,"[Dark Sermon] Tap, spend 1 Faith: Give another unit +2 ATK
-or +2 DEF this turn. [Blood Tithe] When it deals combat
-damage, gain 1 Faith. Then may lose 1 HP to draw."
-SRP-BR-006-L-L,Angelic Avatar of Bitterroot,Character,Legendary,COW,Legendary,9 Faith,HP: 25 / ATK: 7 / DEF: 5,"[Dark Sermon] Tap, spend 1 Faith: Give another unit +2 ATK or +2 DEF this turn.
-[Blood Tithe] When it deals combat damage, gain 1 Faith. Then may lose 1 HP to draw.","Rumor has it an original alpha still roams the land. Unshackled from its collar and highly intelligent, this beast is a force to reckon with.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_l_l.png,,"[Dark Sermon] Tap, spend 1 Faith: Give another unit +2 ATK
-or +2 DEF this turn. [Blood Tithe] When it deals combat
-damage, gain 1 Faith. Then may lose 1 HP to draw."
-SRP-BR-001-V-C,Rust Runner Scavenger,Character,Survivor,Survivors,Common,1 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
-[Recycle] When you discard a card, may pay 1 resource to draw.",You can hear their engines before you see the smoke but you know there is no running,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_v_c.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
-this turn. [Recycle] When you discard a card, may pay 1
-resource to draw."
-SRP-BR-002-V-C,Forager Anya,Character,Survivor,Survivors,Common,1 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
-[Skirmish] When it attacks first, it deals its damage before defenders.",Finding non-infected flora is becoming more difficult.',SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_v_c.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
-this turn. [Skirmish] When it attacks first, it deals its
-damage before defenders."
-SRP-BR-003-V-C,Hunter Jorl,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Deathrattle] When it dies, draw a card.
-[Recycle] When you discard a card, may pay 1 resource to draw.",‘Tracking the most dangerous game.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_v_c.png,,"[Deathrattle] When it dies, draw a card. [Recycle] When
-you discard a card, may pay 1 resource to draw."
-SRP-BR-004-V-C,Scrap Farmer Timmons,Character,Survivor,Survivors,Common,1 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Recycle] When you discard a card, may pay 1 resource to draw.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",‘Haulin' ass for some scrap.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_v_c.png,,"[Recycle] When you discard a card, may pay 1 resource to
-draw. [Scout] Enter: Look at the top 3 of your deck; put
-one back on top, the rest on the bottom."
-SRP-BR-005-V-C,River Trader Luth,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Deathrattle] When it dies, draw a card.
-[Recycle] When you discard a card, may pay 1 resource to draw.","‘Tide goes in, tide goes out, aint nobody who can explain that.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_v_c.png,,"[Deathrattle] When it dies, draw a card. [Recycle] When
-you discard a card, may pay 1 resource to draw."
-SRP-BR-006-V-C,Woodsman Darro,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Skirmish] When it attacks first, it deals its damage before defenders.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",‘In 100 more years these forests will yield some fine lumber.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_v_c.png,,"[Skirmish] When it attacks first, it deals its damage
-before defenders. [Valor] When targeted by an ally
-ability, it gains +1/+1 this turn."
-SRP-BR-007-V-C,Campfire Storyteller,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",‘Pull up a chair and listen closely...’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_v_c.png,,"[Scout] Enter: Look at the top 3 of your deck; put one
-back on top, the rest on the bottom. [Valor] When targeted
-by an ally ability, it gains +1/+1 this turn."
-SRP-BR-008-V-C,Wasteland Cook,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
-[Relentless] When it attacks and survives, ready it at end of combat.",‘By now anyone can cook a good stew. Just throw what ya got in a pot and boil it up..’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_v_c.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
-this turn. [Relentless] When it attacks and survives,
-ready it at end of combat."
-SRP-BR-009-V-C,Wandering Peddler,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Skirmish] When it attacks first, it deals its damage before defenders.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.","‘I have what you need, come close and take a look.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_v_c.png,,"[Skirmish] When it attacks first, it deals its damage
-before defenders. [Scout] Enter: Look at the top 3 of your
-deck; put one back on top, the rest on the bottom."
-SRP-BR-010-V-C,Nomad Scout,Character,Survivor,Survivors,Common,2 Supplies,HP: 10 / ATK: 2 / DEF: 1,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",‘Just keeps getting worse out there.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_v_c.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
-this turn. [Scout] Enter: Look at the top 3 of your deck;
-put one back on top, the rest on the bottom."
-SRP-BR-016-S-U,Quartermaster Brigg,Character,Specialist,Survivors,Uncommon,2 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Relentless] When it attacks and survives, ready it at end of combat.
-[Skirmish] When it attacks first, it deals its damage before defenders.",We got another shipment on its way so sit tight.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_016_s_u.png,,"[Relentless] When it attacks and survives, ready it at end
-of combat. [Skirmish] When it attacks first, it deals its
-damage before defenders."
-SRP-BR-017-S-U,Medic Elena,Character,Specialist,Survivors,Uncommon,2 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Deathrattle] When it dies, draw a card.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",Some say Elena's nickname is the Angel of Death.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_017_s_u.png,,"[Deathrattle] When it dies, draw a card. [Scout] Enter:
-Look at the top 3 of your deck; put one back on top, the
-rest on the bottom."
-SRP-BR-018-S-U,Tinkerer Holt,Character,Specialist,Survivors,Uncommon,3 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",Bring Holt some scrap a few nails and a handful of bullets and he will make you whatever you want.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_018_s_u.png,,"[Valor] When targeted by an ally ability, it gains +1/+1
-this turn. [Scout] Enter: Look at the top 3 of your deck;
-put one back on top, the rest on the bottom."
-SRP-BR-019-S-U,Smuggler Jax,Character,Specialist,Survivors,Uncommon,4 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Deathrattle] When it dies, draw a card.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",Got an eye for something special?,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_019_s_u.png,,"[Deathrattle] When it dies, draw a card. [Valor] When
-targeted by an ally ability, it gains +1/+1 this turn."
-SRP-BR-020-S-U,Outfitter Mara,Character,Specialist,Survivors,Uncommon,4 Supplies,HP: 14 / ATK: 3 / DEF: 2,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
-[Skirmish] When it attacks first, it deals its damage before defenders.","Just because it is the end of the world, doesn't mean I can't look good.'",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_020_s_u.png,,"[Scout] Enter: Look at the top 3 of your deck; put one
-back on top, the rest on the bottom. [Skirmish] When it
-attacks first, it deals its damage before defenders."
-SRP-BR-010-E-R,Outpost Leader Kell,Character,Elite,Survivors,Rare,4 Supplies,HP: 18 / ATK: 5 / DEF: 3,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
-[Deathrattle] When it dies, draw a card.",The outpost led by Kell has stood against the storm and held strong. Not many attack it nowdays,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_e_r.png,,"[Scout] Enter: Look at the top 3 of your deck; put one
-back on top, the rest on the bottom. [Deathrattle] When it
-dies, draw a card."
-SRP-BR-011-E-R,Community Defender Ryn,Character,Elite,Survivors,Rare,6 Supplies,HP: 18 / ATK: 5 / DEF: 3,"[Deathrattle] When it dies, draw a card.
-[Recycle] When you discard a card, may pay 1 resource to draw.","When the enemy learns Ryn is on your side, they surrender immediately.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_011_e_r.png,,"[Deathrattle] When it dies, draw a card. [Recycle] When
-you discard a card, may pay 1 resource to draw."
-SRP-BR-012-E-R,Gatekeeper of Hollow Falls,Character,Elite,Survivors,Rare,4 Supplies,HP: 18 / ATK: 5 / DEF: 3,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
-[Recycle] When you discard a card, may pay 1 resource to draw.",The gatekeeper is well respected among the wasteland survivors. They grant or refuse entry.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_012_e_r.png,,"[Scout] Enter: Look at the top 3 of your deck; put one
-back on top, the rest on the bottom. [Recycle] When you
-discard a card, may pay 1 resource to draw."
-SRP-BR-007-L-L,The Last Mayor of Bitterroot,Character,Legendary,Survivors,Legendary,7 Supplies,HP: 25 / ATK: 7 / DEF: 5,"[Recycle] When you discard a card, may pay 1 resource to draw.
-[Deathrattle] When it dies, draw a card.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",The last Mayor of Bitterroot is more of a legend than a person. The title is granted by the valley.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_l_l.png,,"[Recycle] When you discard a card, may pay 1 resource to
-draw. [Deathrattle] When it dies, draw a card. [Scout]
-Enter: Look at the top 3 of your deck; put one back on
-top, the rest on the bottom."
-SRP-BR-008-L-L,The Bitterroot Warden,Character,Legendary,Survivors,Legendary,7 Supplies,HP: 25 / ATK: 7 / DEF: 5,"[Deathrattle] When it dies, draw a card.
-[Recycle] When you discard a card, may pay 1 resource to draw.
-[Guard] While untapped, this can block an extra attacker.","When the Warden of Bitterroot stirs, its presence is felt throughout the land.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_l_l.png,,"[Deathrattle] When it dies, draw a card. [Recycle] When
-you discard a card, may pay 1 resource to draw. [Guard]
-While untapped, this can block an extra attacker."
-SRP-BR-001-P-S,Espen Industries Founder,Artifact,Special,Special,Special,,,"[Deathrattle] When it dies, draw a card.
-[Recycle] When you discard a card, may pay 1 resource to draw.",The founder of Espen Industries is rumored to be still alive but no one knows where.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_p_s.png,1/20,"[Deathrattle] When it dies, draw a card. [Recycle] When
-you discard a card, may pay 1 resource to draw."
-SRP-BR-002-P-S,Lock & Sons Trade Charter,Artifact,Special,Special,Special,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",The charter that started it all. This parchment grants the holder supply contracts from the major companies.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_p_s.png,2/20,"[Skirmish] When it attacks first, it deals its damage
-before defenders. [Scout] Enter: Look at the top 3 of your
-deck; put one back on top, the rest on the bottom."
-SRP-BR-003-P-S,Cult of Warlock Prayer Sheet,Character,Special,Special,Special,,,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.","A relic of the 'old days', this prayer sheet is rumored to be owned by Warlock himself.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_p_s.png,3/20,"[Scout] Enter: Look at the top 3 of your deck; put one
-back on top, the rest on the bottom. [Valor] When targeted
-by an ally ability, it gains +1/+1 this turn."
-SRP-BR-004-P-S,Mutant Behemoth Krask,Character,Special,Special,Special,,,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",This behemoth grew out of the mass of a flower. No one knows how it came to be but many stay out of its way.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_p_s.png,4/20,"[Scout] Enter: Look at the top 3 of your deck; put one
-back on top, the rest on the bottom. [Valor] When targeted
-by an ally ability, it gains +1/+1 this turn."
-SRP-BR-005-P-S,Mutant Ascendant Mireborn,Character,Special,Special,Special,,,"[Relentless] When it attacks and survives, ready it at end of combat.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",One of the first Ascendants to walk the path. Any mutant that comes into its presence is said to hear voices.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_p_s.png,5/20,"[Relentless] When it attacks and survives, ready it at end
-of combat. [Valor] When targeted by an ally ability, it
-gains +1/+1 this turn."
-SRP-BR-006-P-S,Aberrant Screecher,Character,Special,Special,Special,,,"[Valor] When targeted by an ally ability, it gains +1/+1 this turn.
-[Recycle] When you discard a card, may pay 1 resource to draw.","Despite its name, this mutant is rather quiet up until it strikes it target.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_p_s.png,6/20,"[Valor] When targeted by an ally ability, it gains +1/+1
-this turn. [Recycle] When you discard a card, may pay 1
-resource to draw."
-SRP-BR-007-P-S,Twisted Observer,Character,Special,Special,Special,,,"[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",One of the older observers. They take pleasure in stripping the flesh from a human corpse.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_p_s.png,7/20,"[Scout] Enter: Look at the top 3 of your deck; put one
-back on top, the rest on the bottom. [Valor] When targeted
-by an ally ability, it gains +1/+1 this turn."
-SRP-BR-008-P-S,Observer Prototype Relic,Artifact,Special,Special,Special,,,"[Deathrattle] When it dies, draw a card.
-[Skirmish] When it attacks first, it deals its damage before defenders.",Espen Industries prototype for scouting areas while maintaining a low profile.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_p_s.png,8/20,"[Deathrattle] When it dies, draw a card. [Skirmish] When
-it attacks first, it deals its damage before defenders."
-SRP-BR-009-P-S,Bitterroot Map Fragment,Artifact,Special,Special,Special,,,"[Deathrattle] When it dies, draw a card.
-[Skirmish] When it attacks first, it deals its damage before defenders.",A fragment of a map for the Bitterroot Valley.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_p_s.png,9/20,"[Deathrattle] When it dies, draw a card. [Skirmish] When
-it attacks first, it deals its damage before defenders."
-SRP-BR-010-P-S,Rust Runner Banner,Artifact,Special,Special,Special,,,"[Relentless] When it attacks and survives, ready it at end of combat.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",A Rust Runner Banner. Do NOT let them catch you with this.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_p_s.png,10/20,"[Relentless] When it attacks and survives, ready it at end
-of combat. [Scout] Enter: Look at the top 3 of your deck;
-put one back on top, the rest on the bottom."
-SRP-BR-011-P-S,Ancient Codelock,Character,Special,Special,Special,,,"[Deathrattle] When it dies, draw a card.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",An ancient stone codelock. Where did it come from? Who made it?,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_011_p_s.png,11/20,"[Deathrattle] When it dies, draw a card. [Valor] When
-targeted by an ally ability, it gains +1/+1 this turn."
-SRP-BR-012-P-S,Corroded Key,Artifact,Special,Special,Special,,,"[Deathrattle] When it dies, draw a card.
-[Skirmish] When it attacks first, it deals its damage before defenders.",A key that has been corroded by Chromium.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_012_p_s.png,12/20,"[Deathrattle] When it dies, draw a card. [Skirmish] When
-it attacks first, it deals its damage before defenders."
-SRP-BR-013-P-S,A Survivalist’s Token,Artifact,Special,Special,Special Collectible,,,"[Deathrattle] When it dies, draw a card.
-[Valor] When targeted by an ally ability, it gains +1/+1 this turn.",A token from someone who has survived in the wasteland for a long time.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_013_p_s.png,13/20,"[Deathrattle] When it dies, draw a card. [Valor] When
-targeted by an ally ability, it gains +1/+1 this turn."
-SRP-BR-014-P-S,The Bitterroot Seed,Artifact,Special,Special,Special Collectible,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
-[Relentless] When it attacks and survives, ready it at end of combat.",The seed which sprung to life the flower in Hawkins. The beginning and the end.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_014_p_s.png,14/20,"[Skirmish] When it attacks first, it deals its damage
-before defenders. [Relentless] When it attacks and
-survives, ready it at end of combat."
-SRP-BR-015-P-S,Warlock’s Sermon,Character,Special,Special,Special Collectible,,,"[Relentless] When it attacks and survives, ready it at end of combat.
-[Scout] Enter: Look at the top 3 of your deck; put one back on top, the rest on the bottom.",A sermon from Warlock himself. Notable passages are to not hoard objects in the world.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_015_p_s.png,15/20,"[Relentless] When it attacks and survives, ready it at end
-of combat. [Scout] Enter: Look at the top 3 of your deck;
-put one back on top, the rest on the bottom."
-SRP-BR-016-P-S,Survivor Diary,Artifact,Special,Special,Special Collectible,,,"[Recycle] When you discard a card, may pay 1 resource to draw.
-[Deathrattle] When it dies, draw a card.",A diary from a wasteland survivor. Tucked away in a hidden space.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_016_p_s.png,16/20,"[Recycle] When you discard a card, may pay 1 resource to
-draw. [Deathrattle] When it dies, draw a card."
-SRP-BR-017-P-S,Founders’ Pact,Artifact,Special,Special,Special,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
-[Relentless] When it attacks and survives, ready it at end of combat.",The pact a set of founders made to start a settlement.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_017_p_s.png,17/20,"[Skirmish] When it attacks first, it deals its damage
-before defenders. [Relentless] When it attacks and
-survives, ready it at end of combat."
-SRP-BR-018-P-S,Angel’s Tear,Character,Special,Special,Special Collectible,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
-[Relentless] When it attacks and survives, ready it at end of combat.",It is said that when you kill a mature alpha it sheds a tear that can be collected.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_018_p_s.png,18/20,"[Skirmish] When it attacks first, it deals its damage
-before defenders. [Relentless] When it attacks and
-survives, ready it at end of combat."
-SRP-BR-019-P-S,The Last Survivor,Character,Special,Special,Special Collectible,,,"[Relentless] When it attacks and survives, ready it at end of combat.
-[Skirmish] When it attacks first, it deals its damage before defenders.",The last survivor left after an attack. Grows stronger in adversity.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_019_p_s.png,19/20,"[Relentless] When it attacks and survives, ready it at end
-of combat. [Skirmish] When it attacks first, it deals its
-damage before defenders."
-SRP-BR-020-P-S,Relic of Ash,Artifact,Special,Special,Special Collectible,,,"[Skirmish] When it attacks first, it deals its damage before defenders.
-[Relentless] When it attacks and survives, ready it at end of combat.",A relic hidden within the ash of a destroyed settlement.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_020_p_s.png,20/20,"[Skirmish] When it attacks first, it deals its damage
-before defenders. [Relentless] When it attacks and
-survives, ready it at end of combat."
+Row Number,Card ID,Name,Faction,Rarity,Type,Subtype,Cost,Power,Toughness,Abilities,MTG_Text,Flavor Text,Set/Edition,Artwork Ref
+1,SRP-BR-001-U-C,EspenLock Security Drone,EspenLock,Common,Character,Unit,2,2,1,"[Arc Shield] Start of combat: if you have Energy, prevent 2 damage to this.
+[Power Cycle] Enter: gain 1 Energy.","EspenLock Security Drone {2}{U}
+Character — Unit
+[Arc Shield] Start of combat: if you have Energy, prevent 2 damage to this.
+[Power Cycle] Enter: gain 1 Energy.
+“Sparks crackle in silence.”
+2/1",‘Sparks crackle in silence.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_u_c.png
+2,SRP-BR-002-U-C,Lock & Sons Intern,EspenLock,Common,Character,Unit,2,2,1,"[Intern Assist] Enter: gain 1 Energy.
+[Ready Station] (Pay: 1 Energy) → Ready target Artifact.","Lock & Sons Intern {2}{U}
+Character — Unit
+[Intern Assist] Enter: gain 1 Energy.
+[Ready Station] (Pay: 1 Energy) → Ready target Artifact.
+“Power surges guiding the lost.”
+2/1",‘Power surges guiding the lost.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_u_c.png
+3,SRP-BR-003-U-C,Corporate Enforcer,EspenLock,Common,Character,Unit,1,2,1,[Detain] (Pay: 1 Energy) → Tap target damaged Unit; it doesn’t ready next turn.,"Corporate Enforcer {1}{U}
+Character — Unit
+[Detain] (Pay: 1 Energy) → Tap target damaged Unit; it doesn’t ready next turn.
+“Enforcement to ensure a tomorrow.”
+2/1",‘Enforcement to ensure a tomorrow.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_u_c.png
+4,SRP-BR-004-U-C,Logistics Handler,EspenLock,Common,Character,Unit,1,2,1,"[Load Balance] Enter: if you spent Energy this turn, this gets +1 ATK this combat.
+[Cache] End of turn: you may discard a card; if you do, gain 1 Energy.","Logistics Handler {1}{U}
+Character — Unit
+[Load Balance] Enter: if you spent Energy this turn, this gets +1 ATK this combat.
+[Cache] End of turn: you may discard a card; if you do, gain 1 Energy.
+“Need a light? Sign this release form.”
+2/1",‘Need a light? Sign this release form.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_u_c.png
+5,SRP-BR-005-U-C,Corporate Guard,EspenLock,Common,Character,Unit,1,2,1,"[Ward 1] (Damage prevention 1 while targeted.)
+[Security Sweep] Attack: if this is blocked, prevent 1 damage to this.","Corporate Guard {1}{U}
+Character — Unit
+[Ward 1] (Damage prevention 1 while targeted.)
+[Security Sweep] Attack: if this is blocked, prevent 1 damage to this.
+“Corporate defense never felt so good.”
+2/1",‘Corporate defense never felt so good.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_u_c.png
+6,SRP-BR-006-U-C,Data Courier,EspenLock,Common,Character,Unit,2,2,1,"[Data Uplink] (Pay: 2 Energy) → Draw a card, then discard a card.
+[Checksum] End of turn: if you discarded a card, gain 1 Energy.","Data Courier {2}{U}
+Character — Unit
+[Data Uplink] (Pay: 2 Energy) → Draw a card, then discard a card.
+[Checksum] End of turn: if you discarded a card, gain 1 Energy.
+“01110010 01100001 01101001 01101110 00100000 01101111 01110010 00100000 01110011 01101000 01101001 01101110 01100101”
+2/1",‘01110010 01100001 01101001 01101110 00100000 01101111 01110010 00100000 01110011 01101000 01101001 01101110 01100101’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_u_c.png
+7,SRP-BR-007-U-C,Supply Technician,EspenLock,Common,Character,Unit,2,2,1,[Resupply] Enter: create a Battery token (Artifact — “(Pay: Sacrifice) → gain 1 Energy”).,"Supply Technician {2}{U}
+Character — Unit
+[Resupply] Enter: create a Battery token (Artifact — “(Pay: Sacrifice) → gain 1 Energy”).
+“Resupply here”
+2/1",‘Resupply here’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_u_c.png
+8,SRP-BR-008-U-C,Prototype Drone Scout,EspenLock,Common,Character,Unit,2,2,1,"[Scout Optics] This has +1 ATK while attacking alone.
+[Overclock] (Pay: 1 Energy) → Gains First Strike this turn.","Prototype Drone Scout {2}{U}
+Character — Unit
+[Scout Optics] This has +1 ATK while attacking alone.
+[Overclock] (Pay: 1 Energy) → Gains First Strike this turn.
+“The circuit hums and emits a comfortable faint glow.”
+2/1",‘The circuit hums and emits a comfortable faint glow.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_u_c.png
+9,SRP-BR-009-U-C,Resource Auditor,EspenLock,Common,Character,Unit,1,2,1,"[Audit] Enter: look at the top 2 cards of your deck; put one back, one into discard.
+[Efficiency] Start of combat: if you have ≥3 Energy, this gets +1 ATK this combat.","Resource Auditor {1}{U}
+Character — Unit
+[Audit] Enter: look at the top 2 cards of your deck; put one back, one into discard.
+[Efficiency] Start of combat: if you have ≥3 Energy, this gets +1 ATK this combat.
+“You cash the checks but I check the receipts.”
+2/1",‘You cash the checks but I check the receipts.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_u_c.png
+10,SRP-BR-010-U-C,Cargo Overseer,EspenLock,Common,Character,Unit,2,2,1,"[Logistics Chain] Enter: gain 1 Energy.
+[Route Lock] (Pay: 2 Energy) → Tap target Unit.","Cargo Overseer {2}{U}
+Character — Unit
+[Logistics Chain] Enter: gain 1 Energy.
+[Route Lock] (Pay: 2 Energy) → Tap target Unit.
+“Ensuring the cogs are well oiled.”
+2/1",‘Ensuring the cogs are well oiled.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_u_c.png
+11,SRP-BR-001-S-U,Prototype Operator V-12,EspenLock,Uncommon,Character,Specialist,3,3,2,"[Overclock] (Pay: 1 Energy) → +1 ATK and First Strike this turn.
+[Charge Build] End of turn: if you spent Energy, put a Charge on this (max 2).","Prototype Operator V-12 {3}{U}
+Character — Specialist
+[Overclock] (Pay: 1 Energy) → +1 ATK and First Strike this turn.
+[Charge Build] End of turn: if you spent Energy, put a Charge on this (max 2).
+“Only 3 days since the last explosion!”
+3/2",Only 3 days since the last explosion!,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_s_u.png
+12,SRP-BR-002-S-U,Cybernetics Tester,EspenLock,Uncommon,Character,Specialist,4,3,2,"[Rebuild] Enter: heal 2 to target Unit.
+[Cyborg Tune] (Pay: 2 Energy) → Target Unit gets Ward 1 this turn.","Cybernetics Tester {4}{U}
+Character — Specialist
+[Rebuild] Enter: heal 2 to target Unit.
+[Cyborg Tune] (Pay: 2 Energy) → Target Unit gets Ward 1 this turn.
+“All humans can be rebuilt to be better.”
+3/2",All humans can be rebuilt to be better.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_s_u.png
+13,SRP-BR-003-S-U,Corporate Fixer,EspenLock,Uncommon,Character,Specialist,4,3,2,"[Quiet Fix] Enter: tap target Unit.
+[Erase Trail] (Pay: 2 Energy) → Target enemy loses 1 Energy or 1 Supplies (their choice).","Corporate Fixer {4}{U}
+Character — Specialist
+[Quiet Fix] Enter: tap target Unit.
+[Erase Trail] (Pay: 2 Energy) → Target enemy loses 1 Energy or 1 Supplies (their choice).
+“No problem to large. Time to make it disappear.”
+3/2",No problem to large. Time to make it disappear.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_s_u.png
+14,SRP-BR-004-S-U,EspenLock Auditor,EspenLock,Uncommon,Character,Specialist,3,3,2,"[Variance Flag] Enter: Scry 2.
+[Freeze Account] (Pay: 3 Energy) → Tap target Unit; it doesn’t ready next turn.","EspenLock Auditor {3}{U}
+Character — Specialist
+[Variance Flag] Enter: Scry 2.
+[Freeze Account] (Pay: 3 Energy) → Tap target Unit; it doesn’t ready next turn.
+“Inconsistency and disorder is the rot in any organization.”
+3/2",Inconsistency and disorder is the rot in any organization.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_s_u.png
+15,SRP-BR-005-S-U,Field Engineer Kess,EspenLock,Uncommon,Character,Specialist,3,3,2,"[Field Patch] (Pay: 1 Energy) → Heal 2 to target Unit.
+[Tool Up] Enter: create a Battery token.","Field Engineer Kess {3}{U}
+Character — Specialist
+[Field Patch] (Pay: 1 Energy) → Heal 2 to target Unit.
+[Tool Up] Enter: create a Battery token.
+“Wrench it up. Tie it down. Bring the crowbar it's time to party.”
+3/2",Wrench it up. Tie it down. Bring the crowbar it's time to party.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_s_u.png
+16,SRP-BR-001-E-R,Overseer Kline,EspenLock,Rare,Character,Elite,6,5,3,"[Network Shield] Other EspenLock Units you control have Ward 1.
+[Audit Protocol] (Pay: 3 Energy) → Tap up to two enemy Units; they don’t ready next turn.","Overseer Kline {6}{U}
+Character — Elite
+[Network Shield] Other EspenLock Units you control have Ward 1.
+[Audit Protocol] (Pay: 3 Energy) → Tap up to two enemy Units; they don’t ready next turn.
+“It is your honor to serve me.”
+5/3",It is your honor to serve me.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_e_r.png
+17,SRP-BR-002-E-R,Commandant Veynar,EspenLock,Rare,Character,Elite,6,5,3,"[Drill Sergeant] Attack: other attacking EspenLock Units get +1 ATK this combat.
+[Discipline] Start of combat: if you have ≥2 Energy, this gets +1/+1 this turn.","Commandant Veynar {6}{U}
+Character — Elite
+[Drill Sergeant] Attack: other attacking EspenLock Units get +1 ATK this combat.
+[Discipline] Start of combat: if you have ≥2 Energy, this gets +1/+1 this turn.
+“Drop and give me 20!”
+5/3",Drop and give me 20!,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_e_r.png
+18,SRP-BR-003-E-R,EspenLock Blackhand,EspenLock,Rare,Character,Elite,4,5,3,"[Blackout] Enter: tap target Unit. If you spent Energy this turn, also deal 1 damage to it.
+[Ghost Step] (Pay: 2 Energy) → This can’t be blocked this turn.","EspenLock Blackhand {4}{U}
+Character — Elite
+[Blackout] Enter: tap target Unit. If you spent Energy this turn, also deal 1 damage to it.
+[Ghost Step] (Pay: 2 Energy) → This can’t be blocked this turn.
+“Now you see me....”
+5/3",Now you see me....,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_e_r.png
+19,SRP-BR-001-L-L,Director Espen V. Lockhart,EspenLock,Legendary,Character,Legendary,8,7,5,"[Executive Order] Start of combat: choose one — ready a Unit; or tap an enemy Unit; or gain 1 Energy.
+[Corporate Engine] End of turn: if you spent ≥3 Energy this turn, draw a card.","Director Espen V. Lockhart {8}{U}
+Character — Legendary
+[Executive Order] Start of combat: choose one — ready a Unit; or tap an enemy Unit; or gain 1 Energy.
+[Corporate Engine] End of turn: if you spent ≥3 Energy this turn, draw a card.
+“The company will endure the test of time as I have ensured its success.”
+7/5",The company will endure the test of time as I have ensured its success.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_l_l.png
+20,SRP-BR-002-L-L,AI: Project HORIZON,EspenLock,Legendary,Character,Legendary,7,7,5,"[Overseer Routine] Enter: gain 2 Energy.
+[Extermination] (Pay: 4 Energy) → Deal 3 damage divided among up to three Units.","AI: Project HORIZON {7}{U}
+Character — Legendary
+[Overseer Routine] Enter: gain 2 Energy.
+[Extermination] (Pay: 4 Energy) → Deal 3 damage divided among up to three Units.
+“Initiate Extermination Protocols”
+7/5",Initiate Extermination Protocols,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_l_l.png
+21,SRP-BR-011-U-C,STAG Patrolman,STAG,Common,Character,Unit,1,2,1,"[Suppressive Fire] (Pay: 1 Munitions) → Deal 1 damage to target Unit. If it would attack this turn, it can’t.","STAG Patrolman {1}{R}
+Character — Unit
+[Suppressive Fire] (Pay: 1 Munitions) → Deal 1 damage to target Unit. If it would attack this turn, it can’t.
+“Steel marches until order prevails.”
+2/1",‘Steel marches until order prevails.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_011_u_c.png
+22,SRP-BR-012-U-C,Armored Grunt,STAG,Common,Character,Unit,2,2,1,"[Armor Up] Block: this gets +0/+2 this combat.
+[Load Ammo] End of turn: if this didn’t attack, put an Ammo on this (max 1).","Armored Grunt {2}{R}
+Character — Unit
+[Armor Up] Block: this gets +0/+2 this combat.
+[Load Ammo] End of turn: if this didn’t attack, put an Ammo on this (max 1).
+“The rifle waits with iron resolve.”
+2/1",‘The rifle waits with iron resolve.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_012_u_c.png
+23,SRP-BR-013-U-C,Depot Loader,STAG,Common,Character,Unit,2,2,1,"[Crate Lift] Enter: create a Crate token (Artifact — “(Pay: 1 any Resource, Tap, Sacrifice) → Draw a card”).","Depot Loader {2}{R}
+Character — Unit
+[Crate Lift] Enter: create a Crate token (Artifact — “(Pay: 1 any Resource, Tap, Sacrifice) → Draw a card”).
+“Stack up them crates.”
+2/1",‘Stack up them crates.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_013_u_c.png
+24,SRP-BR-014-U-C,Field Mechanic,STAG,Common,Character,Unit,1,2,1,"[Field Repair] (Pay: 1 Munitions) → Heal 1 to a Vehicle or Unit with equipment.
+[Spare Parts] Death: create a Scrap (Survivor) or Ammo (STAG) — your choice.","Field Mechanic {1}{R}
+Character — Unit
+[Field Repair] (Pay: 1 Munitions) → Heal 1 to a Vehicle or Unit with equipment.
+[Spare Parts] Death: create a Scrap (Survivor) or Ammo (STAG) — your choice.
+“Usin' scrap to fix junk.”
+2/1",‘Usin' scrap to fix junk.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_014_u_c.png
+25,SRP-BR-015-U-C,Supply Driver,STAG,Common,Character,Unit,1,2,1,"[Escort] Attack: another attacking Unit gets +1/+0 this combat.
+[Fuel Check] End of turn: if you attacked with a Vehicle, gain 1 Munitions.","Supply Driver {1}{R}
+Character — Unit
+[Escort] Attack: another attacking Unit gets +1/+0 this combat.
+[Fuel Check] End of turn: if you attacked with a Vehicle, gain 1 Munitions.
+“Time to roll the dice on this run.”
+2/1",‘Time to roll the dice on this run.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_015_u_c.png
+26,SRP-BR-016-U-C,Riot Guard,STAG,Common,Character,Unit,2,2,1,"[Riot Shield] Block: prevent 2 damage to this.
+[Push Back] (Pay: 1 Munitions) → Tap target Unit.","Riot Guard {2}{R}
+Character — Unit
+[Riot Shield] Block: prevent 2 damage to this.
+[Push Back] (Pay: 1 Munitions) → Tap target Unit.
+“Back up! Or your face will meet my boot.”
+2/1",‘Back up! Or your face will meet my boot.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_016_u_c.png
+27,SRP-BR-017-U-C,Watchtower Scout,STAG,Common,Character,Unit,2,2,1,"[Spotter] Start of combat: the next time target enemy Unit would attack this turn, it gets −1 ATK.
+[Signal Flare] (Pay: 1 Munitions) → Reveal the top card of your deck; if it’s a Unit, draw it.","Watchtower Scout {2}{R}
+Character — Unit
+[Spotter] Start of combat: the next time target enemy Unit would attack this turn, it gets −1 ATK.
+[Signal Flare] (Pay: 1 Munitions) → Reveal the top card of your deck; if it’s a Unit, draw it.
+“On watch for the mutant scourge.”
+2/1",‘On watch for the mutant scourge.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_017_u_c.png
+28,SRP-BR-018-U-C,Ammo Handler,STAG,Common,Character,Unit,1,2,1,"[Ammo Run] Enter: gain 1 Munitions.
+[Load Team] Attack: another attacking Unit gets +1 ATK this combat.","Ammo Handler {1}{R}
+Character — Unit
+[Ammo Run] Enter: gain 1 Munitions.
+[Load Team] Attack: another attacking Unit gets +1 ATK this combat.
+“Load em up! Shoot em up! Repeat.”
+2/1",‘Load em up! Shoot em up! Repeat.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_018_u_c.png
+29,SRP-BR-019-U-C,Fuel Convoy Escort,STAG,Common,Character,Unit,1,2,1,"[Convoy Screen] While attacking with another Unit, this has +1/+0.
+[Fuel Drum] Enter: create a Drum token (Artifact — “(Pay: 1 Munitions, Sacrifice) → deal 1 damage to any Unit”).","Fuel Convoy Escort {1}{R}
+Character — Unit
+[Convoy Screen] While attacking with another Unit, this has +1/+0.
+[Fuel Drum] Enter: create a Drum token (Artifact — “(Pay: 1 Munitions, Sacrifice) → deal 1 damage to any Unit”).
+“I bring the gas you bring the beans.”
+2/1",‘I bring the gas you bring the beans.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_019_u_c.png
+30,SRP-BR-020-U-C,Checkpoint Guard,STAG,Common,Character,Unit,1,2,1,"[Checkpoint] Enter: tap target Unit.
+[Papers Please] Start of combat: if an enemy Unit is tapped, this gets +1 ATK this combat.","Checkpoint Guard {1}{R}
+Character — Unit
+[Checkpoint] Enter: tap target Unit.
+[Papers Please] Start of combat: if an enemy Unit is tapped, this gets +1 ATK this combat.
+“Papers please.”
+2/1",‘Papers please.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_020_u_c.png
+31,SRP-BR-006-S-U,STAG Sniper Tulles,STAG,Uncommon,Character,Specialist,2,3,2,"[Long Shot] Attack: you may put an Ammo on this (max 2).
+[Marked] (Pay: Remove 1 Ammo) → Deal 2 damage to target tapped Unit.","STAG Sniper Tulles {2}{R}
+Character — Specialist
+[Long Shot] Attack: you may put an Ammo on this (max 2).
+[Marked] (Pay: Remove 1 Ammo) → Deal 2 damage to target tapped Unit.
+“Good things come to those who wait.”
+3/2",Good things come to those who wait.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_s_u.png
+32,SRP-BR-007-S-U,Demolitionist Rykov,STAG,Uncommon,Character,Specialist,3,3,2,"[Breach] (Pay: 2 Munitions) → Destroy target Barrier/Shield/Structure; otherwise deal 2 to Elite/Legendary.
+[Satchel] Enter: put an Ammo on this.","Demolitionist Rykov {3}{R}
+Character — Specialist
+[Breach] (Pay: 2 Munitions) → Destroy target Barrier/Shield/Structure; otherwise deal 2 to Elite/Legendary.
+[Satchel] Enter: put an Ammo on this.
+“No wall to thick”
+3/2",No wall to thick,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_s_u.png
+33,SRP-BR-008-S-U,Squad Leader Marra,STAG,Uncommon,Character,Specialist,3,3,2,"[Coordinated Volley] Attack: other attacking Units get +1 ATK this combat.
+[Fall In] Enter: ready another STAG Unit.","Squad Leader Marra {3}{R}
+Character — Specialist
+[Coordinated Volley] Attack: other attacking Units get +1 ATK this combat.
+[Fall In] Enter: ready another STAG Unit.
+“Fall-in maggots!!”
+3/2",Fall-in maggots!!,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_s_u.png
+34,SRP-BR-009-S-U,Recon Operative Vash,STAG,Uncommon,Character,Specialist,2,3,2,"[Recon] Enter: look at the top 3 cards of your deck; you may put one into your hand.
+[Camouflage] This can’t be blocked by Units with higher ATK.","Recon Operative Vash {2}{R}
+Character — Specialist
+[Recon] Enter: look at the top 3 cards of your deck; you may put one into your hand.
+[Camouflage] This can’t be blocked by Units with higher ATK.
+“It has been said that a man like no other wanders the wasteland with a bounty on his head'”
+3/2",It has been said that a man like no other wanders the wasteland with a bounty on his head',SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_s_u.png
+35,SRP-BR-010-S-U,Riot Suppressor Kryn,STAG,Uncommon,Character,Specialist,2,3,2,"[Phalanx] Block: another blocking Unit gets +0/+2 this combat.
+[Disperse] (Pay: 2 Munitions) → Tap up to two enemy Units.","Riot Suppressor Kryn {2}{R}
+Character — Specialist
+[Phalanx] Block: another blocking Unit gets +0/+2 this combat.
+[Disperse] (Pay: 2 Munitions) → Tap up to two enemy Units.
+“Phalanx formation. On three. One, Two, THREE!!”
+3/2","Phalanx formation. On three. One, Two, THREE!!",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_s_u.png
+36,SRP-BR-004-E-R,Juggernaut Unit X-7,STAG,Rare,Character,Elite,4,5,3,"[Trample]
+[Riot Protocol] (Pay: 3 Munitions) → Tap up to two Units; they don’t ready next turn.","Juggernaut Unit X-7 {4}{R}
+Character — Elite
+[Trample]
+[Riot Protocol] (Pay: 3 Munitions) → Tap up to two Units; they don’t ready next turn.
+“Juggernaut Unit Online. Identifying target. Initiate engagement protocol.”
+5/3",Juggernaut Unit Online. Identifying target. Initiate engagement protocol.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_e_r.png
+37,SRP-BR-005-E-R,Enforcer Lydra,STAG,Rare,Character,Elite,5,5,3,"[Close Quarters] This has First Strike while attacking alone.
+[Brutal Order] Enter: target enemy Unit can’t attack next turn.","Enforcer Lydra {5}{R}
+Character — Elite
+[Close Quarters] This has First Strike while attacking alone.
+[Brutal Order] Enter: target enemy Unit can’t attack next turn.
+“Rumor has it she kills any man that she beds.'”
+5/3",Rumor has it she kills any man that she beds.',SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_e_r.png
+38,SRP-BR-006-E-R,Ironhand Specialist,STAG,Rare,Character,Elite,5,5,3,"[Iron Grip] Other STAG Units you control get +0/+1.
+[Clampdown] (Pay: 2 Munitions) → Tap target Unit; if it was already tapped, deal 1 to it.","Ironhand Specialist {5}{R}
+Character — Elite
+[Iron Grip] Other STAG Units you control get +0/+1.
+[Clampdown] (Pay: 2 Munitions) → Tap target Unit; if it was already tapped, deal 1 to it.
+“An iron fist keeps the reigns held tight.'”
+5/3",An iron fist keeps the reigns held tight.',SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_e_r.png
+39,SRP-BR-003-L-L,General Stagwell,STAG,Legendary,Character,Legendary,8,7,5,"[War Doctrine] Your STAG Units get +1 ATK while attacking.
+[Total Mobilization] (Pay: 4 Munitions) → Ready all your Units; they get +0/+1 this turn.","General Stagwell {8}{R}
+Character — Legendary
+[War Doctrine] Your STAG Units get +1 ATK while attacking.
+[Total Mobilization] (Pay: 4 Munitions) → Ready all your Units; they get +0/+1 this turn.
+“No one knows where General Stagwell came from but his rise through the ranks was meteoric”
+7/5",No one knows where General Stagwell came from but his rise through the ranks was meteoric,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_l_l.png
+40,SRP-BR-004-L-L,Titan Mech Pilot: Bastion,STAG,Legendary,Character,Legendary,7,7,5,"[Pilot Sync] While you control a Vehicle, this gets +2/+2.
+[Mech Overdrive] (Pay: 3 Munitions) → Target Vehicle gets +2/+0 and Trample this turn.","Titan Mech Pilot: Bastion {7}{R}
+Character — Legendary
+[Pilot Sync] While you control a Vehicle, this gets +2/+2.
+[Mech Overdrive] (Pay: 3 Munitions) → Target Vehicle gets +2/+0 and Trample this turn.
+“An alternate pathway to cybernetics, Bastion seems to be more machine than man at this point.”
+7/5","An alternate pathway to cybernetics, Bastion seems to be more machine than man at this point.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_l_l.png
+41,SRP-BR-021-U-C,Street Prophet Malrik,COW,Common,Character,Unit,2,2,1,"[Penance] Enter: you may sacrifice another Unit. If you do, put 2 Devotion on this.
+[Zeal] Attack: if this has Devotion ≥2, it gets +2/+0 this combat.","Street Prophet Malrik {2}{W}
+Character — Unit
+[Penance] Enter: you may sacrifice another Unit. If you do, put 2 Devotion on this.
+[Zeal] Attack: if this has Devotion ≥2, it gets +2/+0 this combat.
+“Ashes fall as prayers echo.”
+2/1",‘Ashes fall as prayers echo.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_021_u_c.png
+42,SRP-BR-022-U-C,Acolyte of the Seed,COW,Common,Character,Unit,2,2,1,"[Tend the Seed] End of turn: if you gained HP this turn, put a Devotion on this (max 2).
+[Hand of Mercy] (Pay: 1 Faith) → Heal 2 to target Unit.","Acolyte of the Seed {2}{W}
+Character — Unit
+[Tend the Seed] End of turn: if you gained HP this turn, put a Devotion on this (max 2).
+[Hand of Mercy] (Pay: 1 Faith) → Heal 2 to target Unit.
+“Faith burns, binding all who kneel.”
+2/1","‘Faith burns, binding all who kneel.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_022_u_c.png
+43,SRP-BR-023-U-C,Ash Preacher,COW,Common,Character,Unit,2,2,1,[Ashen Rebuke] (Pay: 1 Faith) → Target Unit gets −1/−0 and can’t ready next turn if it was damaged this turn.,"Ash Preacher {2}{W}
+Character — Unit
+[Ashen Rebuke] (Pay: 1 Faith) → Target Unit gets −1/−0 and can’t ready next turn if it was damaged this turn.
+“Pay penance for your sins.”
+2/1",‘Pay penance for your sins.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_023_u_c.png
+44,SRP-BR-024-U-C,Faithful Beggar,COW,Common,Character,Unit,2,2,1,"[Alms] Enter: create a 1/1 Penitent token.
+[Humble Boon] Death: you gain 1 HP.","Faithful Beggar {2}{W}
+Character — Unit
+[Alms] Enter: create a 1/1 Penitent token.
+[Humble Boon] Death: you gain 1 HP.
+“The faithful are rewarded with everlasting life.”
+2/1",‘The faithful are rewarded with everlasting life.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_024_u_c.png
+45,SRP-BR-025-U-C,Torchbearer Ilin,COW,Common,Character,Unit,2,2,1,"[Torchlight] Attack: deal 1 damage to target Unit that blocked this.
+[Fan the Flame] (Pay: 1 Faith) → Target Unit gets Menace this turn.","Torchbearer Ilin {2}{W}
+Character — Unit
+[Torchlight] Attack: deal 1 damage to target Unit that blocked this.
+[Fan the Flame] (Pay: 1 Faith) → Target Unit gets Menace this turn.
+“Shed light on the darkness. Burn the rest”
+2/1",‘Shed light on the darkness. Burn the rest’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_025_u_c.png
+46,SRP-BR-026-U-C,Sermon Whisperer,COW,Common,Character,Unit,2,2,1,"[Whispers] Enter: Scry 2.
+[Guided Step] Start of combat: if you control a Penitent, this gets +1 ATK this combat.","Sermon Whisperer {2}{W}
+Character — Unit
+[Whispers] Enter: Scry 2.
+[Guided Step] Start of combat: if you control a Penitent, this gets +1 ATK this combat.
+“Listen closely and you will hear their voices.”
+2/1",‘Listen closely and you will hear their voices.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_026_u_c.png
+47,SRP-BR-027-U-C,Bone Collector,COW,Common,Character,Unit,2,2,1,"[Bone Meal] Enter: put a Devotion on up to two different Units.
+[Mortar & Pestle] (Pay: 2 Faith) → Create a 2/2 Acolyte token.","Bone Collector {2}{W}
+Character — Unit
+[Bone Meal] Enter: put a Devotion on up to two different Units.
+[Mortar & Pestle] (Pay: 2 Faith) → Create a 2/2 Acolyte token.
+“Grind the bones into a power, pour some water to make great flour.”
+2/1","‘Grind the bones into a power, pour some water to make great flour.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_027_u_c.png
+48,SRP-BR-028-U-C,Pilgrim of Ash,COW,Common,Character,Unit,2,2,1,"[Pilgrimage] End of turn: if a Unit died this turn, you gain 1 HP.
+[Carry the Ash] (Pay: 1 Faith) → Target Unit gets Lifelink this turn.","Pilgrim of Ash {2}{W}
+Character — Unit
+[Pilgrimage] End of turn: if a Unit died this turn, you gain 1 HP.
+[Carry the Ash] (Pay: 1 Faith) → Target Unit gets Lifelink this turn.
+“Inevitibly when the human settlements fall, a pilgramage must be made to deliver reverance for your bretherens sacrifice.”
+2/1","‘Inevitibly when the human settlements fall, a pilgramage must be made to deliver reverance for your bretherens sacrifice.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_028_u_c.png
+49,SRP-BR-029-U-C,Chanting Penitent,COW,Common,Character,Unit,1,2,1,"[Chant] Start of combat: another friendly Unit gets +1 ATK this combat.
+[Humble Piety] (Pay: 1 Faith) → Put a Devotion on target Unit.","Chanting Penitent {1}{W}
+Character — Unit
+[Chant] Start of combat: another friendly Unit gets +1 ATK this combat.
+[Humble Piety] (Pay: 1 Faith) → Put a Devotion on target Unit.
+“Yu Mo Gui Gwai Fai Di Zao.”
+2/1",‘Yu Mo Gui Gwai Fai Di Zao.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_029_u_c.png
+50,SRP-BR-030-U-C,Devoted Flagellant,COW,Common,Character,Unit,1,2,1,"[Flagellate] Attack: you may deal 1 damage to this; if you do, it gets +2/+0 this combat.","Devoted Flagellant {1}{W}
+Character — Unit
+[Flagellate] Attack: you may deal 1 damage to this; if you do, it gets +2/+0 this combat.
+“Pennance through action. Flesh for flesh.”
+2/1",‘Pennance through action. Flesh for flesh.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_030_u_c.png
+51,SRP-BR-011-S-U,Arch Deacon Veyra,COW,Uncommon,Character,Specialist,2,3,2,"[Sermon] Other COW Units get +1/+0 while you have ≥3 total Devotion among your Units.
+[Litany] (Pay: 1 Faith) → Scry 2.","Arch Deacon Veyra {2}{W}
+Character — Specialist
+[Sermon] Other COW Units get +1/+0 while you have ≥3 total Devotion among your Units.
+[Litany] (Pay: 1 Faith) → Scry 2.
+“Arch Deacon Veyra is rumored to have converted an entire human settlement without shedding any blood.”
+3/2",Arch Deacon Veyra is rumored to have converted an entire human settlement without shedding any blood.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_011_s_u.png
+52,SRP-BR-012-S-U,Warpriest Korr,COW,Uncommon,Character,Specialist,3,3,2,"[Zealotry] Attack: if a Unit died this turn, this gets +2/+0 and Menace this combat.
+[Holy Task] (Pay: 2 Faith) → Create a 1/1 Penitent.","Warpriest Korr {3}{W}
+Character — Specialist
+[Zealotry] Attack: if a Unit died this turn, this gets +2/+0 and Menace this combat.
+[Holy Task] (Pay: 2 Faith) → Create a 1/1 Penitent.
+“Zealotry is duty. Be the drop of water responsible for the tsunami.”
+3/2",Zealotry is duty. Be the drop of water responsible for the tsunami.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_012_s_u.png
+53,SRP-BR-013-S-U,Hymn Bearer Isha,COW,Uncommon,Character,Specialist,2,3,2,"[Hymn] Enter: draw a card, then discard a card.
+[Carry the Tune] (Pay: 1 Faith) → Target Unit gets +1/+0 this turn.","Hymn Bearer Isha {2}{W}
+Character — Specialist
+[Hymn] Enter: draw a card, then discard a card.
+[Carry the Tune] (Pay: 1 Faith) → Target Unit gets +1/+0 this turn.
+““From torment we find strength, from sacrifice we find truth, in you we find eternity.””
+3/2","“From torment we find strength, from sacrifice we find truth, in you we find eternity.”",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_013_s_u.png
+54,SRP-BR-014-S-U,Ascendant-in-Training,COW,Uncommon,Character,Specialist,4,3,2,"[Rite of Ascension] (Pay: 3 Faith, Sacrifice a Unit) → Create a 4/2 Ascendant with Menace and Lifelink.
+[Practice the Path] End of turn: if you sacrificed this turn, put a Devotion on this.","Ascendant-in-Training {4}{W}
+Character — Specialist
+[Rite of Ascension] (Pay: 3 Faith, Sacrifice a Unit) → Create a 4/2 Ascendant with Menace and Lifelink.
+[Practice the Path] End of turn: if you sacrificed this turn, put a Devotion on this.
+“Mutants walking the path to enlightenment adhere to strict routines and ceremonies.”
+3/2",Mutants walking the path to enlightenment adhere to strict routines and ceremonies.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_014_s_u.png
+55,SRP-BR-015-S-U,Torch Preacher Varna,COW,Uncommon,Character,Specialist,3,3,2,"[Torch Ritual] (Pay: 2 Faith) → Deal 2 damage to target Unit; you gain 1 HP.
+[Keep the Flame] Enter: put a Devotion on up to two different Units.","Torch Preacher Varna {3}{W}
+Character — Specialist
+[Torch Ritual] (Pay: 2 Faith) → Deal 2 damage to target Unit; you gain 1 HP.
+[Keep the Flame] Enter: put a Devotion on up to two different Units.
+“Nothing stands in Varna's path...nothing.”
+3/2",Nothing stands in Varna's path...nothing.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_015_s_u.png
+56,SRP-BR-007-E-R,Bishop Altheron,COW,Rare,Character,Elite,4,5,3,"[Bishop’s Edict] Enter: tap up to two enemy Units.
+[Judgment] Start of combat: if you have ≥3 Faith, an enemy Unit gets −1/−0 this turn.","Bishop Altheron {4}{W}
+Character — Elite
+[Bishop’s Edict] Enter: tap up to two enemy Units.
+[Judgment] Start of combat: if you have ≥3 Faith, an enemy Unit gets −1/−0 this turn.
+“And as it is such, so also as such is it unto you.'”
+5/3","And as it is such, so also as such is it unto you.'",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_e_r.png
+57,SRP-BR-008-E-R,Zealot of the Spire,COW,Rare,Character,Elite,6,5,3,"[Meat for the Spire] Attack: you may sacrifice another Unit; if you do, create a 4/2 Ascendant token tapped and attacking.
+[Voracious Zeal] This has Lifelink while you control an Ascendant.","Zealot of the Spire {6}{W}
+Character — Elite
+[Meat for the Spire] Attack: you may sacrifice another Unit; if you do, create a 4/2 Ascendant token tapped and attacking.
+[Voracious Zeal] This has Lifelink while you control an Ascendant.
+“The spire requires additional mass. Bring me more meat.”
+5/3",The spire requires additional mass. Bring me more meat.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_e_r.png
+58,SRP-BR-009-E-R,Angel Karthis,COW,Rare,Character,Elite,5,5,3,"[Angel’s Cry] Enter: deal 2 damage to each enemy Unit that attacked last turn.
+[Aegis of Faith] Ward 1; if you have ≥4 Devotion on your board, Ward 2 instead.","Angel Karthis {5}{W}
+Character — Elite
+[Angel’s Cry] Enter: deal 2 damage to each enemy Unit that attacked last turn.
+[Aegis of Faith] Ward 1; if you have ≥4 Devotion on your board, Ward 2 instead.
+““A sound torn from the depths, half beast and half fury, that shakes bone and soul alike.””
+5/3","“A sound torn from the depths, half beast and half fury, that shakes bone and soul alike.”",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_e_r.png
+59,SRP-BR-005-L-L,Warlock,COW,Legendary,Character,Legendary,8,7,5,"[Cult Founder] End of turn: create a 1/1 Penitent, then you may sacrifice a Unit: put a Devotion on Warlock.
+[Ascend] (Pay: 4 Faith, Sacrifice a Unit) → Create a 4/2 Ascendant with Menace and Lifelink.","Warlock {8}{W}
+Character — Legendary
+[Cult Founder] End of turn: create a 1/1 Penitent, then you may sacrifice a Unit: put a Devotion on Warlock.
+[Ascend] (Pay: 4 Faith, Sacrifice a Unit) → Create a 4/2 Ascendant with Menace and Lifelink.
+“Those who dare change the future must reconcil their past.”
+7/5",Those who dare change the future must reconcil their past.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_l_l.png
+60,SRP-BR-006-L-L,Angelic Avatar of Bitterroot,COW,Legendary,Character,Legendary,9,7,5,"[Avatar’s Fury] Attack: deal 2 damage divided as you choose among up to two Units.
+[Bone Spears] This has Menace and First Strike while your HP ≤ 10.","Angelic Avatar of Bitterroot {9}{W}
+Character — Legendary
+[Avatar’s Fury] Attack: deal 2 damage divided as you choose among up to two Units.
+[Bone Spears] This has Menace and First Strike while your HP ≤ 10.
+“Rumor has it an original alpha still roams the land. Unshackled from its collar and highly intelligent, this beast is a force to reckon with.”
+7/5","Rumor has it an original alpha still roams the land. Unshackled from its collar and highly intelligent, this beast is a force to reckon with.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_l_l.png
+61,SRP-BR-001-V-C,Rust Runner Scavenger,Survivors,Common,Character,Survivor,1,2,1,"[Haste]
+[Scavenge] End of turn: if another friendly Unit died this turn, gain 1 Scrap.","Rust Runner Scavenger {1}{G}
+Character — Survivor
+[Haste]
+[Scavenge] End of turn: if another friendly Unit died this turn, gain 1 Scrap.
+“You can hear their engines before you see the smoke but you know there is no running”
+2/1",You can hear their engines before you see the smoke but you know there is no running,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_v_c.png
+62,SRP-BR-002-V-C,Forager Anya,Survivors,Common,Character,Survivor,1,2,1,"[Forage] Enter: look at the top 2 cards of your deck; you may put a Resource among them into your hand.
+[Fieldcraft] Start of combat: if you gained Supplies this turn, this gets +1/+1 this combat.","Forager Anya {1}{G}
+Character — Survivor
+[Forage] Enter: look at the top 2 cards of your deck; you may put a Resource among them into your hand.
+[Fieldcraft] Start of combat: if you gained Supplies this turn, this gets +1/+1 this combat.
+“Finding non-infected flora is becoming more difficult.'”
+2/1",Finding non-infected flora is becoming more difficult.',SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_v_c.png
+63,SRP-BR-003-V-C,Hunter Jorl,Survivors,Common,Character,Survivor,2,2,1,"[Tracker] Attack: target enemy Unit gets −1 ATK this combat.
+[Skin & Bone] End of turn: if a Unit was damaged this turn, gain 1 Scrap.","Hunter Jorl {2}{G}
+Character — Survivor
+[Tracker] Attack: target enemy Unit gets −1 ATK this combat.
+[Skin & Bone] End of turn: if a Unit was damaged this turn, gain 1 Scrap.
+“Tracking the most dangerous game.”
+2/1",‘Tracking the most dangerous game.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_v_c.png
+64,SRP-BR-004-V-C,Scrap Farmer Timmons,Survivors,Common,Character,Survivor,1,2,1,"[Scrap Haul] Enter: gain 1 Scrap.
+[Jury-Rig] (Pay: 1 Supplies, Remove 1 Scrap) → Target Unit gets +1/+2 and Ward 1 this turn.","Scrap Farmer Timmons {1}{G}
+Character — Survivor
+[Scrap Haul] Enter: gain 1 Scrap.
+[Jury-Rig] (Pay: 1 Supplies, Remove 1 Scrap) → Target Unit gets +1/+2 and Ward 1 this turn.
+“Haulin' ass for some scrap.”
+2/1",‘Haulin' ass for some scrap.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_v_c.png
+65,SRP-BR-005-V-C,River Trader Luth,Survivors,Common,Character,Survivor,2,2,1,"[River Trade] Enter: (Pay: 1 Supplies) → Draw a card.
+[Haggle] End of turn: you may discard a card; if you do, gain 1 Supplies.","River Trader Luth {2}{G}
+Character — Survivor
+[River Trade] Enter: (Pay: 1 Supplies) → Draw a card.
+[Haggle] End of turn: you may discard a card; if you do, gain 1 Supplies.
+“Tide goes in, tide goes out, aint nobody who can explain that.”
+2/1","‘Tide goes in, tide goes out, aint nobody who can explain that.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_v_c.png
+66,SRP-BR-006-V-C,Woodsman Darro,Survivors,Common,Character,Survivor,2,2,1,"[Woodsense] This has Reach.
+[Timberline] Start of combat: if you control another Survivor, this gets +1 ATK this combat.","Woodsman Darro {2}{G}
+Character — Survivor
+[Woodsense] This has Reach.
+[Timberline] Start of combat: if you control another Survivor, this gets +1 ATK this combat.
+“In 100 more years these forests will yield some fine lumber.”
+2/1",‘In 100 more years these forests will yield some fine lumber.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_v_c.png
+67,SRP-BR-007-V-C,Campfire Storyteller,Survivors,Common,Character,Survivor,2,2,1,[Campfire Stories] Enter: other Survivors get +1/+1 this turn.,"Campfire Storyteller {2}{G}
+Character — Survivor
+[Campfire Stories] Enter: other Survivors get +1/+1 this turn.
+“Pull up a chair and listen closely...”
+2/1",‘Pull up a chair and listen closely...’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_v_c.png
+68,SRP-BR-008-V-C,Wasteland Cook,Survivors,Common,Character,Survivor,2,2,1,"[Hearty Stew] Enter: heal 2 to up to two different Units.
+[Leftovers] End of turn: if you healed this turn, gain 1 Supplies.","Wasteland Cook {2}{G}
+Character — Survivor
+[Hearty Stew] Enter: heal 2 to up to two different Units.
+[Leftovers] End of turn: if you healed this turn, gain 1 Supplies.
+“By now anyone can cook a good stew. Just throw what ya got in a pot and boil it up..”
+2/1",‘By now anyone can cook a good stew. Just throw what ya got in a pot and boil it up..’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_v_c.png
+69,SRP-BR-009-V-C,Wandering Peddler,Survivors,Common,Character,Survivor,2,2,1,"[Pack Wares] Enter: draw a card, then discard a card.
+[Barter] (Pay: 2 Supplies) → Draw a card. You may discard a card to gain 1 Supplies.","Wandering Peddler {2}{G}
+Character — Survivor
+[Pack Wares] Enter: draw a card, then discard a card.
+[Barter] (Pay: 2 Supplies) → Draw a card. You may discard a card to gain 1 Supplies.
+“I have what you need, come close and take a look.”
+2/1","‘I have what you need, come close and take a look.’",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_v_c.png
+70,SRP-BR-010-V-C,Nomad Scout,Survivors,Common,Character,Survivor,2,2,1,"[Scout Ahead] Attack: you may Scry 1.
+[Signal] Start of combat: another Survivor gets +1 ATK this combat.","Nomad Scout {2}{G}
+Character — Survivor
+[Scout Ahead] Attack: you may Scry 1.
+[Signal] Start of combat: another Survivor gets +1 ATK this combat.
+“Just keeps getting worse out there.”
+2/1",‘Just keeps getting worse out there.’,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_v_c.png
+71,SRP-BR-016-S-U,Quartermaster Brigg,Survivors,Uncommon,Character,Specialist,2,3,2,"[Quartermaster] Enter: create a Crate token (Artifact — “(Pay: 1 any Resource, Tap, Sacrifice) → Draw a card”).
+[Ready Up] (Pay: 1 Supplies) → Ready target Survivor.","Quartermaster Brigg {2}{G}
+Character — Specialist
+[Quartermaster] Enter: create a Crate token (Artifact — “(Pay: 1 any Resource, Tap, Sacrifice) → Draw a card”).
+[Ready Up] (Pay: 1 Supplies) → Ready target Survivor.
+“We got another shipment on its way so sit tight.”
+3/2",We got another shipment on its way so sit tight.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_016_s_u.png
+72,SRP-BR-017-S-U,Medic Elena,Survivors,Uncommon,Character,Specialist,2,3,2,"[Angel of Mercy] Enter: heal 3 to target Unit.
+[Stitch Kit] (Pay: 2 Supplies, Tap) → Heal 3 to target Unit.","Medic Elena {2}{G}
+Character — Specialist
+[Angel of Mercy] Enter: heal 3 to target Unit.
+[Stitch Kit] (Pay: 2 Supplies, Tap) → Heal 3 to target Unit.
+“Some say Elena's nickname is the Angel of Death.”
+3/2",Some say Elena's nickname is the Angel of Death.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_017_s_u.png
+73,SRP-BR-018-S-U,Tinkerer Holt,Survivors,Uncommon,Character,Specialist,3,3,2,"[Tinker] Enter: gain 1 Scrap.
+[Make Do] (Pay: 1 Supplies, Remove 1 Scrap) → Create a 2/2 Jury-Rigged token with Ward 1 this turn.","Tinkerer Holt {3}{G}
+Character — Specialist
+[Tinker] Enter: gain 1 Scrap.
+[Make Do] (Pay: 1 Supplies, Remove 1 Scrap) → Create a 2/2 Jury-Rigged token with Ward 1 this turn.
+“Bring Holt some scrap a few nails and a handful of bullets and he will make you whatever you want.”
+3/2",Bring Holt some scrap a few nails and a handful of bullets and he will make you whatever you want.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_018_s_u.png
+74,SRP-BR-019-S-U,Smuggler Jax,Survivors,Uncommon,Character,Specialist,4,3,2,"[Smuggle] Enter: create a Cache token (Artifact — “(Pay: 1 Supplies, Tap, Sacrifice) → draw a card; then gain 1 Supplies”).
+[Look the Other Way] (Pay: 2 Supplies) → Target Unit can’t block this turn.","Smuggler Jax {4}{G}
+Character — Specialist
+[Smuggle] Enter: create a Cache token (Artifact — “(Pay: 1 Supplies, Tap, Sacrifice) → draw a card; then gain 1 Supplies”).
+[Look the Other Way] (Pay: 2 Supplies) → Target Unit can’t block this turn.
+“Got an eye for something special?”
+3/2",Got an eye for something special?,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_019_s_u.png
+75,SRP-BR-020-S-U,Outfitter Mara,Survivors,Uncommon,Character,Specialist,4,3,2,"[Outfit] Enter: target Survivor gets +1/+1 and Ward 1 until end of turn.
+[Stitch & Style] (Pay: 2 Supplies) → Ready target Survivor.","Outfitter Mara {4}{G}
+Character — Specialist
+[Outfit] Enter: target Survivor gets +1/+1 and Ward 1 until end of turn.
+[Stitch & Style] (Pay: 2 Supplies) → Ready target Survivor.
+“Just because it is the end of the world, doesn't mean I can't look good.'”
+3/2","Just because it is the end of the world, doesn't mean I can't look good.'",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_020_s_u.png
+76,SRP-BR-010-E-R,Outpost Leader Kell,Survivors,Rare,Character,Elite,4,5,3,"[Hold the Line] Other Survivors you control have Vigilance.
+[Barricade] (Pay: 2 Supplies) → Prevent 2 damage divided among up to two Units this turn.","Outpost Leader Kell {4}{G}
+Character — Elite
+[Hold the Line] Other Survivors you control have Vigilance.
+[Barricade] (Pay: 2 Supplies) → Prevent 2 damage divided among up to two Units this turn.
+“The outpost led by Kell has stood against the storm and held strong. Not many attack it nowdays”
+5/3",The outpost led by Kell has stood against the storm and held strong. Not many attack it nowdays,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_e_r.png
+77,SRP-BR-011-E-R,Community Defender Ryn,Survivors,Rare,Character,Elite,6,5,3,"[Famed Defender] Enter: ready all Survivors that blocked last turn.
+[Stand Down] (Pay: 3 Supplies) → Tap up to two enemy Units.","Community Defender Ryn {6}{G}
+Character — Elite
+[Famed Defender] Enter: ready all Survivors that blocked last turn.
+[Stand Down] (Pay: 3 Supplies) → Tap up to two enemy Units.
+“When the enemy learns Ryn is on your side, they surrender immediately.”
+5/3","When the enemy learns Ryn is on your side, they surrender immediately.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_011_e_r.png
+78,SRP-BR-012-E-R,Gatekeeper of Hollow Falls,Survivors,Rare,Character,Elite,4,5,3,"[Gate Tax] Start of combat: tap target enemy Unit unless its controller pays 1 Resource.
+[Keeper’s Key] (Pay: 2 Supplies) → Draw a card; then discard a card.","Gatekeeper of Hollow Falls {4}{G}
+Character — Elite
+[Gate Tax] Start of combat: tap target enemy Unit unless its controller pays 1 Resource.
+[Keeper’s Key] (Pay: 2 Supplies) → Draw a card; then discard a card.
+“The gatekeeper is well respected among the wasteland survivors. They grant or refuse entry.”
+5/3",The gatekeeper is well respected among the wasteland survivors. They grant or refuse entry.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_012_e_r.png
+79,SRP-BR-007-L-L,The Last Mayor of Bitterroot,Survivors,Legendary,Character,Legendary,7,7,5,"[Valley’s Mandate] End of turn: if a Survivor died this turn, create a 2/2 Town Guard token.
+[Civic Rally] (Pay: 3 Supplies) → Your Units get +1/+1 this turn.","The Last Mayor of Bitterroot {7}{G}
+Character — Legendary
+[Valley’s Mandate] End of turn: if a Survivor died this turn, create a 2/2 Town Guard token.
+[Civic Rally] (Pay: 3 Supplies) → Your Units get +1/+1 this turn.
+“The last Mayor of Bitterroot is more of a legend than a person. The title is granted by the valley.”
+7/5",The last Mayor of Bitterroot is more of a legend than a person. The title is granted by the valley.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_l_l.png
+80,SRP-BR-008-L-L,The Bitterroot Warden,Survivors,Legendary,Character,Legendary,7,7,5,"[Warden’s Call] Enter: tap up to two enemy Units.
+[Rooted Power] While you control three or more Survivors, this has Ward 2.","The Bitterroot Warden {7}{G}
+Character — Legendary
+[Warden’s Call] Enter: tap up to two enemy Units.
+[Rooted Power] While you control three or more Survivors, this has Ward 2.
+“When the Warden of Bitterroot stirs, its presence is felt throughout the land.”
+7/5","When the Warden of Bitterroot stirs, its presence is felt throughout the land.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_l_l.png
+81,SRP-BR-001-P-S,Espen Industries Founder,Special,Special,Artifact,Special,0,0,0,"[Relic] Artifact — Non-combat. (Pay: Tap, Sacrifice this) → Draw 2 cards.","Espen Industries Founder
+Artifact — Special
+[Relic] Artifact — Non-combat. (Pay: Tap, Sacrifice this) → Draw 2 cards.
+“The founder of Espen Industries is rumored to be still alive but no one knows where.”
+nan",The founder of Espen Industries is rumored to be still alive but no one knows where.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_001_p_s.png
+82,SRP-BR-002-P-S,Lock & Sons Trade Charter,Special,Special,Artifact,Special,0,0,0,"[Charter] Artifact — Your Resource gains “(Pay: Tap) → Add 1 Resource of any type, usable only for Artifacts.”","Lock & Sons Trade Charter
+Artifact — Special
+[Charter] Artifact — Your Resource gains “(Pay: Tap) → Add 1 Resource of any type, usable only for Artifacts.”
+“The charter that started it all. This parchment grants the holder supply contracts from the major companies.”
+nan",The charter that started it all. This parchment grants the holder supply contracts from the major companies.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_002_p_s.png
+83,SRP-BR-003-P-S,Cult of Warlock Prayer Sheet,Special,Special,Character,Special,0,0,0,"[Prayer Sheet] Character — Penitent you control get +1/+0.
+[Rite] (Pay: 1 Faith, Tap, Sacrifice this) → Create a 1/1 Penitent.","Cult of Warlock Prayer Sheet
+Character — Special
+[Prayer Sheet] Character — Penitent you control get +1/+0.
+[Rite] (Pay: 1 Faith, Tap, Sacrifice this) → Create a 1/1 Penitent.
+“A relic of the 'old days', this prayer sheet is rumored to be owned by Warlock himself.”
+nan","A relic of the 'old days', this prayer sheet is rumored to be owned by Warlock himself.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_003_p_s.png
+84,SRP-BR-004-P-S,Mutant Behemoth Krask,Special,Special,Character,Special,0,0,0,[Behemoth’s Shadow] Character — Non-playable Unit token maker: Enter: create a 5/3 Behemoth token tapped.,"Mutant Behemoth Krask
+Character — Special
+[Behemoth’s Shadow] Character — Non-playable Unit token maker: Enter: create a 5/3 Behemoth token tapped.
+“This behemoth grew out of the mass of a flower. No one knows how it came to be but many stay out of its way.”
+nan",This behemoth grew out of the mass of a flower. No one knows how it came to be but many stay out of its way.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_004_p_s.png
+85,SRP-BR-005-P-S,Mutant Ascendant Mireborn,Special,Special,Character,Special,0,0,0,"[Mireborn’s Murmur] Character — End of turn: if a Unit died this turn, put a Devotion on target Unit.","Mutant Ascendant Mireborn
+Character — Special
+[Mireborn’s Murmur] Character — End of turn: if a Unit died this turn, put a Devotion on target Unit.
+“One of the first Ascendants to walk the path. Any mutant that comes into its presence is said to hear voices.”
+nan",One of the first Ascendants to walk the path. Any mutant that comes into its presence is said to hear voices.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_005_p_s.png
+86,SRP-BR-006-P-S,Aberrant Screecher,Special,Special,Character,Special,0,0,0,"[Quiet Before the Strike] Character — (Pay: Tap, Sacrifice this) → Deal 2 damage to target Unit.","Aberrant Screecher
+Character — Special
+[Quiet Before the Strike] Character — (Pay: Tap, Sacrifice this) → Deal 2 damage to target Unit.
+“Despite its name, this mutant is rather quiet up until it strikes it target.”
+nan","Despite its name, this mutant is rather quiet up until it strikes it target.",SRP: Bitterroot,source/art/bitterrootcollection/srp_br_006_p_s.png
+87,SRP-BR-007-P-S,Twisted Observer,Special,Special,Character,Special,0,0,0,[Twisted Insight] Character — Enter: look at the top 3 cards of your deck; put one into your hand.,"Twisted Observer
+Character — Special
+[Twisted Insight] Character — Enter: look at the top 3 cards of your deck; put one into your hand.
+“One of the older observers. They take pleasure in stripping the flesh from a human corpse.”
+nan",One of the older observers. They take pleasure in stripping the flesh from a human corpse.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_007_p_s.png
+88,SRP-BR-008-P-S,Observer Prototype Relic,Special,Special,Artifact,Special,0,0,0,"[Observer Relic] Artifact — (Pay: 1 Energy, Tap) → Scry 2.","Observer Prototype Relic
+Artifact — Special
+[Observer Relic] Artifact — (Pay: 1 Energy, Tap) → Scry 2.
+“Espen Industries prototype for scouting areas while maintaining a low profile.”
+nan",Espen Industries prototype for scouting areas while maintaining a low profile.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_008_p_s.png
+89,SRP-BR-009-P-S,Bitterroot Map Fragment,Special,Special,Artifact,Special,0,0,0,"[Map Fragment] Artifact — (Pay: Tap) → Reveal the top card of your deck; if it’s a Location/Artifact, draw it.","Bitterroot Map Fragment
+Artifact — Special
+[Map Fragment] Artifact — (Pay: Tap) → Reveal the top card of your deck; if it’s a Location/Artifact, draw it.
+“A fragment of a map for the Bitterroot Valley.”
+nan",A fragment of a map for the Bitterroot Valley.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_009_p_s.png
+90,SRP-BR-010-P-S,Rust Runner Banner,Special,Special,Artifact,Special,0,0,0,[Runner Colors] Artifact — Survivors you control get +1/+0 while attacking.,"Rust Runner Banner
+Artifact — Special
+[Runner Colors] Artifact — Survivors you control get +1/+0 while attacking.
+“A Rust Runner Banner. Do NOT let them catch you with this.”
+nan",A Rust Runner Banner. Do NOT let them catch you with this.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_010_p_s.png
+91,SRP-BR-011-P-S,Ancient Codelock,Special,Special,Character,Special,0,0,0,[Ancient Lock] Character — (Pay: Tap) → Target Unit gains Ward 1 this turn.,"Ancient Codelock
+Character — Special
+[Ancient Lock] Character — (Pay: Tap) → Target Unit gains Ward 1 this turn.
+“An ancient stone codelock. Where did it come from? Who made it?”
+nan",An ancient stone codelock. Where did it come from? Who made it?,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_011_p_s.png
+92,SRP-BR-012-P-S,Corroded Key,Special,Special,Artifact,Special,0,0,0,[Corrosion] Artifact — Enter: put a −1/−0 Rust counter on up to two enemy Units this turn.,"Corroded Key
+Artifact — Special
+[Corrosion] Artifact — Enter: put a −1/−0 Rust counter on up to two enemy Units this turn.
+“A key that has been corroded by Chromium.”
+nan",A key that has been corroded by Chromium.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_012_p_s.png
+93,SRP-BR-013-P-S,A Survivalist’s Token,Special,Special Collectible,Artifact,Special,0,0,0,"[Survivalist’s Token] Artifact — (Pay: Tap, Sacrifice this) → Gain 2 Supplies.","A Survivalist’s Token
+Artifact — Special
+[Survivalist’s Token] Artifact — (Pay: Tap, Sacrifice this) → Gain 2 Supplies.
+“A token from someone who has survived in the wasteland for a long time.”
+nan",A token from someone who has survived in the wasteland for a long time.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_013_p_s.png
+94,SRP-BR-014-P-S,The Bitterroot Seed,Special,Special Collectible,Artifact,Special,0,0,0,"[The Seed] Artifact — Enter: Scry 2; End of turn: if you scryed this turn, gain 1 Faith.","The Bitterroot Seed
+Artifact — Special
+[The Seed] Artifact — Enter: Scry 2; End of turn: if you scryed this turn, gain 1 Faith.
+“The seed which sprung to life the flower in Hawkins. The beginning and the end.”
+nan",The seed which sprung to life the flower in Hawkins. The beginning and the end.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_014_p_s.png
+95,SRP-BR-015-P-S,Warlock’s Sermon,Special,Special Collectible,Character,Special,0,0,0,"[Sermon] Character — (Pay: 1 Faith, Tap) → Your Units get +1/+0 this turn.","Warlock’s Sermon
+Character — Special
+[Sermon] Character — (Pay: 1 Faith, Tap) → Your Units get +1/+0 this turn.
+“A sermon from Warlock himself. Notable passages are to not hoard objects in the world.”
+nan",A sermon from Warlock himself. Notable passages are to not hoard objects in the world.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_015_p_s.png
+96,SRP-BR-016-P-S,Survivor Diary,Special,Special Collectible,Artifact,Special,0,0,0,[Diary Pages] Artifact — (Pay: Tap) → Draw a card; then discard a card.,"Survivor Diary
+Artifact — Special
+[Diary Pages] Artifact — (Pay: Tap) → Draw a card; then discard a card.
+“A diary from a wasteland survivor. Tucked away in a hidden space.”
+nan",A diary from a wasteland survivor. Tucked away in a hidden space.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_016_p_s.png
+97,SRP-BR-017-P-S,Founders’ Pact,Special,Special,Artifact,Special,0,0,0,"[Founders’ Oath] Artifact — Enter: create a 1/1 Townsfolk token.
+[Covenant] Townsfolk you control get +0/+1.","Founders’ Pact
+Artifact — Special
+[Founders’ Oath] Artifact — Enter: create a 1/1 Townsfolk token.
+[Covenant] Townsfolk you control get +0/+1.
+“The pact a set of founders made to start a settlement.”
+nan",The pact a set of founders made to start a settlement.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_017_p_s.png
+98,SRP-BR-018-P-S,Angel’s Tear,Special,Special Collectible,Character,Special,0,0,0,"[Angel’s Tear] Character — (Pay: Tap, Sacrifice this) → Heal 4 to target Unit.","Angel’s Tear
+Character — Special
+[Angel’s Tear] Character — (Pay: Tap, Sacrifice this) → Heal 4 to target Unit.
+“It is said that when you kill a mature alpha it sheds a tear that can be collected.”
+nan",It is said that when you kill a mature alpha it sheds a tear that can be collected.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_018_p_s.png
+99,SRP-BR-019-P-S,The Last Survivor,Special,Special Collectible,Character,Special,0,0,0,"[Last Stand] Character — While your HP ≤ 10, Units you control get +1/+0.","The Last Survivor
+Character — Special
+[Last Stand] Character — While your HP ≤ 10, Units you control get +1/+0.
+“The last survivor left after an attack. Grows stronger in adversity.”
+nan",The last survivor left after an attack. Grows stronger in adversity.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_019_p_s.png
+100,SRP-BR-020-P-S,Relic of Ash,Special,Special Collectible,Artifact,Special,0,0,0,"[Relic of Ash] Artifact — (Pay: Tap, Sacrifice this) → Deal 1 damage to each enemy Unit; you gain 1 HP.","Relic of Ash
+Artifact — Special
+[Relic of Ash] Artifact — (Pay: Tap, Sacrifice this) → Deal 1 damage to each enemy Unit; you gain 1 HP.
+“A relic hidden within the ash of a destroyed settlement.”
+nan",A relic hidden within the ash of a destroyed settlement.,SRP: Bitterroot,source/art/bitterrootcollection/srp_br_020_p_s.png

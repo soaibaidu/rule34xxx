@@ -1,2 +1,14 @@
 Card ID,Name,Type,Subtype,Faction,Rarity,Resource Cost,Stats,Abilities,Flavor Text,Set/Edition,Artwork Ref
-SRP-PL-001-U-C,Illusive,Character,Unit,Survivors,Common,2 Energy,"HP: 4 / ATK: 100 / DEF: 100","[Elude Capture] When this card is drawn, immediately discard and draw another.",Rumored to be a man more than myth but none can confirm.,SRP: Players,source/art/srpplayers/{cardid}.png
+SRP-PL-001-{type}-{rarity},The Illusive Man,Character,Unit,Survivors,Common,2 Energy,"HP: 4 / ATK: 100 / DEF: 100","[Elude Capture] When this card is drawn, immediately discard and draw another.",Rumored to be a man more than myth but none can confirm.,SRP: Players,source/art/srpplayers/{cardid}.png
+,Tree,Character,Developer,Survivors,Legendary,10 Energy,HP: 100 / ATK: 1 / DEF: 1,,"After learning how to make kuru airborne, he didn't stop until everything was corroded.",SRP: Players,source/art/srpplayers/{cardid}.png
+,TheAdmiral,Character,Developer,Survivors,Legendary,10 Energy,HP: 100 / ATK: 1 / DEF: 1,,"I am right and you are wrong, even when I'm wrong.",SRP: Players,source/art/srpplayers/{cardid}.png
+,Mar,Character,Developer,Survivors,Legendary,10 Energy,HP: 100 / ATK: 1 / DEF: 1,,"Behind any great man is an even greater woman.",SRP: Players,source/art/srpplayers/{cardid}.png
+,Dada,Character,Developer,Survivors,Legendary,10 Energy,HP: 100 / ATK: 1 / DEF: 1,,"`Mama Mia, you eat my pizzaria`",SRP: Players,source/art/srpplayers/{cardid}.png
+,Orin,Character,Founder,Survivors,Legendary,,,,"'Server has restarted, make sure you update your mods, changelogs are posted.'",,
+,Alevaric,Character,Founder,Survivors,Legendary,,,,'Arguably the better founder but no where to be seen.',,
+,Desti,Character,Founder,Survivors,Legendary,,,,'This guy gives out ck perms for Orins characters',,
+,Chunky,Character,Admin,Survivors,Legendary,,,,'THE GOAT. Hands Down',,
+,Ren,Character,Admin,Survivors,Legendary,,,,'Survivalists Mom',,
+,Madhatter,Character,Admin,Survivors,Legendary,,,,:sunglasses:,,
+,Clayton,Character,CommunityRep,Survivors,Elite,,,,Obligatory old man who yells at cloud,,
+,Gray,Character,CommunityRep,Survivors,Elite,,,,Can always count on gray,,

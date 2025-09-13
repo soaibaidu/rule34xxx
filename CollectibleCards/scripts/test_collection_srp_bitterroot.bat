@@ -1,1 +1,1 @@
-python source\generators\faction_templatecard_generator.py --csv=source\collections\srp_bitterroot_collection.csv --row=1,15,30,45,60,85,99
+python source\generators\faction_templatecard_generator.py --csv=source\collections\srp_bitterroot_collection.csv --random --verbose
