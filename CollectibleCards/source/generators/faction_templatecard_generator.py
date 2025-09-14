@@ -34,15 +34,29 @@ def load_font(size=24, italic=False):
         return ImageFont.truetype("source/fonts/DejaVuSerif.ttf", size)
 
 # Create a vertical gradient image from top color to bottom color
-def vertical_gradient(size, top, bot):
+def vertical_gradient(size, *colors):
+    """
+    Create a vertical gradient image from a list of color stops.
+    colors: 2 or more RGB tuples, evenly distributed from top to bottom.
+    """
     w, h = size
-    base = Image.new("RGB", size, color=top)
+    if len(colors) < 2:
+        raise ValueError("At least two colors required for gradient")
+    base = Image.new("RGB", size, color=colors[0])
     col = Image.new("RGB", (1, h))
+    n = len(colors) - 1
     for y in range(h):
         t = y / max(1, h-1)
-        r = int(top[0] + (bot[0]-top[0]) * t)
-        g = int(top[1] + (bot[1]-top[1]) * t)
-        b = int(top[2] + (bot[2]-top[2]) * t)
+        # Find which segment this y falls into
+        seg = min(int(t * n), n-1)
+        t0 = seg / n
+        t1 = (seg+1) / n
+        local_t = (t - t0) / (t1 - t0) if t1 > t0 else 0
+        c0 = colors[seg]
+        c1 = colors[seg+1]
+        r = int(c0[0] + (c1[0]-c0[0]) * local_t)
+        g = int(c0[1] + (c1[1]-c0[1]) * local_t)
+        b = int(c0[2] + (c1[2]-c0[2]) * local_t)
         col.putpixel((0, y), (r, g, b))
     base.paste(col.resize((w, h)))
     return base
@@ -269,25 +283,36 @@ def compute_regions():
 # Draw the footer plaque with set/edition, card ID, and card number
 def draw_footer(base, foot_rect, row, index, total_cards):
     d = ImageDraw.Draw(base, "RGBA")
+    # Draw the raised plaque background for the footer
     draw_plaque_raised(base, foot_rect, radius=10, elevation=10)
     font = load_font(size=22)
+    # Draw the set/edition text on the left
     left = sanitize(row.get("Set/Edition", ""))
     bbox = d.textbbox((0,0), left, font=font)
     lh = bbox[3] - bbox[1]
+    # // is integer division in Python, so this centers the text vertically
     d.text((foot_rect[0]+20, (foot_rect[1]+foot_rect[3]-lh)//2), left, font=font, fill=(0,0,0), stroke_width=2, stroke_fill=(220,220,220))
+    # Prepare the card ID and ordinal (e.g., 3/30) for the right side
     card_id = sanitize(row.get("Card ID", ""))
     ordinal = f"{int(index) + 1}/{int(total_cards) if total_cards is not None else 1}"
+    # Measure text bounding boxes for alignment
     bbox_id = d.textbbox((0,0), card_id, font=font)
     tw_id = bbox_id[2] - bbox_id[0]
     th_id = bbox_id[3] - bbox_id[1]
     bbox_ord = d.textbbox((0,0), ordinal, font=font)
     tw_ord = bbox_ord[2] - bbox_ord[0]
     th_ord = bbox_ord[3] - bbox_ord[1]
-    total_h = th_id + th_ord
+    # Add padding between lines and from the right edge
+    vertical_pad = 8  # space between ordinal and card ID
+    right_pad = 10    # space from right edge
+    between_pad = 2
+    # Stack the ordinal above the card ID, centered vertically with padding
+    total_h = th_id + th_ord + vertical_pad
     top_y = (foot_rect[1]+foot_rect[3]-total_h)//2
-    x_right = foot_rect[2]-20
+    x_right = foot_rect[2] - right_pad
+    # Draw ordinal (e.g., 3/30) above card ID, both right-aligned with padding
     d.text((x_right - tw_ord, top_y), ordinal, font=font, fill=(0,0,0), stroke_width=2, stroke_fill=(220,220,220))
-    d.text((x_right - tw_id, top_y + th_ord), card_id, font=font, fill=(0,0,0), stroke_width=2, stroke_fill=(220,220,220))
+    d.text((x_right - tw_id, top_y + th_ord + between_pad), card_id, font=font, fill=(0,0,0), stroke_width=2, stroke_fill=(220,220,220))
 
 # Crop and resize an image to cover a target region
 def cover_fit(image, target_w, target_h):
@@ -304,16 +329,23 @@ def cover_fit(image, target_w, target_h):
         image = image.crop((0, y0, iw, y0+new_h))
     return image.resize((target_w, target_h), Image.Resampling.LANCZOS)
 
+def collection_abbr(set_folder):
+    mapping = {
+        'srp_bitterroot': 'srp_br',
+        'srp_player': 'srp_pl',
+        # Add more mappings as needed
+    }
+    key = set_folder.lower()
+    return mapping.get(key, key)
+
 # Locate and load the artwork image for a card row
 def locate_art(row):
-    art_hint = sanitize(row.get("Artwork Ref", ""))
-    if art_hint and os.path.isfile(art_hint):
-        try:
-            return Image.open(art_hint).convert("RGBA")
-        except Exception as e:
-            print(f"[DEBUG] Failed to open artwork: {art_hint} ({e})")
-    card_id = str(row.get("Card ID", "")).lower().replace("-", "_")
-    artwork_path = f"source/art/bitterrootcollection/{card_id}.png"
+    # Use abbreviated collection name and card id for artwork path
+    set_name = sanitize(row.get("Set/Edition", ""))
+    set_folder = re.sub(r"[^a-zA-Z0-9]+", "_", set_name).strip("_").lower()
+    abbr = collection_abbr(set_folder)
+    row_index = str(row.get("Row Number", ""))
+    artwork_path = f"source/art/{abbr}/{abbr}_{row_index}.png"
     if os.path.isfile(artwork_path):
         try:
             return Image.open(artwork_path).convert("RGBA")
@@ -333,15 +365,17 @@ def paste_art(base, art_rect, art_img):
 # Draw the card frame and background
 def draw_card_frame(outer, faction_key):
     frame_rect = (4,4,PX_W-4,PX_H-4)
-    top_rgb, bot_rgb = {
-        "espenlock": ((100,150,220),(30,60,120)),
-        "stag":      ((200,60,40),(90,20,20)),
-        "cow":       ((120,50,170),(45,20,80)),
-        "survivor":  ((200,90,20),(100,40,5)),
-        "special":   ((235,230,220),(210,205,195)),
-    }.get(faction_key, ((140,140,140),(60,60,60)))
+    # Define color lists for each faction (can be 2+ colors)
+    color_map = {
+        "espenlock": [(100,150,220), (60,110,180), (30,60,120)],
+        "stag":      [(200,60,40), (140,30,25), (90,20,20)],
+        "cow":       [(120,50,170), (80,30,120), (45,20,80)],
+        "survivor":  [(200,90,20), (150,60,10), (100,40,5)],
+        "special":   [(235,230,220), (210,205,195)],
+    }
+    colors = color_map.get(faction_key, [(140,140,140),(60,60,60)])
     fw, fh = frame_rect[2]-frame_rect[0], frame_rect[3]-frame_rect[1]
-    fill = vertical_gradient((fw,fh), top_rgb, bot_rgb).convert("RGBA")
+    fill = vertical_gradient((fw,fh), *colors).convert("RGBA")
     fill.alpha_composite(noise_texture((fw,fh), alpha=34 if faction_key!="special" else 48))
     mask = rounded_rect_mask((fw,fh), radius=30)
     frame_layer = Image.new("RGBA", (PX_W, PX_H), (0,0,0,0))
@@ -379,9 +413,8 @@ def draw_card_type_and_badge(outer, type_rect, row, faction_key, faction_label, 
     d = ImageDraw.Draw(outer, "RGBA")
     font_type = load_font(size=28)
     type_str = f"{sanitize(row.get('Type',''))} - {sanitize(row.get('Subtype',''))}"
-    bbox = d.textbbox((0,0), type_str, font=font_type)
-    th = bbox[3] - bbox[1]
-    ty = (type_rect[1] + type_rect[3] - th - 10) // 2
+    # Place text so the top (ascent) is always at a fixed offset from type_rect[1]
+    ty = type_rect[1] + 8  # 22px padding from top, adjust as needed
     d.text((type_rect[0]+20, ty), type_str[:60], font=font_type, fill=(0,0,0), stroke_width=2, stroke_fill=(220,220,220))
     draw_faction_badge(outer, type_rect, faction_key, faction_label or "", width_factor=badge_width_factor, overshoot_px=3)
 
@@ -482,16 +515,17 @@ def main(csv_path="srp_bitterroot_collection.csv", outdir="release", rows=None, 
         set_folder = re.sub(r"[^a-zA-Z0-9]+", "_", set_name).strip("_")[:60]
         set_outdir = os.path.join(outdir, set_folder)
         os.makedirs(set_outdir, exist_ok=True)
-        card_id = sanitize(row.get("Card ID",""))
-        base = re.sub(r"[^a-zA-Z0-9]+", "_", card_id or sanitize(row.get("Name","card"))).strip("_")[:80].lower()
-        outpath = os.path.join(set_outdir, f"{base}_co.png")
+        # Output filename: collection_rowindex_co.png
+        abbr = collection_abbr(set_folder)
+        out_filename = f"{abbr}_{idx+1}_co.png"
+        outpath = os.path.join(set_outdir, out_filename)
         # Pad to 1024x1024 for uniformity
         pow2_w, pow2_h = 1024, 1024
         padded = Image.new("RGBA", (pow2_w, pow2_h), (0,0,0,0))
         padded.paste(img, (0, pow2_h - PX_H))
         padded.save(outpath, dpi=(DPI, DPI))
         # Collect card name and output path
-        card_name = sanitize(row.get("Name", base))
+        card_name = sanitize(row.get("Name", out_filename))
         if verbose:
             print(f"[VERBOSE] Generated card: {card_name} -> {outpath}")
 
