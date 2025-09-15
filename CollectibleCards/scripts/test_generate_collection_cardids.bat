@@ -1,0 +1,1 @@
+python source\generators\card_id_generator.py --csv=source\collections\srp_bitterroot_collection.csv,source\collections\srp_player_collection.csv

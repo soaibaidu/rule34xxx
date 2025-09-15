@@ -1,14 +1,19 @@
-Card ID,Name,Type,Subtype,Faction,Rarity,Resource Cost,Stats,Abilities,Flavor Text,Set/Edition,Artwork Ref
-SRP-PL-001-{type}-{rarity},The Illusive Man,Character,Unit,Survivors,Common,2 Energy,"HP: 4 / ATK: 100 / DEF: 100","[Elude Capture] When this card is drawn, immediately discard and draw another.",Rumored to be a man more than myth but none can confirm.,SRP: Players,source/art/srpplayers/{cardid}.png
-,Tree,Character,Developer,Survivors,Legendary,10 Energy,HP: 100 / ATK: 1 / DEF: 1,,"After learning how to make kuru airborne, he didn't stop until everything was corroded.",SRP: Players,source/art/srpplayers/{cardid}.png
-,TheAdmiral,Character,Developer,Survivors,Legendary,10 Energy,HP: 100 / ATK: 1 / DEF: 1,,"I am right and you are wrong, even when I'm wrong.",SRP: Players,source/art/srpplayers/{cardid}.png
-,Mar,Character,Developer,Survivors,Legendary,10 Energy,HP: 100 / ATK: 1 / DEF: 1,,"Behind any great man is an even greater woman.",SRP: Players,source/art/srpplayers/{cardid}.png
-,Dada,Character,Developer,Survivors,Legendary,10 Energy,HP: 100 / ATK: 1 / DEF: 1,,"`Mama Mia, you eat my pizzaria`",SRP: Players,source/art/srpplayers/{cardid}.png
-,Orin,Character,Founder,Survivors,Legendary,,,,"'Server has restarted, make sure you update your mods, changelogs are posted.'",,
-,Alevaric,Character,Founder,Survivors,Legendary,,,,'Arguably the better founder but no where to be seen.',,
-,Desti,Character,Founder,Survivors,Legendary,,,,'This guy gives out ck perms for Orins characters',,
-,Chunky,Character,Admin,Survivors,Legendary,,,,'THE GOAT. Hands Down',,
-,Ren,Character,Admin,Survivors,Legendary,,,,'Survivalists Mom',,
-,Madhatter,Character,Admin,Survivors,Legendary,,,,:sunglasses:,,
-,Clayton,Character,CommunityRep,Survivors,Elite,,,,Obligatory old man who yells at cloud,,
-,Gray,Character,CommunityRep,Survivors,Elite,,,,Can always count on gray,,
+Row Number,Card ID,Name,Faction,Rarity,Type,Subtype,Cost,Power,Toughness,Abilities,Flavor Text,Set/Edition
+1,SRP-PL-001-C-U,The Illusive Man,Players,Common,Creature,Unit,2,3,2,"[Elude Capture] When this card is drawn, immediately discard and draw another.",Rumored to be a man more than myth but none can confirm.,SRP: Players
+2,SRP-PL-001-C-DEV,Tree,Players,Legendary,Creature,Developer,9,100,10,"[Override] When this card enters play, tap 2 target cards.","After learning how to make kuru airborne, he didn't stop until everything was corroded.",SRP: Players
+3,SRP-PL-002-C-DEV,TheAdmiral,Players,Legendary,Creature,Developer,9,100,10,"[Override] When this card enters play, tap 2 target cards.","I am right and you are wrong, even when I'm wrong.",SRP: Players
+4,SRP-PL-003-C-DEV,Mar,Players,Legendary,Creature,Developer,5,50,50,"[Override] When this card enters play, tap 2 target cards.",Behind any great man is an even greater woman.,SRP: Players
+5,SRP-PL-004-C-DEV,Dada,Players,Legendary,Creature,Developer,4,30,30,"[Override] When this card enters play, tap 2 target cards.","`Mama Mia, you eat my pizzaria`",SRP: Players
+6,SRP-PL-001-C-FN,Orin,Players,Legendary,Creature,Founder,10,100,100,"[Override] When this card enters play, tap 2 target cards.","Server has restarted, make sure you update your mods, changelogs are posted.'",SRP: Players
+7,SRP-PL-002-C-FN,Alevaric,Players,Legendary,Creature,Founder,10,100,100,"[Override] When this card enters play, tap 2 target cards.",'Arguably the better founder but no where to be seen.',SRP: Players
+8,SRP-PL-003-C-FN,Desti,Players,Legendary,Creature,Founder,10,100,100,"[Override] When this card enters play, tap 2 target cards.",'This guy gives out ck perms for Orins characters',SRP: Players
+9,SRP-PL-001-C-ADM,Chunky,Players,Legendary,Creature,Admin,5,50,50,"[Override] When this card enters play, tap 2 target cards.",THE GOAT. Hands Down,SRP: Players
+10,SRP-PL-002-C-ADM,Ren,Players,Legendary,Creature,Admin,8,1000,10,"[Override] When this card enters play, tap 2 target cards.",Survivalists Mom,SRP: Players
+11,SRP-PL-003-C-ADM,Madhatter,Players,Legendary,Creature,Admin,5,50,50,"[Override] When this card enters play, tap 2 target cards.",:sunglasses:,SRP: Players
+12,SRP-PL-001-C-CR,Clayton,Players,Elite,Creature,CommunityRep,4,2,10,"[Override] When this card enters play, tap 2 target cards.",Obligatory old man who yells at cloud,SRP: Players
+13,SRP-PL-002-C-CR,Gray,Players,Elite,Creature,CommunityRep,4,3,3,"[Override] When this card enters play, tap 2 target cards.",Can always count on gray,SRP: Players
+14,SRP-PL-001-C-VET,Nirok,Players,Rare,Creature,Veteran,2,5,3,"[Login] Enter: When this card comes into play, search your deck for a Resource of your choice and add it to your hand.",'Long term commitment grants its own rewards.',SRP: Players
+15,SRP-PL-002-C-VET,Kalli,Players,Rare,Creature,Veteran,2,5,3,"[Login] Enter: When this card comes into play, search your deck for a Resource of your choice and add it to your hand.",'Long term commitment grants its own rewards.',SRP: Players
+16,SRP-PL-003-C-VET,James,Players,Rare,Creature,Veteran,2,5,3,"[Login] Enter: When this card comes into play, search your deck for a Resource of your choice and add it to your hand.",'Long term commitment grants its own rewards.',SRP: Players
+17,SRP-PL-004-C-VET,Winston,Players,Rare,Creature,Veteran,2,5,3,"[Login] Enter: When this card comes into play, search your deck for a Resource of your choice and add it to your hand.",'Long term commitment grants its own rewards.',SRP: Players
+18,SRP-PL-005-C-VET,Dr. Galahad,Players,Rare,Creature,Veteran,2,5,3,"[Login] Enter: When this card comes into play, search your deck for a Resource of your choice and add it to your hand.",'Long term commitment grants its own rewards.',SRP: Players
