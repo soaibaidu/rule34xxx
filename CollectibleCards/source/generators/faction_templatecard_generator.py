@@ -27,45 +27,76 @@ COL_ABILITIES = "Abilities"
 COL_FLAVOR = "Flavor Text"
 COL_SET_EDITION = "Set/Edition"
 
+# Map single-letter cost codes to faction keys
+FACTION_COST_CODE_MAP = {
+    'E': 'espenlock',
+    'M': 'stag',
+    'F': 'cow',
+    'S': 'survivor',
+    # Add more as needed
+}
 # Faction data abstraction: all color, orb, and badge info in one place
 FACTION_DATA = {
     "espenlock": {
         "gradient": [(100,150,220), (60,110,180), (30,60,120)],
         "badge": ((70,120,200),(35,70,140),(255,255,255),(0,0,0)),
         "orb": "orb_energy.png",
+        "orb_img": None,
         "alias": ["espen", "espenlock"],
     },
     "stag": {
         "gradient": [(200,60,40), (140,30,25), (90,20,20)],
         "badge": ((200,60,40),(90,20,20),(0,0,0),(255,255,255)),
         "orb": "orb_munitions.png",
+        "orb_img": None,
         "alias": ["stag"],
     },
     "cow": {
         "gradient": [(120,50,170), (80,30,120), (45,20,80)],
         "badge": ((150,60,200),(80,30,120),(255,255,255),(0,0,0)),
         "orb": "orb_faith.png",
+        "orb_img": None,
         "alias": ["cow", "warlock"],
     },
     "survivor": {
         "gradient": [(200,90,20), (150,60,10), (100,40,5)],
         "badge": ((220,120,40),(160,70,10),(0,0,0),(255,255,255)),
         "orb": "orb_supplies.png",
+        "orb_img": None,
         "alias": ["survivor"],
     },
     "special": {
         "gradient": [(235,230,220), (210,205,195)],
         "badge": ((240,235,225),(200,195,185),(0,0,0),(255,255,255)),
         "orb": None,
+        "orb_img": None,
         "alias": ["special"],
     },
     "players": {
         "gradient": [(235,230,220), (210,205,195)],
         "badge": ((240,235,225),(200,195,185),(0,0,0),(255,255,255)),
         "orb": None,
+        "orb_img": None,
         "alias": ["players"],
     },
 }
+# Preload orb images for each faction at startup
+def preload_orb_images():
+    for fkey, data in FACTION_DATA.items():
+        orb_file = data.get("orb")
+        if orb_file:
+            orb_path = os.path.join("source", "icons", "resources", orb_file)
+            if os.path.isfile(orb_path):
+                try:
+                    data["orb_img"] = Image.open(orb_path).convert("RGBA")
+                except Exception as e:
+                    print(f"[DEBUG] Failed to load orb image: {orb_path} ({e})")
+            else:
+                data["orb_img"] = None
+        else:
+            data["orb_img"] = None
+
+preload_orb_images()
 
 PX_W, PX_H = 750, 1024  # Card width and height in pixels
 DPI = 300               # Output DPI for PNGs
@@ -97,10 +128,6 @@ def load_font(size=24, italic=False):
 
 # Create a vertical gradient image from top color to bottom color
 def vertical_gradient(size, *colors):
-    """
-    Create a vertical gradient image from a list of color stops.
-    colors: 2 or more RGB tuples, evenly distributed from top to bottom.
-    """
     w, h = size
     if len(colors) < 2:
         raise ValueError("At least two colors required for gradient")
@@ -263,54 +290,83 @@ def draw_rules_flavor_centered(base, rules_rect, ability, flavor):
             bbox = d.textbbox((0,0), "Hg", font=ff)
             y += (bbox[3] - bbox[1]) + 4
 
-# Extract the numeric cost from the cost string
-def parse_cost_number(cost):
+# Parse cost string into a list of (faction_key, count) tuples
+def parse_cost_types(cost):
     s = sanitize(cost)
-    m = re.search(r"(\d+)", s)
-    return m.group(1) if m else ""
+    # Example cost: "2E 1F" or "3S" or "1E 1F 1S"
+    result = []
+    for part in re.findall(r"(\d+)([A-Za-z])", s):
+        num, letter = part
+        fkey = FACTION_COST_CODE_MAP.get(letter.upper())
+        if fkey:
+            result.append((fkey, int(num)))
+    return result
 
-# Place the cost orb and number at the right of the name plaque
-def place_orb_number_left_centered(base, name_rect, orb_img, cost_num):
-    plaque_h = name_rect[3] - name_rect[1]
-    plaque_w = name_rect[2] - name_rect[0]
-    token_size = int(plaque_h * 0.35)
-    cost = 0
-    try:
-        cost = int(cost_num)
-    except Exception:
-        pass
-    if cost <= 0 or orb_img is None:
-        base.alpha_composite(Image.new("RGBA", (PX_W, PX_H), (0,0,0,0)))
+# Place the cost orbs (multi-type) at the right of the name plaque
+def place_orb_number_left_centered(base, name_rect, row):
+    cost = sanitize(row.get(COL_COST, ""))
+    # Parse cost string for all cost codes and build orb image list
+    # Example: "2E 1F 1M" -> [espenlock, espenlock, cow, stag]
+    tokens = []
+    for part in re.findall(r"(\d+)([A-Za-z])", cost):
+        num, code = part
+        fkey = FACTION_COST_CODE_MAP.get(code.upper())
+        if fkey:
+            tokens.extend([fkey] * int(num))
+    total_tokens = len(tokens)
+    if total_tokens == 0:
         return
-    # Determine number of tokens in each row (alternate bottom/top)
-    tokens_bottom = (cost + 1) // 2
-    tokens_top = cost // 2
-    n_rows = 2 if cost > 1 else 1
-    total_height = n_rows * token_size + (n_rows - 1) * 4
-    start_y = name_rect[1] + (plaque_h - total_height) // 2
-    y_bottom = start_y + (token_size + 4) * (n_rows - 1)
-    y_top = start_y
+    plaque_h = name_rect[3] - name_rect[1]
+    token_size = int(plaque_h * 0.35)
+    gap = 4
     layer = Image.new("RGBA", (PX_W, PX_H), (0,0,0,0))
-    token_img = orb_img.copy().convert("RGBA").resize((token_size, token_size), Image.Resampling.LANCZOS)
-    # Calculate x positions for each token in each row
-    def row_xs(n):
-        total_row_w = n * token_size + (n - 1) * 4 if n > 0 else 0
-        return [name_rect[2] - 10 - total_row_w + i * (token_size + 4) for i in range(n)]
-    xs_bottom = row_xs(tokens_bottom)
-    xs_top = row_xs(tokens_top)
-    # Alternate placement: bottom, top, bottom, top, ...
-    b, t = 0, 0
-    for i in range(cost):
-        if i % 2 == 0:
-            # Place on bottom row
-            if b < len(xs_bottom):
-                layer.paste(token_img, (int(xs_bottom[b]), int(y_bottom)), token_img)
-                b += 1
-        else:
-            # Place on top row
-            if t < len(xs_top):
-                layer.paste(token_img, (int(xs_top[t]), int(y_top)), token_img)
-                t += 1
+
+    # Determine row split
+    if total_tokens == 1:
+        # Single orb, center it
+        x = name_rect[2] - 10 - token_size
+        y = name_rect[1] + (plaque_h - token_size) // 2
+        orb_img = FACTION_DATA.get(tokens[0], {}).get("orb_img")
+        if orb_img:
+            token_img = orb_img.copy().convert("RGBA").resize((token_size, token_size), Image.Resampling.LANCZOS)
+            layer.paste(token_img, (int(x), int(y)), token_img)
+    elif total_tokens == 2:
+        # Two orbs, center both in one row
+        total_row_w = 2 * token_size + gap
+        y = name_rect[1] + (plaque_h - token_size) // 2
+        xs = [name_rect[2] - 10 - total_row_w + i * (token_size + gap) for i in range(2)]
+        for i in range(2):
+            orb_img = FACTION_DATA.get(tokens[i], {}).get("orb_img")
+            if orb_img:
+                token_img = orb_img.copy().convert("RGBA").resize((token_size, token_size), Image.Resampling.LANCZOS)
+                layer.paste(token_img, (int(xs[i]), int(y)), token_img)
+    else:
+        # 3 or more orbs: split into two rows, bottom row gets extra if odd
+        n_bottom = (total_tokens + 1) // 2
+        n_top = total_tokens // 2
+        n_rows = 2
+        total_height = n_rows * token_size + gap
+        start_y = name_rect[1] + (plaque_h - total_height) // 2
+        y_top = start_y
+        y_bottom = start_y + token_size + gap
+        # Bottom row (first n_bottom tokens)
+        total_row_w_b = n_bottom * token_size + (n_bottom - 1) * gap
+        xs_bottom = [name_rect[2] - 10 - total_row_w_b + i * (token_size + gap) for i in range(n_bottom)]
+        # Top row (next n_top tokens)
+        total_row_w_t = n_top * token_size + (n_top - 1) * gap if n_top > 0 else 0
+        xs_top = [name_rect[2] - 10 - total_row_w_t + i * (token_size + gap) for i in range(n_top)]
+        # Place bottom row
+        for i in range(n_bottom):
+            orb_img = FACTION_DATA.get(tokens[i], {}).get("orb_img")
+            if orb_img:
+                token_img = orb_img.copy().convert("RGBA").resize((token_size, token_size), Image.Resampling.LANCZOS)
+                layer.paste(token_img, (int(xs_bottom[i]), int(y_bottom)), token_img)
+        # Place top row
+        for i in range(n_top):
+            orb_img = FACTION_DATA.get(tokens[n_bottom + i], {}).get("orb_img")
+            if orb_img:
+                token_img = orb_img.copy().convert("RGBA").resize((token_size, token_size), Image.Resampling.LANCZOS)
+                layer.paste(token_img, (int(xs_top[i]), int(y_top)), token_img)
     base.alpha_composite(layer)
 
 # Draw the colored faction badge at the right of the type plaque
@@ -427,14 +483,12 @@ def locate_art(row):
             print(f"[DEBUG] Failed to open artwork: {artwork_path} ({e})")
     return None
 
-
 # Paste the fitted artwork image into the art region
 def paste_art(base, art_rect, art_img):
     if art_img is None: return
     x0,y0,x1,y1 = art_rect
     fitted = cover_fit(art_img, ART_W, ART_H)
     base.alpha_composite(fitted, (x0+11, y0+11))
-
 
 # Draw the card frame and background
 def draw_card_frame(outer, faction_key):
@@ -464,15 +518,13 @@ def draw_card_art(outer, art_rect, row):
     draw_art_bevel(outer, art_rect)
 
 # Draw the card name and cost
-def draw_card_name_and_cost(outer, name_rect, row, orb_img, special_no_cost):
+def draw_card_name_and_cost(outer, name_rect, row):
     d = ImageDraw.Draw(outer, "RGBA")
     font_header = load_font(size=34)
     name_text = sanitize(row.get(COL_NAME, ""))[:40]
     name_y = name_rect[1] + 20
     d.text((name_rect[0]+20, name_y), name_text, font=font_header, fill=(0,0,0), stroke_width=2, stroke_fill=(220,220,220))
-    if not special_no_cost:
-        cost_num = parse_cost_number(row.get(COL_COST, ""))
-        place_orb_number_left_centered(outer, name_rect, orb_img, cost_num)
+    place_orb_number_left_centered(outer, name_rect, row)
 
 # Draw the card type and faction badge
 def draw_card_type_and_badge(outer, type_rect, row, faction_key, faction_label, badge_width_factor):
@@ -520,14 +572,14 @@ def draw_card_rules_and_flavor(outer, rules_rect, row):
     draw_rules_flavor_centered(outer, rules_rect, ability, flavor)
 
 # Build and render a single card image from a CSV row
-def build_card(row, faction_key, orb_img=None, faction_label=None, special_no_cost=False, badge_width_factor=0.35, row_index=None, total_cards=None):
+def build_card(row, faction_key, faction_label=None, badge_width_factor=0.35, row_index=None, total_cards=None):
     outer = vertical_gradient((PX_W, PX_H), (40,45,55), (15,15,20)).convert("RGBA")
     outer.alpha_composite(noise_texture((PX_W,PX_H), alpha=28))
     name_rect, art_rect, type_rect, rules_rect, stats_rect, foot_rect = compute_regions()
     draw_card_frame(outer, faction_key)
     draw_card_plaques(outer, [name_rect, type_rect, rules_rect, stats_rect, foot_rect])
     draw_card_art(outer, art_rect, row)
-    draw_card_name_and_cost(outer, name_rect, row, orb_img, special_no_cost)
+    draw_card_name_and_cost(outer, name_rect, row)
     draw_card_type_and_badge(outer, type_rect, row, faction_key, faction_label, badge_width_factor)
     draw_card_stats(outer, stats_rect, row)
     draw_card_footer(outer, foot_rect, row, row_index, total_cards)
@@ -538,8 +590,6 @@ def build_card(row, faction_key, orb_img=None, faction_label=None, special_no_co
 def main(csv_path="srp_bitterroot_collection.csv", outdir="release", rows=None, verbose=False):
     df = pd.read_csv(csv_path).reset_index(drop=True)
     os.environ["SURV_TOTAL"] = str(len(df))
-    # Preload orb images for each faction
-    orb_imgs = {k: (Image.open(f"./source/icons/resources/{v['orb']}").convert("RGBA") if v.get('orb') and os.path.exists(f"./source/icons/resources/{v['orb']}") else None) for k,v in FACTION_DATA.items()}
     # Select rows to process (all or subset)
     selected_rows = [(r, df.iloc[r]) for r in rows] if rows else list(df.iterrows())
 
@@ -557,7 +607,7 @@ def main(csv_path="srp_bitterroot_collection.csv", outdir="release", rows=None, 
 
     for idx, row in selected_rows:
         fkey = faction_key_from_text(row.get(COL_FACTION, ""))
-        img = build_card(row, fkey, orb_img=orb_imgs[fkey], faction_label=str(row.get(COL_FACTION, "")), special_no_cost=(fkey=="special"), badge_width_factor=0.35, row_index=idx, total_cards=len(df))
+        img = build_card(row, fkey, faction_label=str(row.get(COL_FACTION, "")), badge_width_factor=0.35, row_index=idx, total_cards=len(df))
         # Prepare output directory and filename
         set_name = sanitize(row.get(COL_SET_EDITION))
         set_folder = re.sub(r"[^a-zA-Z0-9]+", "_", set_name).strip("_")[:60]
