@@ -27,6 +27,9 @@ COL_ABILITIES = "Abilities"
 COL_FLAVOR = "Flavor Text"
 COL_SET_EDITION = "Set/Edition"
 
+# Global verbose flag
+VERBOSE = False
+
 # Map single-letter cost codes to faction keys
 FACTION_COST_CODE_MAP = {
     'E': 'espenlock',
@@ -462,7 +465,7 @@ def cover_fit(image, target_w, target_h):
 def collection_abbr(set_folder):
     mapping = {
         'srp_bitterroot': 'srp_br',
-        'srp_player': 'srp_pl',
+        'srp_players': 'srp_pl',
         # Add more mappings as needed
     }
     key = set_folder.lower()
@@ -476,11 +479,29 @@ def locate_art(row):
     abbr = collection_abbr(set_folder)
     row_index = str(row.get(COL_ROW_NUMBER, ""))
     artwork_path = f"source/art/{abbr}/{abbr}_{row_index}.png"
+    fallback_path = f"source/art/{abbr}/{abbr}_0.png"
+    if VERBOSE:
+        print(f"[ART] Checking for artwork: {artwork_path}")
     if os.path.isfile(artwork_path):
         try:
+            if VERBOSE:
+                print(f"[ART] Using artwork: {artwork_path}")
             return Image.open(artwork_path).convert("RGBA")
         except Exception as e:
-            print(f"[DEBUG] Failed to open artwork: {artwork_path} ({e})")
+            if VERBOSE:
+                print(f"[DEBUG] Failed to open artwork: {artwork_path} ({e})")
+    if VERBOSE:
+        print(f"[ART] Checking for fallback artwork: {fallback_path}")
+    if os.path.isfile(fallback_path):
+        try:
+            if VERBOSE:
+                print(f"[ART] Using fallback artwork: {fallback_path}")
+            return Image.open(fallback_path).convert("RGBA")
+        except Exception as e:
+            if VERBOSE:
+                print(f"[DEBUG] Failed to open fallback artwork: {fallback_path} ({e})")
+    if VERBOSE:
+        print(f"[ART] No artwork found for: {artwork_path} or fallback: {fallback_path}")
     return None
 
 # Paste the fitted artwork image into the art region
@@ -646,4 +667,5 @@ if __name__ == "__main__":
         rows = [int(x.strip()) for x in args.rows.split(",") if x.strip()]
     else:
         rows = None
+    VERBOSE = args.verbose
     main(csv_path=args.csv, outdir=args.outdir, rows=rows, verbose=args.verbose)

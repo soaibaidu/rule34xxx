@@ -1,1 +1,1 @@
-python source\generators\faction_templatecard_generator.py --csv=source\collections\srp_player_collection.csv --random --verbose
+python source\generators\faction_templatecard_generator.py --csv=source\collections\srp_player_collection.csv --verbose
