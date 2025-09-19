@@ -10,7 +10,7 @@ PIP_SIZE = 100                   # pip font size
 OUT_DIR = "release/playingcards"       # folder to save PNGs
 
 # ---------------- SHARED CONSTANTS ----------------
-INDEX_MARGIN_X = 65
+INDEX_MARGIN_X = 64
 INDEX_MARGIN_Y = 90
 INDEX_MARGIN_Y_TOP = 180
 INDEX_MARGIN_Y_BOTTOM = 180
@@ -34,6 +34,29 @@ FONT_SUIT  = load_font(size=SUIT_SIZE)
 FONT_PIP   = load_font(size=PIP_SIZE)
 
 # ---------------- DRAW HELPERS ----------------
+def draw_rotated_index(base, rank, suit, color, x, y, font_index, font_suit, padding=8, border=2):
+    """
+    Copies the top-left index and suit, rotates it 180 degrees, and pastes at (x, y) center.
+    """
+    # Define the region to copy (rectangle: taller than wide)
+    region_w = 121  # width of the region
+    region_h = 170  # height of the region
+    region_x = INDEX_MARGIN_X - region_w // 2
+    region_y = min(INDEX_MARGIN_Y, INDEX_MARGIN_Y_TOP) - region_h // 5
+    region_x = max(0, region_x)
+    region_y = max(0, region_y)
+    box = (region_x, region_y, region_x + region_w, region_y + region_h)
+
+    # Crop the region from the base image
+    region = base.crop(box)
+    # Rotate the region 180 degrees
+    rotated = region.rotate(180, expand=False)
+
+    # Paste the rotated region at the desired (x, y) center
+    paste_x = int(x - region_w // 2)
+    paste_y = int(y - region_h + 35)
+    base.paste(rotated, (paste_x, paste_y), rotated)
+
 def draw_card_base(draw):
     """Draw the rounded rectangle card with double border."""
     r = 40  # corner radius
@@ -48,7 +71,7 @@ def draw_card_base(draw):
 def draw_face_art_border(draw):
     """Draw an inner border for face card artwork, fitting within number/suit margins."""
     # Width: slightly smaller than the margin created by the number/suit indices
-    border_inset_x = INDEX_MARGIN_X + 40
+    border_inset_x = INDEX_MARGIN_X + 45
     x0 = border_inset_x
     x1 = CARD_W - border_inset_x
 
@@ -60,15 +83,28 @@ def draw_face_art_border(draw):
     r = FACE_BORDER_RADIUS
     draw.rounded_rectangle([x0, y0, x1, y1], radius=r, outline="#888", width=6)
 
-def draw_index(draw, rank, suit, color="black"):
+def draw_index(base, draw, rank, suit, color="black"):
     """Draw top-left and bottom-right indices."""
     # Top-Left
     draw.text((INDEX_MARGIN_X, INDEX_MARGIN_Y), rank, font=FONT_INDEX, fill=color, anchor="mm")
     draw.text((INDEX_MARGIN_X, INDEX_MARGIN_Y_TOP), suit, font=FONT_SUIT, fill=color, anchor="mm")
 
-    # Bottom-Right (mirrors top-left logic, no rotation)
-    draw.text((CARD_W - INDEX_MARGIN_X, CARD_H - INDEX_MARGIN_Y), rank, font=FONT_INDEX, fill=color, anchor="mm")
-    draw.text((CARD_W - INDEX_MARGIN_X, CARD_H - INDEX_MARGIN_Y_TOP), suit, font=FONT_SUIT, fill=color, anchor="mm")
+    # Bottom-Right (rotated 180 degrees)
+    draw_rotated_index(
+        base,
+        rank,
+        suit,
+        color,
+        CARD_W - INDEX_MARGIN_X,
+        CARD_H - INDEX_MARGIN_Y,
+        FONT_INDEX,
+        FONT_SUIT,
+        padding=8,
+        border=2
+    )
+    # Old code for reference:
+    # draw.text((CARD_W - INDEX_MARGIN_X, CARD_H - INDEX_MARGIN_Y), rank, font=FONT_INDEX, fill=color, anchor="mm")
+    # draw.text((CARD_W - INDEX_MARGIN_X, CARD_H - INDEX_MARGIN_Y_TOP), suit, font=FONT_SUIT, fill=color, anchor="mm")
 
 # ---------------- PIP POSITIONS ----------------
 def pip_grid_positions(rank):
@@ -152,7 +188,7 @@ def make_card(rank="A", suit="♠", outpath="card.png", color="black"):
     base = Image.new("RGBA",(W,H),(0,0,0,0))  # transparent canvas
     draw = ImageDraw.Draw(base)
     draw_card_base(draw)
-    draw_index(draw, rank, suit, color)
+    draw_index(base, draw, rank, suit, color)
     if rank in ["J", "Q", "K"]:
         draw_face_art_border(draw)
     draw_pips(base, rank, suit, color)
