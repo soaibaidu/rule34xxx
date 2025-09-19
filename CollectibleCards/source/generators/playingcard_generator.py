@@ -1,3 +1,27 @@
+# ---------------- CARD META DATA ----------------
+# Each entry: {symbol, name, color, art_slug (optional)}
+CARD_META = [
+    {"symbol": "♠", "name": "spades",   "color": "black",    "art_slug": None},
+    {"symbol": "♥", "name": "hearts",   "color": "#B22222", "art_slug": None},
+    {"symbol": "♦", "name": "diamonds", "color": "#B22222", "art_slug": None},
+    {"symbol": "♣", "name": "clubs",    "color": "black",    "art_slug": None},
+    # Jokers (add more or customize as needed)
+    {"symbol": "★", "name": "joker_2",  "color": "#B22222", "art_slug": "joker_1.png"},
+    {"symbol": "★", "name": "joker_1",  "color": "black",    "art_slug": "joker_2.png"},
+]
+
+# Helper: get meta by symbol and color
+def get_card_meta(symbol, color=None, name=None):
+    for meta in CARD_META:
+        if meta["symbol"] == symbol:
+            if color is not None and meta["color"] != color:
+                continue
+            if name is not None and meta["name"] != name:
+                continue
+            return meta
+    return None
+
+import argparse
 from PIL import Image, ImageDraw, ImageFont
 import os
 
@@ -7,7 +31,6 @@ PAD_X, PAD_Y = 45, 50           # padding for pip set
 NUMBER_SIZE = 80                   # pip font size
 SUIT_SIZE = 110                   # pip font size
 PIP_SIZE = 100                   # pip font size
-OUT_DIR = "release/playingcards"       # folder to save PNGs
 
 # ---------------- SHARED CONSTANTS ----------------
 INDEX_MARGIN_X = 64
@@ -18,7 +41,6 @@ FACE_BORDER_PAD = 5
 FACE_BORDER_RADIUS = 32
 PIP_EXTRA_PAD = 150
 
-
 # Try loading serif fonts from the fonts directory
 FONTS_DIR = os.path.join(os.path.dirname(__file__), '..', 'fonts')
 def load_font(name="DejaVuSerif-Bold.ttf", size=60):
@@ -26,7 +48,8 @@ def load_font(name="DejaVuSerif-Bold.ttf", size=60):
     try:
         return ImageFont.truetype(font_path, size)
     except OSError:
-        print(f"[WARN] Could not load {font_path}, using default font.")
+        if VERBOSE:
+            print(f"[WARN] Could not load {font_path}, using default font.")
         return ImageFont.load_default()
 
 FONT_INDEX = load_font("CarterOne-Regular.ttf", size=NUMBER_SIZE)
@@ -85,30 +108,97 @@ def draw_face_art_border(draw):
 
 def draw_index(base, draw, rank, suit, color="black"):
     """Draw top-left and bottom-right indices."""
-    # Top-Left
-    draw.text((INDEX_MARGIN_X, INDEX_MARGIN_Y), rank, font=FONT_INDEX, fill=color, anchor="mm")
-    draw.text((INDEX_MARGIN_X, INDEX_MARGIN_Y_TOP), suit, font=FONT_SUIT, fill=color, anchor="mm")
+    if rank == "JOKER":
+        draw_joker_indices(base, draw, color)
+    else:
+        # Top-Left
+        draw.text((INDEX_MARGIN_X, INDEX_MARGIN_Y), rank, font=FONT_INDEX, fill=color, anchor="mm")
+        draw.text((INDEX_MARGIN_X, INDEX_MARGIN_Y_TOP), suit, font=FONT_SUIT, fill=color, anchor="mm")
 
-    # Bottom-Right (rotated 180 degrees)
-    draw_rotated_index(
-        base,
-        rank,
-        suit,
-        color,
-        CARD_W - INDEX_MARGIN_X,
-        CARD_H - INDEX_MARGIN_Y,
-        FONT_INDEX,
-        FONT_SUIT,
-        padding=8,
-        border=2
-    )
-    # Old code for reference:
-    # draw.text((CARD_W - INDEX_MARGIN_X, CARD_H - INDEX_MARGIN_Y), rank, font=FONT_INDEX, fill=color, anchor="mm")
-    # draw.text((CARD_W - INDEX_MARGIN_X, CARD_H - INDEX_MARGIN_Y_TOP), suit, font=FONT_SUIT, fill=color, anchor="mm")
+        # Bottom-Right (rotated 180 degrees)
+        draw_rotated_index(
+            base,
+            rank,
+            suit,
+            color,
+            CARD_W - INDEX_MARGIN_X,
+            CARD_H - INDEX_MARGIN_Y,
+            FONT_INDEX,
+            FONT_SUIT,
+            padding=8,
+            border=2
+        )
+
+def draw_joker_indices(base, draw, color):
+    """Draw vertical 'JOKER' indices for joker cards (top-left and bottom-right, no suit glyph)."""
+    rank = "JOKER"
+    # --- Draw vertical 'JOKER' text for top-left index ---
+    # Calculate image size for vertical text
+    vert_img_h = FONT_INDEX.size * len(rank) + 2 * (len(rank)-1) + 8  # minimal vertical padding
+    vert_img_w = FONT_INDEX.size + 16  # extra horizontal padding
+    temp = Image.new("RGBA", (vert_img_w, vert_img_h), (0,0,0,0))
+    temp_draw = ImageDraw.Draw(temp)
+    # Draw each letter, top-aligned
+    for i, letter in enumerate(rank):
+        temp_draw.text((vert_img_w//2, i * (FONT_INDEX.size + 2)), letter, font=FONT_INDEX, fill=color, anchor="ma")
+    # Paste the vertical text at the top-left, aligning the top of the 'J' with INDEX_MARGIN_Y
+    base.alpha_composite(temp, (INDEX_MARGIN_X - vert_img_w//2, INDEX_MARGIN_Y - 20))
+
+    # --- Copy and rotate for bottom-right index ---
+    rotated = temp.rotate(180, expand=True)
+    w, h = rotated.size
+    # Adjust paste position so the text is fully visible inside the card
+    paste_x = min(CARD_W - INDEX_MARGIN_X - w//2, CARD_W - w - 8)
+    paste_y = min(CARD_H - INDEX_MARGIN_Y - h//2, CARD_H - h - 8)
+    paste_x = max(0, paste_x)
+    paste_y = max(0, paste_y)
+    base.paste(rotated, (paste_x, paste_y - 50), rotated)
+
+def paste_face_card_artwork(base, rank, suit, verbose=False):
+    """Paste face card artwork image onto the card if available."""
+    # Map suit symbol to name for filename
+    art_dir = os.path.join(os.path.dirname(__file__), '..', 'art', 'playingcards')
+    # Use meta data for art slug
+    # For jokers, use both symbol and color to select correct meta
+    meta = None
+    if rank == "JOKER":
+        # Try to get meta by both symbol and color from base.info if present
+        joker_color = base.info.get("joker_color", None)
+        meta = get_card_meta(suit, color=joker_color)
+        if meta and meta.get("art_slug"):
+            art_slug = meta["art_slug"]
+        else:
+            art_slug = "joker_1.png"  # fallback
+    else:
+        meta = get_card_meta(suit)
+        name = meta["name"] if meta else suit
+        art_slug = f"{name}_{rank}.png"
+    art_path = os.path.join(art_dir, art_slug)
+    if os.path.exists(art_path):
+        if verbose:
+            print(f"[ART] Using face card art: {art_path}")
+        # Artwork box dimensions (match draw_face_art_border)
+        border_inset_x = INDEX_MARGIN_X + 45
+        x0 = border_inset_x
+        x1 = CARD_W - border_inset_x
+        border_inset_y = 100
+        y0 = border_inset_y
+        y1 = CARD_H - border_inset_y
+        box_w = x1 - x0
+        box_h = y1 - y0
+        # Load and resize artwork
+        art_img = Image.open(art_path).convert("RGBA")
+        art_img = art_img.resize((box_w, box_h), Image.LANCZOS)
+        base.alpha_composite(art_img, (x0, y0))
+    elif verbose:
+        print(f"[WARN] Face card art not found: {art_path}")
 
 # ---------------- PIP POSITIONS ----------------
 def pip_grid_positions(rank):
     """Return pip center positions for number cards, per new requirements."""
+    # Special case: no pips for jokers
+    if rank == "JOKER":
+        return []
     SET_L, SET_R = PAD_X, CARD_W - PAD_X
     # Add extra top/bottom padding for pips
     SET_B, SET_T = PAD_Y + PIP_EXTRA_PAD, CARD_H - PAD_Y - PIP_EXTRA_PAD
@@ -167,6 +257,9 @@ def pip_grid_positions(rank):
     return []
 
 def draw_pips(base, rank, suit, color="black"):
+    # Do not draw pips for face cards or jokers
+    if rank in ["J", "Q", "K", "JOKER"]:
+        return
     positions = pip_grid_positions(rank)
     if rank == "A":
         # Draw a very large suit glyph for aces
@@ -189,22 +282,55 @@ def make_card(rank="A", suit="♠", outpath="card.png", color="black"):
     draw = ImageDraw.Draw(base)
     draw_card_base(draw)
     draw_index(base, draw, rank, suit, color)
-    if rank in ["J", "Q", "K"]:
+    # Paste face card artwork if J, Q, K
+    if rank in ["J", "Q", "K", "JOKER"]:
+        # For jokers, store color in base.info for art selection
+        if rank == "JOKER":
+            base.info["joker_color"] = color
+        paste_face_card_artwork(base, rank, suit, verbose=VERBOSE)
         draw_face_art_border(draw)
+
     draw_pips(base, rank, suit, color)
     base.save(outpath)
-    print(f"Saved {outpath}")
+    if VERBOSE:
+        print(f"Saved {outpath}")
+
+def main():
+    # Generate card back
+    parser = argparse.ArgumentParser(description="Generate playing card images.")
+    parser.add_argument('--output-dir', type=str, default="release/playingcards", help='Output directory for PNGs')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose output')
+    parser.add_argument('--back-color', type=str, default="120,120,180", help='RGB color for card back, e.g. 120,120,180')
+    args = parser.parse_args()
+
+    global OUT_DIR, VERBOSE
+
+    OUT_DIR = args.output_dir
+    VERBOSE = args.verbose
+
+    # Parse the back color argument
+    try:
+        back_color = tuple(int(x) for x in args.back_color.split(","))
+        if len(back_color) != 3 or not all(0 <= c <= 255 for c in back_color):
+            raise ValueError
+    except Exception:
+        raise ValueError("--back-color must be in the form R,G,B with values 0-255")
+
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+    ranks = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
+    # Generate all standard cards from meta
+    for meta in CARD_META:
+        symbol = meta["symbol"]
+        name = meta["name"]
+        color = meta["color"]
+        if name.startswith("joker"):
+            # Only generate jokers for rank JOKER
+            make_card("JOKER", symbol, os.path.join(OUT_DIR, f"{name}.png"), color=color)
+        else:
+            for r in ranks:
+                fname = f"{name}_{r}.png"
+                make_card(r, symbol, os.path.join(OUT_DIR, fname), color=color)
 
 if __name__ == "__main__":
-    os.makedirs(OUT_DIR, exist_ok=True)
-    ranks = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
-    suits = [
-        ("♠", "spades", "black"),
-        ("♥", "hearts", "#B22222"),  # dark red
-        ("♦", "diamonds", "#B22222"),  # dark red
-        ("♣", "clubs", "black"),
-    ]
-    for suit, suit_name, color in suits:
-        for r in ranks:
-            fname = f"{suit_name}_{r}.png"
-            make_card(r, suit, os.path.join(OUT_DIR, fname), color=color)
+    main()
